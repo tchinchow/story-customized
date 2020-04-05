@@ -144,3 +144,45 @@ $( function() {
       });
    }
 });
+
+/* Transform images lists within the <div class="flexslider"> into an image slider.
+ * Here follows an exemple of the typical flexslider slideshow in HTML:
+ *  <div class="flexslider">
+ *    <ul class="slides">
+ *      <li>
+ *        <img src="kitchen_adventurer_cheesecake_brownie.jpg" />
+ *      </li>
+ *      <li>
+ *        <img src="kitchen_adventurer_lemon.jpg" />
+ *      </li>
+ *      <li>
+ *        <img src="kitchen_adventurer_donut.jpg" />
+ *      </li>
+ *      <li>
+ *        <img src="kitchen_adventurer_caramel.jpg" />
+ *      </li>
+ *    </ul>
+ *  </div>
+ *
+ * Markdown does not allow to set the class of a HTML element but Hugo provides
+ * shortcodes that may help (see shortcodes/flexslider.html)
+ *
+ *  See https://github.com/woocommerce/FlexSlider/wiki/FlexSlider-Properties
+ */
+$( function() {
+   if ( $( "body.feature-flexslider:not(.feature-noflexslider)" ).length ) {
+     // Add the slides class to the <ul> node under the "flexslider"
+     $(".flexslider > ul").addClass("slides");
+     $(".flexslider").each(function(i, e) {
+       $( this ).flexslider({
+         animation: "slide",    /* WARNING: "fade" will not work ... */
+         slideshowSpeed: 3500,
+         animationLoop: true,
+         pauseOnHover: true,
+         touch: true,           /* allow touch swipe navigation */
+         prevText: "",          /* no text on navigation items */
+         nextText: ""
+       });
+    })
+  }
+});

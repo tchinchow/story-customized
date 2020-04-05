@@ -1,0 +1,20 @@
+<!--
+    Remove class="hide-print" if you do want to see the slideshow in the printed version of the site.
+    Without "hide-print", the image being displayed will likely be the one that will be printed but
+    behaviour is not predictable therefore "hide-print" is set by default.
+-->
+<div class="flexslider hide-print">
+    <ul>
+        {{ range .Params }}
+        {{ $item := split . "|"}}
+        {{ $image := index $item 0 }}
+        {{ $alt := index $item 1 }}
+
+        <li>
+            <img src="{{$image}}" alt="{{$alt}}">
+            {{ with $alt}}<p class="flex-caption">{{ . }}</p> {{ end }}
+        </li>
+        {{ end }}
+    </ul>
+</div>
+{{.Inner}}
