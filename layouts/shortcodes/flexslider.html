@@ -3,9 +3,11 @@
     Without "hide-print", the image being displayed will likely be the one that will be printed but
     behaviour is not predictable therefore "hide-print" is set by default.
 -->
+
+{{ with .Get 0 }}
 <div class="flexslider hide-print">
     <ul>
-        {{ range .Params }}
+        {{ range $.Params }}
         {{ $item := split . "|"}}
         {{ $image := index $item 0 }}
         {{ $alt := index $item 1 }}
@@ -17,4 +19,10 @@
         {{ end }}
     </ul>
 </div>
-{{.Inner}}
+{{ end }}
+
+{{ with .Inner }}
+<div class="flexslider hide-print">
+    {{ . | markdownify }}
+</div>
+{{ end }}
