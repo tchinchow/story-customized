@@ -130,6 +130,12 @@ figure img {
     padding: 1rem;
     visibility: hidden;
   }
+  body.feature-figcaption-hidden:not(.feature-figcaption-visible) div.elevation ~ figcaption {
+    padding: 0.7rem;
+  }
+  body.feature-figcaption-hidden:not(.feature-figcaption-visible) .story-theme.elevation-control.elevation div {
+    padding-bottom: 0.8rem;
+  }
   body.feature-figcaption-hidden figure:hover figcaption {
     visibility: visible;
   }
@@ -148,6 +154,35 @@ body.feature-flexslider:not(.feature-noflexslider) .flex-caption {
   font-family: 'Spectral', Georgia, Times, serif;
   font-style: italic;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+}
+.story-theme.elevation-control.elevation .background {
+  background-color: rgba(156, 194, 34, 0.2);
+}
+.story-theme.elevation-control.elevation .axis line,
+.story-theme.elevation-control.elevation .axis path {
+  stroke: #566B13;
+}
+.story-theme.elevation-control.elevation .grid .tick line {
+  stroke: #CCC;
+}
+.story-theme.elevation-control.elevation .mouse-drag {
+  fill: rgba(99, 126, 11, 0.4);
+}
+.story-theme.elevation-control.elevation .elevation-toggle-icon {
+  background: url(../images/elevation-lime.png) no-repeat center center;
+}
+.story-theme.elevation-control.elevation .area {
+  fill: #9CC222;
+}
+.story-theme.elevation-control.elevation .mouse-focus-line {
+  stroke: #101404;
+}
+.story-theme.height-focus {
+  stroke: #000;
+  fill: #9CC222;
+}
+.story-theme.elevation-polyline {
+  stroke: #566B13;
 }
 body:not(.feature-tablefig) table {
   border-spacing: 0;

@@ -48,6 +48,12 @@
 		<script src="https://cdn.jsdelivr.net/npm/flexslider@2.7.1/jquery.flexslider-min.js" integrity="sha384-732cRBez6UeG8rzfCTBVviNnDqeZtoM0Kj1sj7XmqRvXu5lfgQpNB61vPrv//yJy" crossorigin="anonymous"></script>
 			{{- end -}}
 		{{- end -}}
+		{{ if or (in .Site.Params.classes "feature-leaflet") (in .Params.classes "feature-leaflet") -}}
+			{{- if not (or (in .Site.Params.classes "feature-noleaflet") (in .Params.classes "feature-noleaflet") ) -}}
+				{{ partial "leaflet-loader" . }}
+			{{- end -}}
+		{{- end -}}
+
 		{{ if or (in .Site.Params.classes "feature-music") (in .Params.classes "feature-music") -}}
 			{{- if not (or (in .Site.Params.classes "feature-nomusic") (in .Params.classes "feature-nomusic") ) -}}
 		<script src="{{ "js/abcjs_basic_5.6.3-min.js" | absURL }}"></script>
