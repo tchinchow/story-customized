@@ -104,8 +104,8 @@ leaflet will center the track for you but [be careful that your map has
 a unique id](#maps-unique-identifier))_:
 
 ```plaintext
-{{</* leaflet-map mapHeight="300px" mapWidth="100%" ... */>}}
-    {{</* leaflet-track trackPath="les_bories_de_tallagard.gpx" graphTheme="story-theme" downloadIcon=true caption="Discover shepherd shelters in Provence" /*/>}}
+{{</* leaflet-map mapHeight="400px" mapWidth="100%" ... */>}}
+    {{</* leaflet-track trackPath="les_bories_de_tallagard.gpx" downloadIcon=true caption="Discover shepherd shelters in Provence" /*/>}}
 {{</* /leaflet-map */>}}
 ```
 
@@ -114,8 +114,8 @@ one hour walk in [Provence](https://en.wikipedia.org/wiki/Provence)
 _(a region of southeastern France)_. Leaflet will add the elevation
 profile as follows:
 
-{{< leaflet-map mapHeight="300px" mapWidth="100%" mapId="les_bories_de_tallagard" >}}
-    {{< leaflet-track trackPath="les_bories_de_tallagard.gpx" graphTheme="story-theme" downloadIcon=true caption="Discover shepherd shelters in Provence" >}}
+{{< leaflet-map mapHeight="400px" mapWidth="100%" mapId="les_bories_de_tallagard" >}}
+    {{< leaflet-track trackPath="les_bories_de_tallagard.gpx" markerIconShape="star" graphDetached=false graphCollapsed=true graphWidth=300 downloadIcon=true caption="Discover shepherd shelters in Provence" >}}
 {{< /leaflet-map >}}
 
 #### Story's specific parameters:
@@ -124,7 +124,7 @@ profile as follows:
 |:-------------:|:--------------------------------------------------------------------------------------:|:---------:|:------:|:----------------:|
 | downloadIcon  | whether we shall display the download icon and provide a download link for the GPX trail | _no_    | false | true of false     |
 | caption       | A caption for the track                                                                  | _no_    | ""    | any string        |
-| graphTheme    | Elevation graph theme _(in addition to leaflet existing themes)                          | _no_    | "steelblue-theme"   | `"story-theme"` |
+| graphTheme    | Elevation graph theme _(in addition to leaflet existing themes)                          | _no_    | "story-theme"   | `"story-theme"` or any theme from the original library |
 
 #### Parameters from the original [Hugo Leaflet][hugo_leaflet_home] project
 
