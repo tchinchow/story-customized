@@ -146,4 +146,4 @@ $( "#tablefw" ).click(function() {
 });
 </script>
 
-Read next: [Story's image formatting features](/images/).
+Read next: [Story's Image Slideshows](/flexslider/).

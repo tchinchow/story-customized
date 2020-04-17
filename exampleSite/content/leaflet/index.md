@@ -188,4 +188,4 @@ we repeat below as they come directly from the [Hugo Leaflet][hugo_leaflet_home]
 
 [hugo_leaflet_home]: https://github.com/altrdev/hugo-leaflet/blob/master/README.md "Hugo Leaflet home page..."
 
-Read next: [Story's music notation](/music/).
+Read next: [Story's Embedded Screencasts and Videos](/videojs/).
