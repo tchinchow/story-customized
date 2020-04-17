@@ -8,6 +8,8 @@ image: "img/unsplash-photos-WQ69GW2vZNs.jpg"
 credit: "https://unsplash.com/photos/WQ69GW2vZNs"
 thumbnail: img/unsplash-photos-WQ69GW2vZNs.tn-500x500.jpg
 classes:
+- feature-figcaption
+- feature-figcaption-hidden
 - feature-justify
 - feature-flexslider
 categories:
@@ -30,41 +32,17 @@ classes:
 ---
 ```
 
-From there the `flexslider` shortcode can be used in one of two ways, either:
+From there the `flexslider` shortcode can be used with a list of images as
+illustrated below:
 
-1. Just use a list of images inside the `flexslider` shortcode as demonstrated
-   below:
+```go
+{{</* flexslider */>}}
+- ![](kitchen_adventurer_cheesecake_brownie.jpg)
+- ![](kitchen_adventurer_donut.jpg)
+{{</* /flexslider */>}}
+```
 
-   ```go
-   {{</* flexslider */>}}
-   - ![](kitchen_adventurer_cheesecake_brownie.jpg)
-   - ![](kitchen_adventurer_donut.jpg)
-   {{</* /flexslider */>}}
-   ```
-
-or,
-
-2. Pass the list of images as parameters to the `flexslider` shortcode as
-   illustrated here:
-
-   ```go
-   {{</* flexslider
-   "kitchen_adventurer_cheesecake_brownie.jpg"
-   "kitchen_adventurer_donut.jpg"
-   */>}}{{</* /flexslider */>}}
-   ```
-
-> **IMPORTANT**:
-> 
-> Please note that while you *can "technically"* use both techniques within
-> the same invocation of the `flexslider` shortcode, both images lists will
-> be treated separately.
->
-> As a consequence, two different slideshows will be generated : The
-> `flexslider` shortcode **will not merge** its parameters and/with the
-> inner content.
-
-In both cases this will be rendered into the following slideshow:
+This will be rendered into the following slideshow:
 
 {{< flexslider >}}
 - ![](kitchen_adventurer_cheesecake_brownie.jpg)
@@ -73,32 +51,31 @@ In both cases this will be rendered into the following slideshow:
 
 ### Images With Captions
 
-While the former technique is clearer and simpler, the latter more heavily
-relies on the shortcode to process the images. This unlocks access to an extra
-feature that let you provide "captions" to your images:
+The `flexslider` shortcode is compatible with [Story's `fig-caption` feature](/figures)
+and will render the caption as you would expect.
 
-In order to use this feature, just postfix your caption text to the image
-filename and separate the two items with the "`|`" character, as demonstrated
-below:
+The code below exhibits this behaviour:
 
 ```go
-{{</* flexslider
-"kitchen_adventurer_cheesecake_brownie.jpg|Cheesecake Brownie"
-"kitchen_adventurer_lemon.jpg|Lemon"
-"kitchen_adventurer_donut.jpg|Donut"
-"kitchen_adventurer_caramel.jpg|Caramel"
-*/>}}{{</* /flexslider */>}}
+{{</* flexslider */>}}
+- ![Cheesecake Brownie](kitchen_adventurer_cheesecake_brownie.jpg)
+- ![Lemon](kitchen_adventurer_lemon.jpg)
+- ![Donut](kitchen_adventurer_donut.jpg)
+- ![](kitchen_adventurer_caramel.jpg)
+  _The "Caramel" cup cake advertised with flexslider_
+{{</* /flexslider */>}}
 ```
 
-The above snippet will render as shown below. You'll notice that,
-of course, you are not limited to a single slideshow par article:
-you can use the `flexslider` shortcode as many times as needed.
+The above snippet will be rendered as shown below. It will also advertise
+`flexslider` shortcode's ability of rendering multiple slideshows in a
+single page: you can use the as many times as needed.
 
-{{< flexslider
-"kitchen_adventurer_cheesecake_brownie.jpg|Cheesecake Brownie"
-"kitchen_adventurer_lemon.jpg|Lemon"
-"kitchen_adventurer_donut.jpg|Donut"
-"kitchen_adventurer_caramel.jpg|Caramel"
->}}{{< /flexslider >}}
+{{< flexslider >}}
+- ![Cheesecake Brownie](kitchen_adventurer_cheesecake_brownie.jpg)
+- ![Lemon](kitchen_adventurer_lemon.jpg)
+- ![Donut](kitchen_adventurer_donut.jpg)
+- ![](kitchen_adventurer_caramel.jpg)
+  _The "Caramel" cup cake advertised with flexslider_
+{{< /flexslider >}}
 
 Read next: [Story's built-in search features](/search-page/).

@@ -4,23 +4,6 @@
     behaviour is not predictable therefore "hide-print" is set by default.
 -->
 
-{{ with .Get 0 }}
-<div class="flexslider hide-print">
-    <ul>
-        {{ range $.Params }}
-        {{ $item := split . "|"}}
-        {{ $image := index $item 0 }}
-        {{ $alt := index $item 1 }}
-
-        <li>
-            <img src="{{$image}}" alt="{{$alt}}">
-            {{ with $alt}}<p class="flex-caption">{{ . }}</p> {{ end }}
-        </li>
-        {{ end }}
-    </ul>
-</div>
-{{ end }}
-
 {{ with .Inner }}
 <div class="flexslider hide-print">
     {{ . | markdownify }}
