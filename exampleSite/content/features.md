@@ -81,14 +81,15 @@ Here's a list of all of Story's features and how they're implemented.
 The first column links to a demo of those features.
 For brevity, the `feature-` prefix is omitted, but all of Story's classes have that prefix to avoid naming conflicts.
 
-| Feature            | Explanation                                                                                 | Implementation |
-|--------------------|---------------------------------------------------------------------------------------------|----------------|
+| Feature                        | Explanation                                                                                 | Implementation |
+|--------------------------------|---------------------------------------------------------------------------------------------|----------------|
 | [3dbook-covers](/images)       | Styles images to resemble a hardcover book                                                  | JS + CSS       |
 | [figcaption](/figures)         | Transforms images into captioned figures                                                    | JS + CSS       |
 | [figcaption-hidden](/figures)  | Hides figure captions, revealing them on mouseover                                          | CSS            |
 | [figcaption-visible](/figures) | Formats figure captions visibly                                                             | CSS            |
 | [figlink](/figures)            | Links text like "Figure/Table 3" to the corresponding figure or table                       | JS             |
 | [fignum](/figures)             | Auto-numbers figures and tables                                                             | CSS            |
+| [flexslider](/flexslider)      | Image carousels with flexslider                                                             | JS + CSS       |
 | [h3-cl](/typography)           | Adds CSS `clear: left` to all `<h3>` tags                                                   | CSS            |
 | [h3-cr](/typography)           | Adds CSS `clear: right` to all `<h3>` tags                                                  | CSS            |
 | [h3-cb](/typography)           | Adds CSS `clear: both` to all `<h3>` tags                                                   | CSS            |
@@ -97,6 +98,7 @@ For brevity, the `feature-` prefix is omitted, but all of Story's classes have t
 | [hrfleuron](/typography)       | Styles `<hr>` elements as a fleuron (&#10086;)                                              | CSS            |
 | [hyphenate](/typography)       | Enables line-breaks and hyphenation of text via the browser                                 | CSS            |
 | [justify](/typography)         | Aligns text with full-justification                                                         | CSS            |
+| [kbd-keys](/keyboard-keys)     | Renders keyboard keys to make your keyboard shortcuts stand out                             | CSS            |
 | [math](/math)                  | Enables LaTeX math typesetting using KaTeX                                                  | JS             |
 | [music](/music)                | Enables rendering abc notation as sheet music with abcjs                                    | JS             |
 | [nohdr](/images/)              | Disables header images locally; when applied globally, disables preview thumbnails in lists | Hugo           |
