@@ -112,4 +112,4 @@ $( "#dinkus" ).click(function() {
 });
 </script>
 
-Read next: [Story's MailChimp subscribe forms and RSS feeds](/mailchimp-features).
+Read next: [Story's ability to render Keyboard Keys](/keyboard-keys).

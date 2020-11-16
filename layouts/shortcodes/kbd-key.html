@@ -1,0 +1,9 @@
+{{ if .IsNamedParams }}
+{{ $keyCode := (.Get "keyCode") }}
+
+<icon class="keyboard-key {{ $keyCode }}"></icon>
+{{.Inner}}
+
+{{ else }}
+{{ errorf "Keyboard-Keys Hugo Shortcode: please provide named Parameters" }}
+{{ end }}
