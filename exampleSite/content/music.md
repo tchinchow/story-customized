@@ -55,8 +55,10 @@ V: LH2 clef=bass
 
 Story also has a `music` shortcode, which simply takes the name of an abc file as an argument, e.g. the following example code and the resulting music notation. This enables you to store your music files separately from your content and include them easily.
 
-<pre><code>&#123;{< music "/cooleys.abc" >}}</code></pre>
+```plaintext
+{{</* music "/cooleys.abc" */>}}
+```
 
 {{< music "/cooleys.abc" >}}
 
-Read next: [Story's beautiful typography](/typography/).
+Read next: [Story’s Mathematical Equation Typesetting](/math/).

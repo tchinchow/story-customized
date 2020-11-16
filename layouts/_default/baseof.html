@@ -83,6 +83,13 @@
 		{{ with .Site.Params.head }}{{ range . }}
 		{{ . | safeHTML }}{{ end }}{{ end }}
 
+		{{ if .HasShortcode "videojs" }}
+		<!-- shortcode-videojs -->
+		<link href="https://vjs.zencdn.net/7.7.5/video-js.css" rel="stylesheet" />
+		<!-- <link href="https://unpkg.com/@videojs/themes@1/dist/forest/index.css" rel="stylesheet" /> -->
+		<link href="{{ "css/videojs.story-theme.css" | absURL }}" rel="stylesheet" />
+  		<script src="https://vjs.zencdn.net/7.0.5/video.js"></script>
+		{{ end }}
 
 		{{ block "layout" . }}
 		<link rel="stylesheet" href="{{ "css/tachyons.min.css" | absURL }}" />

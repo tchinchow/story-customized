@@ -1,5 +1,5 @@
 ---
-title: Flexslider
+title: Story's Image Slideshows
 date: "2018-08-21"
 url: "/flexslider"
 description: "Story now also let you include nice images slideshows with FlexSlider"
@@ -78,4 +78,4 @@ single page: you can use the as many times as needed.
   _The "Caramel" cup cake advertised with flexslider_
 {{< /flexslider >}}
 
-Read next: [Story's built-in search features](/search-page/).
+Read next: [Story's image formatting features](/images/).
