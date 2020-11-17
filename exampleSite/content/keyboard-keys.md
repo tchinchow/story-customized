@@ -8,7 +8,7 @@ image: "img/unsplash-photos-_UeY8aTI6d0.jpg"
 credit: "https://unsplash.com/photos/_UeY8aTI6d0"
 thumbnail: "img/unsplash-photos-_UeY8aTI6d0.tn-500x500.jpg"
 classes:
-- feature-kbd-keys
+- feature-nohighlightjs
 categories:
 - Demo
 ---

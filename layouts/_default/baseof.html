@@ -68,14 +68,12 @@
 			{{- end -}}
 		{{- end -}}
 
-		{{ if or (in .Site.Params.classes "feature-kbd-keys") (in .Params.classes "feature-kbd-keys") -}}
-			{{- if not (or (in .Site.Params.classes "feature-nokbd-keys") (in .Params.classes "feature-nokbd-keys") ) -}}
-				{{- if .Site.Params.less -}}
+		{{ if .HasShortcode "kbd-key" -}}
+			{{- if .Site.Params.less -}}
 		<link rel="stylesheet/less" type="text/css" href="{{ "css/keys.less" | absURL }}" />
-				{{ else }}
+			{{ else }}
 		<link rel="stylesheet" href="{{ "css/keys.css" | absURL }}" />
-				{{ end }}
-			{{- end -}}
+			{{ end }}
 		{{- end -}}
 
 		{{ with .Site.Params.head }}{{ range . }}

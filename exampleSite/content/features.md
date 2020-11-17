@@ -98,7 +98,6 @@ For brevity, the `feature-` prefix is omitted, but all of Story's classes have t
 | [hrfleuron](/typography)       | Styles `<hr>` elements as a fleuron (&#10086;)                                              | CSS            |
 | [hyphenate](/typography)       | Enables line-breaks and hyphenation of text via the browser                                 | CSS            |
 | [justify](/typography)         | Aligns text with full-justification                                                         | CSS            |
-| [kbd-keys](/keyboard-keys)     | Renders keyboard keys to make your keyboard shortcuts stand out                             | CSS            |
 | [math](/math)                  | Enables LaTeX math typesetting using KaTeX                                                  | JS             |
 | [music](/music)                | Enables rendering abc notation as sheet music with abcjs                                    | JS             |
 | [nohdr](/images/)              | Disables header images locally; when applied globally, disables preview thumbnails in lists | Hugo           |
