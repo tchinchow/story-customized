@@ -20,18 +20,32 @@ mathematical formulae in {{< math >}}\LaTeX{{< /math >}} notation. KaTeX is
 similar to MathJax, but simpler and faster. It provides most of the features
 needed for typesetting equations, both inline and in block form.
 
-Story provides a `math` Hugo shortcode to help avoid problems that result from
+Before you begin, make sure you enable the math [feature](/features) by
+adding the following class to your article's front matter:
+
+```yaml
+---
+classes:
+- feature-math
+---
+```
+
+Then you can start using Story's `math` Hugo shortcode to help avoid problems that result from
 Markdown processing. Here's an example of using the shortcode for inline math:
 
-<pre><code>The quadratic equation is &#123;{< math >}}x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}&#123;{< /math >}}.</code></pre>
+```go
+The quadratic equation is {{</* math */>}}x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}{{</* /math */>}}.
+```
 
 The quadratic equation is {{< math >}}x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}{{< /math >}}.
 
 And in equation mode,
 
-<pre><code>&#123;{< math >}}
+```go
+{{</* math */>}}
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-&#123;{< /math >}}</code></pre>
+{{</* /math */>}}
+```
 
 {{< math >}}
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
