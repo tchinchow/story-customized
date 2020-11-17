@@ -30,6 +30,20 @@ will be loaded and the result will be displayed as follows:
 
 Now keyboard shortcut really stand out in your text.
 
+### Dark Theme:
+
+You can also choose to use a dark theme by adding the `dark` keyword to your
+`keyCode` as shown below:
+
+```go
+{{</* kbd-key keyCode="dark alt" /*/>}} + {{</* kbd-key keyCode="dark f4" /*/>}}
+```
+
+which will display as:
+
+{{< kbd-key keyCode="dark alt" />}} + {{< kbd-key keyCode="dark f4" />}}
+
+
 ### More about specific keys:
 
 Key "names" that you can use with the "`kbd-key`" shortcode include:
