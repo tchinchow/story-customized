@@ -9,7 +9,6 @@ credit: "https://unsplash.com/photos/nXt5HtLmlgE"
 thumbnail: img/unsplash-photos-nXt5HtLmlgE.tn-500x500.jpg
 classes:
 - feature-highlightjs
-- feature-leaflet
 - feature-figcaption-hidden
 categories:
 - Demo
@@ -21,18 +20,6 @@ This article demonstrates a handfull of the possibilities offered by this
 powerful combination.
 
 <!--more-->
-
-### Pre-requisites
-Just like many other Story's capabilities you **MUST** enable the leaflet
-[feature](/features) by adding the following class to your article's front
-matter:
-
-```yaml
----
-classes:
-- feature-leaflet
----
-```
 
 ### Map only
 
