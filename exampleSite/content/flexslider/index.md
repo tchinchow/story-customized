@@ -32,6 +32,13 @@ classes:
 ---
 ```
 
+> **Note**:
+> It is important to note here that you MUST add the feature. Story will
+> know that it has to add the appropriate class to images list under the
+> flexslider.
+>
+> If you don't add the feature, then the shortcode alone will not work.
+
 From there the `flexslider` shortcode can be used with a list of images as
 illustrated below:
 
