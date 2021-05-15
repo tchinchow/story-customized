@@ -7,7 +7,7 @@ buildFuture = true
 [[menu.social]]
   name = "GitHub"
   title = "fab fa-github-square"
-  url = "https://github.com/xaprb/story/"
+  url = "https://github.com/tchinchow/story-customized/"
 
 [[menu.main]]
   name = "Talks"

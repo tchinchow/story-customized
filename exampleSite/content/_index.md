@@ -1,5 +1,5 @@
 ---
-title: Story Hugo Theme Demo Site
+title: Story Hugo Custom Theme _(demo site)_
 subtitle: "Showcase Your Work"
 ---
 [![Baron Schwartz](/img/baron-square.jpg)](https://www.xaprb.com)

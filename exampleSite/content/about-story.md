@@ -1,7 +1,8 @@
 ---
-title: The Story Hugo Theme
+title: The Story Hugo Theme Customized
 date: "2018-09-03"
 url: "/about-story"
+author: Lionel VICTOR
 description: "Story is a beautiful responsive Hugo blog theme with many extra features including presentations, math typesetting, and search."
 tldr: "Story is a beautiful responsive Hugo blog theme with powerful extra features out-of-the-box. It's targeted to people who want to showcase their technical work online."
 credit: "https://unsplash.com/photos/o-ubWHV29Uk"
@@ -36,6 +37,14 @@ Story is deceptively simple, while offering the features you need:
 - LaTeX math equation typesetting.
 - Sheet music rendering from ABC music notation.
 - Built-in site search.
+
+This customized version augments Story with:
+
+- Nice-looking image carousels.
+- Support for MermaidJS diagrams
+- Support for Maps integration
+- Embedded Videos
+- Keyboard Keys drawing
 
 Story has many more features than this.
 Explore Story and learn all the ways it can help you showcase your work!
