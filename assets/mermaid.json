@@ -2,5 +2,8 @@
     "flowchart": {
       "useMaxWidth":true
     },
-    "theme": "default"
+    "theme": "base",
+    "themeVariables": {
+      "fontSize": "12px"
+    }
   }

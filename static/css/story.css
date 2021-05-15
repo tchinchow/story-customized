@@ -426,3 +426,6 @@ img[src~="3dbook"] {
 .hljs-link {
   text-decoration: underline;
 }
+.mermaid {
+  text-align: center;
+}

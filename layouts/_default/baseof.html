@@ -78,7 +78,7 @@
 
 		{{ if .HasShortcode "mermaid" -}}
 		<!-- <script src="https://cdn.jsdelivr.net/npm/mermaid@8.8.3/dist/mermaid.min.js" integrity="sha384-jmxIlussZWB7qCuB+PgKG1uLjjxbVVIayPJwi6cG6Zb4YKq0JIw+OMnkkEC7kYCq" crossorigin="anonymous"></script> -->
-		<script src="https://cdn.jsdelivr.net/npm/mermaid@8.8.3/dist/mermaid.min.js" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/mermaid@8.10.1/dist/mermaid.min.js" crossorigin="anonymous"></script>
 		{{ with resources.Get "mermaid.json" }}
 			<script>mermaid.initialize({{ .Content | safeJS }})</script>
 		{{ end }}

@@ -5,8 +5,8 @@ url: "/mermaid"
 author: 'Lionel VICTOR'
 description: "A chart or a diagram is worth a thousand words. Story has your back with MermaidJS."
 credit: "https://unsplash.com/photos/5mZ_M06Fc9g/download"
-image: "img/unsplash-photos-5mZ_M06Fc9g.jpg"
-thumbnail: img/unsplash-photos-5mZ_M06Fc9g.tn-500x500.jpg
+image: "img/unsplash-photos-tZc3vjPCk-Q.jpg"
+thumbnail: img/unsplash-photos-tZc3vjPCk-Q.tn-500x500.jpg
 classes:
 - feature-figcaption
 - feature-figcaption-hidden
@@ -23,24 +23,24 @@ This page is a first attempt at integrating [mermaid-js][mermaidjs_home] diagram
 
 <!--more-->
 
-It is a **Work in Progress**. Things still have to be done or fixed:
-- Diagrams are not properly aligned / centered
+It is a **Work in Progress**. Here follows a non exhaustive list of things to improve or fix:
 - Integration with "`feature-figcaption`" may need reviewing
-- git diagrams are not looking good _(fonts in particular are too big)_
 
-On the cosmetic side:
-- We still need to find an original article picture and thumbnail.
-
-However, some features are working:
+However, some features are already working:
 - "`feature-fignum`" does increment the figures' caption number,
 - "`feature-figcaption-hidden`" sort of work but requires further testing, and
 - most important diagrams are showing properly _(even though styling needs to be worked on)_
+- diagrams are not properly aligned / centered
+- git diagrams are looking better _(font size was adjusted in mermaid's global configuration)_
+- feature's blog article now stands out with its own picture+thumbnail. It also contains code
+  samples for most important diagrams.
 
 ### The guided Tour
 
 Please join me as I walk you through the classical mermaid scripts:
 
-- SequenceDiagram:
+
+- SequenceDiagram _([read documentation](https://mermaid-js.github.io/mermaid/#/sequenceDiagram?id=sequence-diagrams))_:
   ```go
   {{</* mermaid */>}}
   sequenceDiagram
@@ -70,7 +70,7 @@ Please join me as I walk you through the classical mermaid scripts:
       Bob-->John: Jolly good!
   {{< /mermaid >}}
 
-- Graph LR:
+- Flowcharts _([read documentation](https://mermaid-js.github.io/mermaid/#/flowchart?id=flowcharts-basic-syntax))_:
   ```go
   {{</* mermaid */>}}
   graph LR;
@@ -88,7 +88,7 @@ Please join me as I walk you through the classical mermaid scripts:
       C -->|Two| E[Result two]
   {{< /mermaid >}}
 
-- GANTT diagram:
+- GANTT diagram _([read documentation](https://mermaid-js.github.io/mermaid/#/gantt?id=gantt-diagrams))_:
   ```go
   {{</* mermaid */>}}
   gantt
@@ -98,7 +98,7 @@ Please join me as I walk you through the classical mermaid scripts:
       Completed task            :done,    des1, 2014-01-06,2014-01-08
       Active task               :active,  des2, 2014-01-09, 3d
       Future task               :         des3, after des2, 5d
-      Future task2               :         des4, after des3, 5d
+      Future task2              :         des4, after des3, 5d
       section Critical tasks
       Completed task in the critical line :crit, done, 2014-01-06,24h
       Implement parser and jison          :crit, done, after des1, 2d
@@ -116,7 +116,7 @@ Please join me as I walk you through the classical mermaid scripts:
       Completed task            :done,    des1, 2014-01-06,2014-01-08
       Active task               :active,  des2, 2014-01-09, 3d
       Future task               :         des3, after des2, 5d
-      Future task2               :         des4, after des3, 5d
+      Future task2              :         des4, after des3, 5d
       section Critical tasks
       Completed task in the critical line :crit, done, 2014-01-06,24h
       Implement parser and jison          :crit, done, after des1, 2d
@@ -126,9 +126,17 @@ Please join me as I walk you through the classical mermaid scripts:
       Add to mermaid                      :1d
   {{< /mermaid >}}
 
-- Class diagram:
+- Class diagram _([read documentation](https://mermaid-js.github.io/mermaid/#/classDiagram?id=class-diagrams))_:
   ```go
   {{</* mermaid */>}}
+  %%{
+    init: {
+      "theme": "base",
+      "themeVariables": {
+        "lineColor": "#ff0000"
+      }
+    }
+  }%%
   classDiagram
       Class01 <|-- AveryLongClass : Cool
       Class03 *-- Class04
@@ -146,6 +154,14 @@ Please join me as I walk you through the classical mermaid scripts:
   {{</* /mermaid */>}}
   ```
   {{< mermaid >}}
+  %%{
+    init: {
+      "theme": "base",
+      "themeVariables": {
+        "lineColor": "#ff0000"
+      }
+    }
+  }%%
   classDiagram
       Class01 <|-- AveryLongClass : Cool
       Class03 *-- Class04
@@ -162,7 +178,7 @@ Please join me as I walk you through the classical mermaid scripts:
       Class08 <--> C2: Cool label
   {{< /mermaid >}}
 
-- Git graph:
+- Git graph _(experimental)_:
   ```go
   {{</* mermaid */>}}
   gitGraph:
@@ -187,17 +203,17 @@ Please join me as I walk you through the classical mermaid scripts:
 gitGraph:
 options
 {
-    "nodeSpacing": 64,
-    "nodeRadius": 8
+  "nodeSpacing": 64,
+  "nodeRadius": 6
 }
 end
-    commit
-    branch newbranch
-    checkout newbranch
-    commit
-    commit
-    checkout master
-    commit
-    commit
-    merge newbranch
+  commit
+  branch newbranch
+  checkout newbranch
+  commit
+  commit
+  checkout master
+  commit
+  commit
+  merge newbranch
   {{< /mermaid >}}
