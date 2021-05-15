@@ -69,4 +69,4 @@ a_3x+b_3y+c_3z=d_3
 
 Math typesetting is controlled with the `feature-[no]math` flag.
 
-Read next: [Maps with Leaflet.js](/leaflet/).
+Read next: [Diagrams and Visualizations with Mermaid.js](/mermaid/).

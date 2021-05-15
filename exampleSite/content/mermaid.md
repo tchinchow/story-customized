@@ -1,6 +1,6 @@
 ---
 title: Render Mermaid Diagrams with Story
-date: "2020-11-17"
+date: "2018-08-19 08:00:00"
 url: "/mermaid"
 author: 'Lionel VICTOR'
 description: "A chart or a diagram is worth a thousand words. Story has your back with MermaidJS."
@@ -217,3 +217,5 @@ end
   commit
   merge newbranch
   {{< /mermaid >}}
+
+Read next: [Maps with Leaflet.js](/leaflet/).
