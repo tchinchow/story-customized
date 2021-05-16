@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Render Mermaid Diagrams with Story</title>
+		<link rel="alternate" type="application/rss+xml" title="RSS" href="https://tchinchow.github.io/story-customized/index.xml">
+		<link rel="canonical" href="https://tchinchow.github.io/story-customized/mermaid/">
+		
+		<link rel="shortcut icon" type="image/png" href="https://tchinchow.github.io/story-customized/apple-touch-icon-precomposed.png">
+		<meta name="description" content="A chart or a diagram is worth a thousand words. Story has your back with MermaidJS.">
+		
+		<meta name="generator" content="Hugo 0.68.3" />
+
+		
+		<meta property="og:title" content="Render Mermaid Diagrams with Story" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="https://tchinchow.github.io/story-customized/img/unsplash-photos-tZc3vjPCk-Q.jpg" />
+		<meta property="og:description" content="A chart or a diagram is worth a thousand words. Story has your back with MermaidJS." />
+		<meta property="og:url" content="https://tchinchow.github.io/story-customized/mermaid/" />
+		<meta property="og:site_name" content="Render Mermaid Diagrams with Story" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@xaprb" />
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+
+		
+		<script src="https://cdn.jsdelivr.net/npm/mermaid@8.10.1/dist/mermaid.min.js" crossorigin="anonymous"></script>
+		
+			<script>mermaid.initialize({
+    "flowchart": {
+      "useMaxWidth":true
+    },
+    "theme": "base",
+    "themeVariables": {
+      "fontSize": "12px"
+    }
+  })</script>
+		
+
+		
+
+		
+		<link rel="stylesheet" href="https://tchinchow.github.io/story-customized/css/tachyons.min.css" />
+		<link rel="stylesheet" href="https://tchinchow.github.io/story-customized/css/story.css" />
+		<link rel="stylesheet" href="https://tchinchow.github.io/story-customized/css/descartes.css" />
+		
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,400i,700,700i|Quattrocento:400,700|Spectral:400,400i,700,700i&amp;subset=latin-ext" rel="stylesheet">
+		
+
+		<script src="https://tchinchow.github.io/story-customized/js/story.js"></script>
+
+	</head>
+	<body class="ma0 bg-white  page-kind-page is-page-true  feature-figcaption feature-figcaption-hidden feature-fignum">
+		
+		<header class="cover bg-top" style="background-image: url('https://tchinchow.github.io/story-customized/img/unsplash-photos-tZc3vjPCk-Q.jpg'); background-position: center;">
+			<div class="bg-black-30 bb bt">
+
+				<nav class="hide-print sans-serif  border-box pa3 ph5-l">
+					<a href="https://tchinchow.github.io/story-customized/" title="Home">
+						<img src="https://tchinchow.github.io/story-customized/img/logo.svg" class="w2 h2 br-100" alt="Hugo Story Theme" />
+					</a>
+					<div class="fr h2 pv2 tr">
+						<a class="link f5 ml2 dim near-white" href="/story-customized/archives/">Archives</a>
+						<a class="link f5 ml2 dim near-white" href="/story-customized/slides/">Slides</a>
+						<a class="link f5 ml2 dim near-white" href="/story-customized/talks/">Talks</a>
+						<a class="link f5 ml2 dim near-white" href="https://github.com/tchinchow/story-customized/" title="GitHub"><i class="fab fa-github-square"></i></a>
+						<a class="link f5 ml2 dim near-white fas fa-rss-square" href="https://tchinchow.github.io/story-customized/index.xml" title="RSS Feed"></a>
+						<a class="link f5 ml2 dim near-white fas fa-search" href="https://tchinchow.github.io/story-customized/search/" role="search" title="Search"></a>
+					</div>
+				</nav>
+
+				<div id="hdr" class="tc-l pv4-ns pv5-l pv2 ph3 ph4-ns">
+					<h1 class="near-white mt1-ns f2 fw3 mb0 mt0 lh-title">Render Mermaid Diagrams with Story</h1>
+					<h2 class="near-white mt3-l mb4-l fw1 f6 f3-l measure-wide-l center lh-copy mt2 mb3">
+						
+						
+							
+								Published
+								<time datetime="2018-08-19T08:00:00Z">Aug 19, 2018</time>
+								<span class="display-print">by Lionel VICTOR</span>
+								 in <a href="https://tchinchow.github.io/story-customized/categories/demo" class="no-underline category near-white dim">Demo</a>
+								<span class="display-print">at https://tchinchow.github.io/story-customized/mermaid/</span>
+							
+						
+					</h2>
+				</div>
+
+				
+				
+				
+				<div class="w-100 cf hide-print">
+					<a class="fr f6 ma0 pa2 link white-50 dim fas fa-camera" href="https://unsplash.com/photos/5mZ_M06Fc9g/download" title="Photo Credit"></a>
+				</div>
+				
+				
+
+			</div>
+		</header>
+		
+		<main role="main">
+		
+<article class="center bg-white br-3 pv1 ph4 lh-copy f5 nested-links mw7">
+	<h3 id="a-work-in-progress">A Work In Progress&hellip;</h3>
+<p>This page is a first attempt at integrating <a href="https://mermaid-js.github.io/mermaid/#/" title="go to mermaid home page...">mermaid-js</a> diagrams.</p>
+<p>It is a <strong>Work in Progress</strong>. Here follows a non exhaustive list of things to improve or fix:</p>
+<ul>
+<li>Integration with &ldquo;<code>feature-figcaption</code>&rdquo; may need reviewing</li>
+</ul>
+<p>However, some features are already working:</p>
+<ul>
+<li>&ldquo;<code>feature-fignum</code>&rdquo; does increment the figures&rsquo; caption number,</li>
+<li>&ldquo;<code>feature-figcaption-hidden</code>&rdquo; sort of work but requires further testing, and</li>
+<li>most important diagrams are showing properly <em>(even though styling needs to be worked on)</em></li>
+<li>diagrams are not properly aligned / centered</li>
+<li>git diagrams are looking better <em>(font size was adjusted in mermaid&rsquo;s global configuration)</em></li>
+<li>feature&rsquo;s blog article now stands out with its own picture+thumbnail. It also contains code
+samples for most important diagrams.</li>
+</ul>
+<h3 id="the-guided-tour">The guided Tour</h3>
+<p>Please join me as I walk you through the classical mermaid scripts:</p>
+<ul>
+<li>
+<p>SequenceDiagram <em>(<a href="https://mermaid-js.github.io/mermaid/#/sequenceDiagram?id=sequence-diagrams">read documentation</a>)</em>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{{&lt; <span style="color:#a6e22e">mermaid</span> &gt;}}
+<span style="color:#a6e22e">sequenceDiagram</span>
+    <span style="color:#a6e22e">participant</span> <span style="color:#a6e22e">Alice</span>
+    <span style="color:#a6e22e">participant</span> <span style="color:#a6e22e">Bob</span>
+    <span style="color:#a6e22e">Alice</span><span style="color:#f92672">-&gt;&gt;</span><span style="color:#a6e22e">John</span>: <span style="color:#a6e22e">Hello</span> <span style="color:#a6e22e">John</span>, <span style="color:#a6e22e">how</span> <span style="color:#a6e22e">are</span> <span style="color:#a6e22e">you</span><span style="color:#960050;background-color:#1e0010">?</span>
+    <span style="color:#a6e22e">loop</span> <span style="color:#a6e22e">Healthcheck</span>
+        <span style="color:#a6e22e">John</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">John</span>: <span style="color:#a6e22e">Fight</span> <span style="color:#a6e22e">against</span> <span style="color:#a6e22e">hypochondria</span>
+    <span style="color:#a6e22e">end</span>
+    <span style="color:#a6e22e">Note</span> <span style="color:#a6e22e">right</span> <span style="color:#a6e22e">of</span> <span style="color:#a6e22e">John</span>: <span style="color:#a6e22e">Rational</span> <span style="color:#a6e22e">thoughts</span> &lt;<span style="color:#a6e22e">br</span><span style="color:#f92672">/</span>&gt;<span style="color:#a6e22e">prevail</span><span style="color:#f92672">...</span>
+    <span style="color:#a6e22e">John</span><span style="color:#f92672">--</span>&gt;<span style="color:#a6e22e">Alice</span>: <span style="color:#a6e22e">Great</span>!
+    <span style="color:#a6e22e">John</span><span style="color:#f92672">-</span>&gt;<span style="color:#a6e22e">Bob</span>: <span style="color:#a6e22e">How</span> <span style="color:#a6e22e">about</span> <span style="color:#a6e22e">you</span><span style="color:#960050;background-color:#1e0010">?</span>
+    <span style="color:#a6e22e">Bob</span><span style="color:#f92672">--</span>&gt;<span style="color:#a6e22e">John</span>: <span style="color:#a6e22e">Jolly</span> <span style="color:#a6e22e">good</span>!
+{{&lt; <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> &gt;}}
+</code></pre></div><figure>
+    <div class="mermaid">
+  sequenceDiagram
+      participant Alice
+      participant Bob
+      Alice->>John: Hello John, how are you?
+      loop Healthcheck
+          John->John: Fight against hypochondria
+      end
+      Note right of John: Rational thoughts <br/>prevail...
+      John-->Alice: Great!
+      John->Bob: How about you?
+      Bob-->John: Jolly good!
+  </div>
+    <figcaption>FIXME</figcaption>
+</figure>
+
+</li>
+<li>
+<p>Flowcharts <em>(<a href="https://mermaid-js.github.io/mermaid/#/flowchart?id=flowcharts-basic-syntax">read documentation</a>)</em>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{{&lt; <span style="color:#a6e22e">mermaid</span> &gt;}}
+<span style="color:#a6e22e">graph</span> <span style="color:#a6e22e">LR</span>;
+    <span style="color:#a6e22e">A</span>[<span style="color:#a6e22e">Hard</span> <span style="color:#a6e22e">edge</span>] <span style="color:#f92672">--</span>&gt;|<span style="color:#a6e22e">Link</span> <span style="color:#a6e22e">text</span>| <span style="color:#a6e22e">B</span>(<span style="color:#a6e22e">Round</span> <span style="color:#a6e22e">edge</span>)
+    <span style="color:#a6e22e">B</span> <span style="color:#f92672">--</span>&gt; <span style="color:#a6e22e">C</span>{<span style="color:#a6e22e">Decision</span>}
+    <span style="color:#a6e22e">C</span> <span style="color:#f92672">--</span>&gt;|<span style="color:#a6e22e">One</span>| <span style="color:#a6e22e">D</span>[<span style="color:#a6e22e">Result</span> <span style="color:#a6e22e">one</span>]
+    <span style="color:#a6e22e">C</span> <span style="color:#f92672">--</span>&gt;|<span style="color:#a6e22e">Two</span>| <span style="color:#a6e22e">E</span>[<span style="color:#a6e22e">Result</span> <span style="color:#a6e22e">two</span>]
+{{&lt; <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> &gt;}}
+</code></pre></div><figure>
+    <div class="mermaid">
+  graph LR;
+      A[Hard edge] -->|Link text| B(Round edge)
+      B --> C{Decision}
+      C -->|One| D[Result one]
+      C -->|Two| E[Result two]
+  </div>
+    <figcaption>FIXME</figcaption>
+</figure>
+
+</li>
+<li>
+<p>GANTT diagram <em>(<a href="https://mermaid-js.github.io/mermaid/#/gantt?id=gantt-diagrams">read documentation</a>)</em>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{{&lt; <span style="color:#a6e22e">mermaid</span> &gt;}}
+<span style="color:#a6e22e">gantt</span>
+    <span style="color:#a6e22e">dateFormat</span>  <span style="color:#a6e22e">YYYY</span><span style="color:#f92672">-</span><span style="color:#a6e22e">MM</span><span style="color:#f92672">-</span><span style="color:#a6e22e">DD</span>
+    <span style="color:#a6e22e">title</span> <span style="color:#a6e22e">Adding</span> <span style="color:#a6e22e">GANTT</span> <span style="color:#a6e22e">diagram</span> <span style="color:#a6e22e">functionality</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">Story</span>
+    <span style="color:#a6e22e">section</span> <span style="color:#a6e22e">A</span> <span style="color:#a6e22e">section</span>
+    <span style="color:#a6e22e">Completed</span> <span style="color:#a6e22e">task</span>            :<span style="color:#a6e22e">done</span>,    <span style="color:#a6e22e">des1</span>, <span style="color:#ae81ff">2014</span><span style="color:#f92672">-</span><span style="color:#ae81ff">01</span><span style="color:#f92672">-</span><span style="color:#ae81ff">06</span>,<span style="color:#ae81ff">2014</span><span style="color:#f92672">-</span><span style="color:#ae81ff">01</span><span style="color:#f92672">-</span><span style="color:#ae81ff">08</span>
+    <span style="color:#a6e22e">Active</span> <span style="color:#a6e22e">task</span>               :<span style="color:#a6e22e">active</span>,  <span style="color:#a6e22e">des2</span>, <span style="color:#ae81ff">2014</span><span style="color:#f92672">-</span><span style="color:#ae81ff">01</span><span style="color:#f92672">-</span><span style="color:#ae81ff">09</span>, <span style="color:#ae81ff">3</span><span style="color:#a6e22e">d</span>
+    <span style="color:#a6e22e">Future</span> <span style="color:#a6e22e">task</span>               :         <span style="color:#a6e22e">des3</span>, <span style="color:#a6e22e">after</span> <span style="color:#a6e22e">des2</span>, <span style="color:#ae81ff">5</span><span style="color:#a6e22e">d</span>
+    <span style="color:#a6e22e">Future</span> <span style="color:#a6e22e">task2</span>              :         <span style="color:#a6e22e">des4</span>, <span style="color:#a6e22e">after</span> <span style="color:#a6e22e">des3</span>, <span style="color:#ae81ff">5</span><span style="color:#a6e22e">d</span>
+    <span style="color:#a6e22e">section</span> <span style="color:#a6e22e">Critical</span> <span style="color:#a6e22e">tasks</span>
+    <span style="color:#a6e22e">Completed</span> <span style="color:#a6e22e">task</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">the</span> <span style="color:#a6e22e">critical</span> <span style="color:#a6e22e">line</span> :<span style="color:#a6e22e">crit</span>, <span style="color:#a6e22e">done</span>, <span style="color:#ae81ff">2014</span><span style="color:#f92672">-</span><span style="color:#ae81ff">01</span><span style="color:#f92672">-</span><span style="color:#ae81ff">06</span>,<span style="color:#ae81ff">24</span><span style="color:#a6e22e">h</span>
+    <span style="color:#a6e22e">Implement</span> <span style="color:#a6e22e">parser</span> <span style="color:#a6e22e">and</span> <span style="color:#a6e22e">jison</span>          :<span style="color:#a6e22e">crit</span>, <span style="color:#a6e22e">done</span>, <span style="color:#a6e22e">after</span> <span style="color:#a6e22e">des1</span>, <span style="color:#ae81ff">2</span><span style="color:#a6e22e">d</span>
+    <span style="color:#a6e22e">Create</span> <span style="color:#a6e22e">tests</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">parser</span>             :<span style="color:#a6e22e">crit</span>, <span style="color:#a6e22e">active</span>, <span style="color:#ae81ff">3</span><span style="color:#a6e22e">d</span>
+    <span style="color:#a6e22e">Future</span> <span style="color:#a6e22e">task</span> <span style="color:#a6e22e">in</span> <span style="color:#a6e22e">critical</span> <span style="color:#a6e22e">line</span>        :<span style="color:#a6e22e">crit</span>, <span style="color:#ae81ff">5</span><span style="color:#a6e22e">d</span>
+    <span style="color:#a6e22e">Create</span> <span style="color:#a6e22e">tests</span> <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">renderer</span>           :<span style="color:#ae81ff">2</span><span style="color:#a6e22e">d</span>
+    <span style="color:#a6e22e">Add</span> <span style="color:#a6e22e">to</span> <span style="color:#a6e22e">mermaid</span>                      :<span style="color:#ae81ff">1</span><span style="color:#a6e22e">d</span>
+{{&lt; <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> &gt;}}
+</code></pre></div><figure>
+    <div class="mermaid">
+  gantt
+      dateFormat  YYYY-MM-DD
+      title Adding GANTT diagram functionality to Story
+      section A section
+      Completed task            :done,    des1, 2014-01-06,2014-01-08
+      Active task               :active,  des2, 2014-01-09, 3d
+      Future task               :         des3, after des2, 5d
+      Future task2              :         des4, after des3, 5d
+      section Critical tasks
+      Completed task in the critical line :crit, done, 2014-01-06,24h
+      Implement parser and jison          :crit, done, after des1, 2d
+      Create tests for parser             :crit, active, 3d
+      Future task in critical line        :crit, 5d
+      Create tests for renderer           :2d
+      Add to mermaid                      :1d
+  </div>
+    <figcaption>FIXME</figcaption>
+</figure>
+
+</li>
+<li>
+<p>Class diagram <em>(<a href="https://mermaid-js.github.io/mermaid/#/classDiagram?id=class-diagrams">read documentation</a>)</em>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{{&lt; <span style="color:#a6e22e">mermaid</span> &gt;}}
+<span style="color:#f92672">%%</span>{
+  <span style="color:#a6e22e">init</span>: {
+    <span style="color:#e6db74">&#34;theme&#34;</span>: <span style="color:#e6db74">&#34;base&#34;</span>,
+    <span style="color:#e6db74">&#34;themeVariables&#34;</span>: {
+      <span style="color:#e6db74">&#34;lineColor&#34;</span>: <span style="color:#e6db74">&#34;#ff0000&#34;</span>
+    }
+  }
+}<span style="color:#f92672">%%</span>
+<span style="color:#a6e22e">classDiagram</span>
+    <span style="color:#a6e22e">Class01</span> &lt;|<span style="color:#f92672">--</span> <span style="color:#a6e22e">AveryLongClass</span> : <span style="color:#a6e22e">Cool</span>
+    <span style="color:#a6e22e">Class03</span> <span style="color:#f92672">*--</span> <span style="color:#a6e22e">Class04</span>
+    <span style="color:#a6e22e">Class05</span> <span style="color:#a6e22e">o</span><span style="color:#f92672">--</span> <span style="color:#a6e22e">Class06</span>
+    <span style="color:#a6e22e">Class07</span> .. <span style="color:#a6e22e">Class08</span>
+    <span style="color:#a6e22e">Class09</span> <span style="color:#f92672">--</span>&gt; <span style="color:#a6e22e">C2</span> : <span style="color:#a6e22e">Where</span> <span style="color:#a6e22e">am</span> <span style="color:#a6e22e">i</span><span style="color:#960050;background-color:#1e0010">?</span>
+    <span style="color:#a6e22e">Class09</span> <span style="color:#f92672">--*</span> <span style="color:#a6e22e">C3</span>
+    <span style="color:#a6e22e">Class09</span> <span style="color:#f92672">--</span>|&gt; <span style="color:#a6e22e">Class07</span>
+    <span style="color:#a6e22e">Class07</span> : <span style="color:#a6e22e">equals</span>()
+    <span style="color:#a6e22e">Class07</span> : <span style="color:#a6e22e">Object</span>[] <span style="color:#a6e22e">elementData</span>
+    <span style="color:#a6e22e">Class01</span> : <span style="color:#a6e22e">size</span>()
+    <span style="color:#a6e22e">Class01</span> : <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">chimp</span>
+    <span style="color:#a6e22e">Class01</span> : <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">gorilla</span>
+    <span style="color:#a6e22e">Class08</span> <span style="color:#f92672">&lt;--</span>&gt; <span style="color:#a6e22e">C2</span>: <span style="color:#a6e22e">Cool</span> <span style="color:#a6e22e">label</span>
+{{&lt; <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> &gt;}}
+</code></pre></div><figure>
+    <div class="mermaid">
+  %%{
+    init: {
+      "theme": "base",
+      "themeVariables": {
+        "lineColor": "#ff0000"
+      }
+    }
+  }%%
+  classDiagram
+      Class01 <|-- AveryLongClass : Cool
+      Class03 *-- Class04
+      Class05 o-- Class06
+      Class07 .. Class08
+      Class09 --> C2 : Where am i?
+      Class09 --* C3
+      Class09 --|> Class07
+      Class07 : equals()
+      Class07 : Object[] elementData
+      Class01 : size()
+      Class01 : int chimp
+      Class01 : int gorilla
+      Class08 <--> C2: Cool label
+  </div>
+    <figcaption>FIXME</figcaption>
+</figure>
+
+</li>
+<li>
+<p>Git graph <em>(experimental)</em>:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">{{&lt; <span style="color:#a6e22e">mermaid</span> &gt;}}
+<span style="color:#a6e22e">gitGraph</span>:
+<span style="color:#a6e22e">options</span>
+{
+    <span style="color:#e6db74">&#34;nodeSpacing&#34;</span>: <span style="color:#ae81ff">64</span>,
+    <span style="color:#e6db74">&#34;nodeRadius&#34;</span>: <span style="color:#ae81ff">8</span>
+}
+<span style="color:#a6e22e">end</span>
+    <span style="color:#a6e22e">commit</span>
+    <span style="color:#a6e22e">branch</span> <span style="color:#a6e22e">newbranch</span>
+    <span style="color:#a6e22e">checkout</span> <span style="color:#a6e22e">newbranch</span>
+    <span style="color:#a6e22e">commit</span>
+    <span style="color:#a6e22e">commit</span>
+    <span style="color:#a6e22e">checkout</span> <span style="color:#a6e22e">master</span>
+    <span style="color:#a6e22e">commit</span>
+    <span style="color:#a6e22e">commit</span>
+    <span style="color:#a6e22e">merge</span> <span style="color:#a6e22e">newbranch</span>
+{{&lt; <span style="color:#f92672">/</span><span style="color:#a6e22e">mermaid</span> &gt;}}
+</code></pre></div><figure>
+    <div class="mermaid">
+gitGraph:
+options
+{
+  "nodeSpacing": 64,
+  "nodeRadius": 6
+}
+end
+  commit
+  branch newbranch
+  checkout newbranch
+  commit
+  commit
+  checkout master
+  commit
+  commit
+  merge newbranch
+  </div>
+    <figcaption>FIXME</figcaption>
+</figure>
+
+</li>
+</ul>
+<p>Read next: <a href="/leaflet/">Maps with Leaflet.js</a>.</p>
+</article>
+
+		</main>
+		
+				<div class="hide-print sans-serif f6 f5-l mt5 ph3 pb6 center nested-copy-line-height lh-copy nested-links mw-100 measure-wide">
+		<div class="about-the-author">
+		
+			
+			
+				
+					<p><img src="/img/lionel-victor.jpg" alt="Lionel"></p>
+<p>Lionel VICTOR is an applied cryptography engineer and an enthusiastic
+<em>Story</em> user.<!-- raw HTML omitted -->
+<a href="https://www.linkedin.com/in/lionelvictor">More about Lionel</a>.</p>
+
+				
+			
+		
+		</div>
+		
+	</div>
+
+		
+		
+		
+		<footer class="hide-print sans-serif f6 fw1 bg-black near-white bottom-0 w-100 pa3" role="contentinfo">
+			<p class="w-50 fr tr">
+			<a class="no-underline near-white" href="https://github.com/xaprb/story"><img class="dib" title="Made with Hugo and Story" alt="Story logo" src="https://tchinchow.github.io/story-customized/img/story-logo-white.svg" style="width: 1.5rem; height: 1.5rem" /></a>
+			</p>
+			<p class="w-50 near-white">
+				&copy; 2021 Baron Schwartz
+			</p>
+		</footer>
+		
+	
+	
+	</body>
+</html>

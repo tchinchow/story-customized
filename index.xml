@@ -1,0 +1,2306 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Hugo Story Theme </title>
+		<link>https://tchinchow.github.io/story-customized/</link>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<author>Baron Schwartz</author>
+		<rights>Copyright (c) 2025</rights>
+		<updated>2018-09-03 00:00:00 &#43;0000 UTC</updated>
+		
+		<item>
+			<title>The Story Hugo Theme Customized</title>
+			<link>https://tchinchow.github.io/story-customized/about-story/</link>
+			<pubDate>Mon, 03 Sep 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/about-story/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-o-ubWHV29Uk.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Story is a beautiful Hugo theme.  &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a static website
+generator, which builds websites by rendering
+&lt;a href=&#34;https://commonmark.org/help/&#34;&gt;Markdown&lt;/a&gt; content into templates from themes like
+Story. The resulting site is fast, secure, and easy to build and maintain.&lt;/p&gt;
+&lt;p&gt;Story is a responsive theme that supports blogs, with many extra features such
+as presentations, math and music typesetting, and search.  The Story design
+philosophy prioritizes simplicity and elegance, so it can be sophisticated
+and powerful at the same time.&lt;/p&gt;
+&lt;p&gt;Story is easy to use, making it a great way to share your writing and speaking
+with the world.  Story is targeted to technical writers and speakers: people
+such as software engineers and open source developers, who want a website for
+their technical work and side projects&amp;mdash;for example, those who write and speak
+about software engineering.&lt;/p&gt;
+&lt;p&gt;Story is deceptively simple, while offering the features you need:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Beautiful, responsive typography for long-form content on screen and in print, including blogs and single pages.&lt;/li&gt;
+&lt;li&gt;Support for Remark in-browser slideshows, written in simple Markdown.&lt;/li&gt;
+&lt;li&gt;LaTeX math equation typesetting.&lt;/li&gt;
+&lt;li&gt;Sheet music rendering from ABC music notation.&lt;/li&gt;
+&lt;li&gt;Built-in site search.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This customized version augments Story with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Nice-looking image carousels.&lt;/li&gt;
+&lt;li&gt;Support for MermaidJS diagrams&lt;/li&gt;
+&lt;li&gt;Support for Maps integration&lt;/li&gt;
+&lt;li&gt;Embedded Videos&lt;/li&gt;
+&lt;li&gt;Keyboard Keys drawing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Story has many more features than this.
+Explore Story and learn all the ways it can help you showcase your work!&lt;/p&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/theme-features&#34;&gt;Story&amp;rsquo;s features&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Theme Features</title>
+			<link>https://tchinchow.github.io/story-customized/theme-features/</link>
+			<pubDate>Sat, 01 Sep 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/theme-features/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-nehfi_SfqtU.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Story has a lot of features, but most are optional and have smart defaults!
+This page is an introduction to Story, with links to further pages that go into
+more details. There&amp;rsquo;s also a listing of features that either don&amp;rsquo;t need
+a separate documentation page, or just don&amp;rsquo;t have full documentation yet.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;Gorgeous, responsive typography on all devices and in print&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/images/&#34;&gt;Beautiful featured images and thumbnails&lt;/a&gt; (optional)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/images/&#34;&gt;Multiple layouts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/features&#34;&gt;Flexibility via feature toggles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/author-profiles&#34;&gt;Author profile pages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/slides/&#34;&gt;Remark browser-based presentation support&lt;/a&gt;, including CSS themes and multiple aspect ratios&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;Automatic table and image enhancements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/images&#34;&gt;Advanced image styling features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/math&#34;&gt;Mathematical equation typesetting&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/music&#34;&gt;Formatting ABC music notation as sheet music&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/search-page&#34;&gt;Built-in search&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/mailchimp-features&#34;&gt;MailChimp subscribe forms and RSS feeds&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Story also has support for the following, which aren&amp;rsquo;t extensively documented:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Code syntax highlighting&lt;/li&gt;
+&lt;li&gt;Google Analytics&lt;/li&gt;
+&lt;li&gt;Categories&lt;/li&gt;
+&lt;li&gt;All types of blogs; Story isn&amp;rsquo;t opinionated about what you call them (you
+can put your content under &lt;code&gt;/posts/&lt;/code&gt;, &lt;code&gt;/blog/&lt;/code&gt;, &lt;code&gt;/articles/&lt;/code&gt;, or whatever)&lt;/li&gt;
+&lt;li&gt;A section for &amp;ldquo;talks,&amp;rdquo; which is different from slideshows; a talks page is a
+place to put information about your presentations, including links to videos,
+the location, slides, and so on. &lt;code&gt;/talks/&lt;/code&gt; and &lt;code&gt;/slides/&lt;/code&gt; are the only two
+content types for which Story has special formatting and archetypes.&lt;/li&gt;
+&lt;li&gt;An archive listing page, which uses the &lt;code&gt;archives&lt;/code&gt; layout analogously to the &lt;a href=&#34;https://tchinchow.github.io/story-customized/search-page&#34;&gt;search&lt;/a&gt; feature&lt;/li&gt;
+&lt;li&gt;404 error page&lt;/li&gt;
+&lt;li&gt;Social-media meta tags to make your content look great when shared on social
+media sites&lt;/li&gt;
+&lt;li&gt;Using &lt;code&gt;skip&lt;/code&gt; to hide content from default lists, but generating HTML pages for it&lt;/li&gt;
+&lt;li&gt;Meta keywords&lt;/li&gt;
+&lt;li&gt;Font Awesome icon fonts&lt;/li&gt;
+&lt;li&gt;Custom header meta tags with any content you want&lt;/li&gt;
+&lt;li&gt;Custom footer content with any HTML, JS, or CSS you want; useful for adding
+custom features from third-parties that provide script blocks to paste into
+your site&lt;/li&gt;
+&lt;li&gt;Custom CSS classes in the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag&lt;/li&gt;
+&lt;li&gt;Custom content and social link menus with any content you want (not limited to predefined)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/features/&#34;&gt;Story&amp;rsquo;s feature flags&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Feature Flags</title>
+			<link>https://tchinchow.github.io/story-customized/features/</link>
+			<pubDate>Thu, 30 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/features/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-QRkew0KwXSM.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Feature flags, which are called &lt;em&gt;classes&lt;/em&gt; in the markup, control many of Story&amp;rsquo;s features.
+You can enable and disable them in your site config, or in an individual post&amp;rsquo;s front matter.
+This article documents Story&amp;rsquo;s feature flags.&lt;/p&gt;
+&lt;h3 id=&#34;enabling-feature-flags&#34;&gt;Enabling Feature Flags&lt;/h3&gt;
+&lt;p&gt;Feature flags can be enabled globally or locally, and the combination of these determines content behavior.
+This lets you enable them for the entire site, or for an individual post.
+The combined list of features that applies to a piece of content is the union of the two lists.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s how to enable the &amp;ldquo;example&amp;rdquo; feature for the entire site, in your site&amp;rsquo;s &lt;code&gt;config.yaml&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;params&lt;/span&gt;:
+   &lt;span style=&#34;color:#66d9ef&#34;&gt;classes&lt;/span&gt;:
+   - feature-example
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here&amp;rsquo;s how to enable the &amp;ldquo;misc&amp;rdquo; feature in an individual piece of content, via its YAML front matter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---
+&lt;span style=&#34;color:#66d9ef&#34;&gt;classes&lt;/span&gt;:
+- feature-misc
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The contents of both feature lists are combined and put into the &lt;code&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag&amp;rsquo;s &lt;code&gt;class&lt;/code&gt; attribute, verbatim:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&amp;lt;&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;class&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;feature-example feature-misc&amp;#34;&lt;/span&gt;&amp;gt;...&amp;lt;/&lt;span style=&#34;color:#f92672&#34;&gt;body&lt;/span&gt;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you&amp;rsquo;re using TOML, then the syntax in &lt;code&gt;config.toml&lt;/code&gt; looks like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;classes&lt;/span&gt; = [&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;feature-example&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;feature-misc&amp;#34;&lt;/span&gt;]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;disabling-features&#34;&gt;Disabling Features&lt;/h3&gt;
+&lt;p&gt;Many features can be &lt;em&gt;negated&lt;/em&gt; by prefixing the feature name with &lt;code&gt;no&lt;/code&gt;, like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---
+&lt;span style=&#34;color:#66d9ef&#34;&gt;classes&lt;/span&gt;:
+- feature-noexample
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If a feature is enabled globally and negated in a single piece of content&amp;rsquo;s front matter, both the positive and negative form will appear in the CSS classes.
+Features in Story are inside of code that checks not only whether flags are enabled, but also whether they&amp;rsquo;re overridden with a negation.
+One consequence of this is that if you disable a feature globally in &lt;code&gt;config.yaml&lt;/code&gt;, you can&amp;rsquo;t enable it locally in a single piece of content.
+You can only enable globally and disable locally, not the other way around.&lt;/p&gt;
+&lt;p&gt;There&amp;rsquo;s nothing special about a feature flag, and you can put arbitrary values into the configuration arrays.
+Story only recognizes and supports specific values; it ignores others.
+You can take advantage of this to add any values into the arrays that you want, if they&amp;rsquo;re useful for your other purposes.
+For example, you can use this ability to set any desired CSS class, for selection either with your custom CSS, or to work with something off-the-shelf that happens to look for a specific class.&lt;/p&gt;
+&lt;h3 id=&#34;list-of-features&#34;&gt;List Of Features&lt;/h3&gt;
+&lt;p&gt;Features have varying implementations.
+Some affect how Hugo processes content, some affect CSS presentation, and some are implemented in unobtrusive JavaScript after the page finishes loading.&lt;/p&gt;
+&lt;p&gt;Here&amp;rsquo;s a list of all of Story&amp;rsquo;s features and how they&amp;rsquo;re implemented.
+The first column links to a demo of those features.
+For brevity, the &lt;code&gt;feature-&lt;/code&gt; prefix is omitted, but all of Story&amp;rsquo;s classes have that prefix to avoid naming conflicts.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Feature&lt;/th&gt;
+&lt;th&gt;Explanation&lt;/th&gt;
+&lt;th&gt;Implementation&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/images&#34;&gt;3dbook-covers&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Styles images to resemble a hardcover book&lt;/td&gt;
+&lt;td&gt;JS + CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;figcaption&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Transforms images into captioned figures&lt;/td&gt;
+&lt;td&gt;JS + CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;figcaption-hidden&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Hides figure captions, revealing them on mouseover&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;figcaption-visible&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Formats figure captions visibly&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;figlink&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Links text like &amp;ldquo;Figure/Table 3&amp;rdquo; to the corresponding figure or table&lt;/td&gt;
+&lt;td&gt;JS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;fignum&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Auto-numbers figures and tables&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/flexslider&#34;&gt;flexslider&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Image carousels with flexslider&lt;/td&gt;
+&lt;td&gt;JS + CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;h3-cl&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Adds CSS &lt;code&gt;clear: left&lt;/code&gt; to all &lt;code&gt;&amp;lt;h3&amp;gt;&lt;/code&gt; tags&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;h3-cr&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Adds CSS &lt;code&gt;clear: right&lt;/code&gt; to all &lt;code&gt;&amp;lt;h3&amp;gt;&lt;/code&gt; tags&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;h3-cb&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Adds CSS &lt;code&gt;clear: both&lt;/code&gt; to all &lt;code&gt;&amp;lt;h3&amp;gt;&lt;/code&gt; tags&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;highlight&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Applies syntax highlighting to code blocks, using HighlightJS&lt;/td&gt;
+&lt;td&gt;JS + CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;hrdinkus&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Styles &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; elements as a dinkus (three asterisks)&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;hrfleuron&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Styles &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; elements as a fleuron (❦)&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;hyphenate&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Enables line-breaks and hyphenation of text via the browser&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;justify&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Aligns text with full-justification&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/math&#34;&gt;math&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Enables LaTeX math typesetting using KaTeX&lt;/td&gt;
+&lt;td&gt;JS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/music&#34;&gt;music&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Enables rendering abc notation as sheet music with abcjs&lt;/td&gt;
+&lt;td&gt;JS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/images/&#34;&gt;nohdr&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Disables header images locally; when applied globally, disables preview thumbnails in lists&lt;/td&gt;
+&lt;td&gt;Hugo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;subtitle&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Enabled by default; disable to hide page subtitles&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;tablefig&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Styles tables similar to scientific papers&lt;/td&gt;
+&lt;td&gt;JS + CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;tablefw&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Sets table cells in a font with fixed-width numerals&lt;/td&gt;
+&lt;td&gt;CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;titlecase&lt;/td&gt;
+&lt;td&gt;Not enabled by default; Transforms All Content Titles to Titlecase&lt;/td&gt;
+&lt;td&gt;Hugo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://tchinchow.github.io/story-customized/typography&#34;&gt;tweetquote&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;Renders a blockquote in a simplistic tweet style, if it follows conventions&lt;/td&gt;
+&lt;td&gt;JS + CSS&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/author-profiles/&#34;&gt;Story&amp;rsquo;s author biographies&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Author Profiles</title>
+			<link>https://tchinchow.github.io/story-customized/author-profiles/</link>
+			<pubDate>Wed, 29 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/author-profiles/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-TzMi5Ov7QeM.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Story supports author profiles, so you can highlight your bio.
+It&amp;rsquo;s possible to set this globally for the entire site, or individually for each
+piece of content. Or you can set a global default and override it on individual
+pieces of content.
+Scroll to the bottom of any page on this site to see how author profiles are
+styled.&lt;/p&gt;
+&lt;p&gt;Story&amp;rsquo;s author profile system is a slightly simplified (incomplete)
+implementation of the ideas laid out in &lt;a href=&#34;https://www.netlify.com/blog/2018/07/24/hugo-tips-how-to-create-author-pages/&#34;&gt;Netlify&amp;rsquo;s how-to
+document&lt;/a&gt;.
+It allows only one author per piece of content, and doesn&amp;rsquo;t require Hugo to
+create the authors taxonomy.  Because it&amp;rsquo;s incomplete, it&amp;rsquo;s a) missing a few of the
+features Netlify describes, and b) easier to set up.&lt;/p&gt;
+&lt;h3 id=&#34;global-and-per-content-authors&#34;&gt;Global And Per-Content Authors&lt;/h3&gt;
+&lt;p&gt;If you want to specify an author in the front matter of each post, it&amp;rsquo;s
+simply specified like this (YAML example):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+author: &amp;quot;Elvis Presley&amp;quot;
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you want to set a global author parameter for the entire site, which will serve as
+the default in case any pieces of content don&amp;rsquo;t specify their own, use your
+config file&amp;rsquo;s &lt;code&gt;params&lt;/code&gt; array:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;params:
+   author: &amp;quot;Baron Schwartz&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That&amp;rsquo;s exactly what this sample site you&amp;rsquo;re reading right now does: Baron is the
+author by default, but Elvis is the author of &lt;em&gt;this&lt;/em&gt; content you&amp;rsquo;re reading now.&lt;/p&gt;
+&lt;h3 id=&#34;creating-author-profiles&#34;&gt;Creating Author Profiles&lt;/h3&gt;
+&lt;p&gt;To create author profiles, you need to create the author hierarchy under
+&lt;code&gt;content&lt;/code&gt;, and a slugified directory for each author. Then, place an &lt;code&gt;_index.md&lt;/code&gt;
+file into each of those directories, and give it the content needed to describe
+the author.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;└── content/
+    └── authors/
+        ├── elvis-presley/
+        │   └── _index.md
+        ├── aretha-franklin/
+        │   └── _index.md
+        └── stevie-wonder/
+            └── _index.md
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;You can put any content you want in the file, but Story has CSS to nicely format
+a square image followed by a paragraph of text. This page you&amp;rsquo;re viewing right
+now has &amp;ldquo;Elvis Presley&amp;rdquo; as its author, and the content of
+&lt;code&gt;content/authors/elvis-presley/_index.md&lt;/code&gt; is:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+---
+![Elvis](/img/elvis.jpg)
+
+Elvis Aaron Presley (January 8, 1935 – August 16, 1977) was an American singer
+and actor. Regarded as one of the most significant cultural icons of the 20th
+century, he is often referred to as the &amp;quot;King of Rock and Roll&amp;quot; or simply &amp;quot;the
+King&amp;quot;.
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;global-fallback-content&#34;&gt;Global Fallback Content&lt;/h3&gt;
+&lt;p&gt;Even if you don&amp;rsquo;t have an author directory and a specific author&amp;rsquo;s file as
+described above, you can create content that will serve as a fallback across the
+whole site. If Story doesn&amp;rsquo;t find a specific author&amp;rsquo;s profile page, it&amp;rsquo;ll look
+for the default &lt;code&gt;_index.md&lt;/code&gt; content for the section it&amp;rsquo;s currently rendering.
+The top-level default for the whole site is &lt;code&gt;content/_index.md&lt;/code&gt;, which this demo
+site uses to provide Baron Schwartz&amp;rsquo;s author information. This information will
+appear on all pages &lt;em&gt;other than&lt;/em&gt; the current page, which is authored by Elvis
+Presley. This fallback information from &lt;code&gt;content/_index.md&lt;/code&gt; looks like the
+following:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[![Baron Schwartz](/img/baron-square.jpg)](https://www.xaprb.com)
+
+Baron Schwartz is the founder and CTO of [VividCortex](https://vividcortex.com), author of
+several books, and creator of various open-source software. He writes about topics
+such as technology, entrepreneurship, and fitness. [More about
+Baron](https://www.xaprb.com/).
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This content is a (non-author-specific) fallback for the entire site.
+You can see it on all the other pages of this site.&lt;/p&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/figures/&#34;&gt;Story&amp;rsquo;s figures, captions, and tables&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Figures, Captions, and Tables</title>
+			<link>https://tchinchow.github.io/story-customized/figures/</link>
+			<pubDate>Wed, 22 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/figures/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-vHnVtLK8rCc.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Story can automatically transform images into figures with captions.
+It can also add captions to tables.
+And it adds features and styling to both images and tables.
+This article is a demo of Story&amp;rsquo;s features for figures, tables, and captions.&lt;/p&gt;
+&lt;h3 id=&#34;image-captions-and-figures&#34;&gt;Image Captions and Figures&lt;/h3&gt;
+&lt;p&gt;If the &lt;code&gt;feature-figcaption&lt;/code&gt; flag is set (and not negated), Story will transform
+your images into figures, and add a caption. There are several ways this can be done. Story tries
+each method, in the following order.&lt;/p&gt;
+&lt;p&gt;First, if an image is followed immediately by an &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; &lt;em&gt;in the same paragraph&lt;/em&gt;, Story treats
+the content of the &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; as the image caption. To enable this, the image and
+the text must not have a blank line between them. Example:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;![&lt;span style=&#34;color:#f92672&#34;&gt;Water Lily&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;/img/unsplash-photos-vHnVtLK8rCc.jpg&lt;/span&gt;)
+&lt;span style=&#34;font-style:italic&#34;&gt;_Water lily photo by Zoltan Tasi on Unsplash_&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This markup results in a &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;img...&amp;gt;&amp;lt;em...&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; markup that Story converts into a captioned figure.
+Hover your mouse over the picture to see the caption:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://tchinchow.github.io/story-customized/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34;&gt;
+&lt;em&gt;Water lily photo by Zoltan Tasi on Unsplash&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;If there&amp;rsquo;s no &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; to use, Story uses the image&amp;rsquo;s &lt;code&gt;title&lt;/code&gt; attribute as a fallback:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;![&lt;span style=&#34;color:#f92672&#34;&gt;Water Lily&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;/img/unsplash-photos-vHnVtLK8rCc.jpg &amp;#34;A water lily&amp;#34;&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://tchinchow.github.io/story-customized/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34; title=&#34;A water lily&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Finally, Story falls back to the &lt;code&gt;alt&lt;/code&gt; attribute:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;![&lt;span style=&#34;color:#f92672&#34;&gt;Water Lily&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;/img/unsplash-photos-vHnVtLK8rCc.jpg&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://tchinchow.github.io/story-customized/img/unsplash-photos-vHnVtLK8rCc.jpg&#34; alt=&#34;Water Lily&#34;&gt;&lt;/p&gt;
+&lt;h3 id=&#34;table-styling&#34;&gt;Table Styling&lt;/h3&gt;
+&lt;p&gt;Story has multiple built-in table styles that you can apply with feature flags.
+The default is similar to GitHub&amp;rsquo;s table styling:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Command&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git status&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;List all &lt;em&gt;new or modified&lt;/em&gt; files&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git diff&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Show file differences that &lt;strong&gt;haven&amp;rsquo;t been&lt;/strong&gt; staged&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git commit&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;Record changes to the repository&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;git branch&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;List, create, or delete branches&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;There is &lt;em&gt;also&lt;/em&gt; a style designed for tables that are part of an
+article with figures, resembling scientific papers or other more formal use
+cases. This is enabled with &lt;code&gt;feature-tablefig&lt;/code&gt;. Click &lt;!-- raw HTML omitted --&gt;here&lt;!-- raw HTML omitted --&gt; to toggle.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Item&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Estimated&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Positive and Significant&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Negative and Significant&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Demographic Variables for Head&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Male&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;85&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;74&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Age&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;85&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;85&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Age Squared&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;85&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;85&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Head&amp;rsquo;s Education&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Completed primary or incomplete secondary&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;76&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;76&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Completed secondary or higher&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;60&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;60&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Completed secondary&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;19&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;19&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Higher&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;20&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Unknown&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Tables with columns of right-aligned numbers are more readable with fixed-width numerals; click to toggle &lt;!-- raw HTML omitted --&gt;&lt;code&gt;feature-tablefw&lt;/code&gt;&lt;!-- raw HTML omitted --&gt;. Observe the table below and see how its columns are easier to read with fixed-width numerals. This is noticeable with Github-style table formatting, but not with academic-style.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Inclination, deg.&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Longitude, Asc. Node, deg.&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Mean Distance, au&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Eccentricity&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Mean  Longitude, deg.&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Jan. 28&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.486&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387097&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205644&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;355.3943&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Mar. 9&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.487&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387098&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205646&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;159.0899&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Apr. 18&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.489&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387097&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205649&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;322.7854&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;May 28&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.490&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387097&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205650&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;126.4812&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;July 7&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.492&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387098&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205645&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;290.1771&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Aug. 16&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.493&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387098&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205645&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;93.8725&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sept. 25&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.494&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387098&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205642&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;257.5683&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nov. 4&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.495&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387099&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205635&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;61.2628&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dec. 14&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.497&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387099&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205635&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;224.9579&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dec. 54&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;7.0052&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;48.498&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.387098&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;0.205633&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;28.6524&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;Mercury&amp;rsquo;s Heliocentric Osculating Orbital Elements Referred to the Mean Equinox and Ecliptic of Date for 2013&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;caption-styling-and-linking&#34;&gt;Caption Styling And Linking&lt;/h3&gt;
+&lt;p&gt;Story uses JavaScript and CSS to make figures and tables more beautiful and
+functional.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Figures and tables get sequentially numbered &lt;code&gt;ID&lt;/code&gt; attributes of &lt;code&gt;#fig-1&lt;/code&gt; and so on, so
+you can link to them.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;feature-figlink&lt;/code&gt; feature flag searches the article for text such as
+Figure 1 and automatically links it to the appropriate figure.&lt;/li&gt;
+&lt;li&gt;If the &lt;code&gt;feature-fignum&lt;/code&gt; feature is enabled, the text of the caption is
+prepended with the figure number. Click here to &lt;!-- raw HTML omitted --&gt;toggle this
+feature&lt;!-- raw HTML omitted --&gt;, then inspect the captions again to see the effect.&lt;/li&gt;
+&lt;li&gt;The &lt;code&gt;feature-figcaption-hidden&lt;/code&gt; feature makes the captions hidden until you
+move the mouse over them. The &lt;code&gt;feature-figcaption-visible&lt;/code&gt; feature flag
+overrides this and makes the captions visible immediately below the image.
+Click here to &lt;!-- raw HTML omitted --&gt;toggle this feature&lt;!-- raw HTML omitted --&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;table-captions&#34;&gt;Table Captions&lt;/h3&gt;
+&lt;p&gt;Story doesn&amp;rsquo;t convert tables to figures, but it can add captions to tables.
+See Table 3, which is followed by a paragraph whose entire content is inside an &lt;code&gt;&amp;lt;em&amp;gt;&lt;/code&gt; tag.
+If the &lt;code&gt;feature-tablecaption&lt;/code&gt; feature is enabled, Story will use unobtrusive JavaScript to move that paragraph&amp;rsquo;s text into the table&amp;rsquo;s &lt;code&gt;&amp;lt;caption&amp;gt;&lt;/code&gt; element.&lt;/p&gt;
+&lt;p&gt;Tables can be autolinked and table captions can be numbered, similar to images.
+These features are controlled by the same &lt;code&gt;feature-figlink&lt;/code&gt; and &lt;code&gt;feature-fignum&lt;/code&gt; flags that control image captioning and linking, so they&amp;rsquo;ll be consistently applied.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/flexslider/&#34;&gt;Story&amp;rsquo;s Image Slideshows&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Image Formatting Controls</title>
+			<link>https://tchinchow.github.io/story-customized/images/</link>
+			<pubDate>Tue, 21 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/images/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;This article is a demo of Story&amp;rsquo;s image-related features (other than &lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;figure captions&lt;/a&gt;).
+Story can apply a variety of stylistic and layout transformations to your images.
+These features are enabled by unobtrusive, accessibility-friendly tricks that give you more control over images than Markdown typically provides.
+Story also has out-of-the-box support for header and preview images, for a visually stunning site.&lt;/p&gt;
+&lt;h3 id=&#34;shrinking-large-images&#34;&gt;Shrinking Large Images&lt;/h3&gt;
+&lt;p&gt;Story&amp;rsquo;s CSS automatically shrinks images to fit into the width of the article.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://tchinchow.github.io/story-customized/img/default-header-img.jpg&#34; alt=&#34;Default header image&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The image above is much wider than the content region, but it&amp;rsquo;s sized to fit.&lt;/p&gt;
+&lt;h3 id=&#34;control-over-image-formatting&#34;&gt;Control Over Image Formatting&lt;/h3&gt;
+&lt;p&gt;Story uses &lt;a href=&#34;https://www.xaprb.com/blog/how-to-style-images-with-markdown/&#34;&gt;URL fragment
+techniques&lt;/a&gt; to
+give you control over image styling.
+Images that use this technique don&amp;rsquo;t get converted into &lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;figures with captions&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;![Small Lily](/img/lily.jpg# fr)&lt;/p&gt;
+&lt;p&gt;For example, you can float an image right with the &lt;code&gt;fr&lt;/code&gt; URL fragment:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;![&lt;span style=&#34;color:#f92672&#34;&gt;Small Lily&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;/img/lily.jpg# fr&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;There&amp;rsquo;s a selection of these pseudo-classes built into Story via the Descartes
+CSS file; inspect the CSS or LESS source to see what styles you can attach to
+images.&lt;/p&gt;
+&lt;p&gt;If floated images interfere with headings, you can use &lt;a href=&#34;https://tchinchow.github.io/story-customized/features&#34;&gt;heading clear feature flags&lt;/a&gt; to fix this.&lt;/p&gt;
+&lt;h3 id=&#34;book-cover-mockups&#34;&gt;Book Cover Mockups&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://unsplash.com/photos/vHnVtLK8rCc&#34;&gt;![Small Lily](/img/lily.jpg# 3dbook)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A book cover image that&amp;rsquo;s inside an &lt;code&gt;&amp;lt;a&amp;gt;&lt;/code&gt; link can be floated right and given
+a 3d look with the &lt;code&gt;3dbook&lt;/code&gt; URL fragment pseudo-class.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[![Small Lily](/img/lily.jpg# 3dbook)](https://unsplash.com/photos/vHnVtLK8rCc)
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;header-images&#34;&gt;Header Images&lt;/h3&gt;
+&lt;p&gt;Story is designed for visual impact, with a featured image for each piece of content.
+Use the &lt;code&gt;image&lt;/code&gt; property in the article&amp;rsquo;s front-matter to set the image.
+Use the &lt;code&gt;credit&lt;/code&gt; to give credit to the image&amp;rsquo;s creator if you wish; Story will put a small camera icon in the header if it finds that parameter.
+Use the &lt;code&gt;thumbnail&lt;/code&gt; property to supply a smaller version of the image in list views.&lt;/p&gt;
+&lt;p&gt;A typical piece of content will have front matter like the following:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;image&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/img/unsplash-photos-QRkew0KwXSM.jpg&amp;#34;&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;thumbnail&lt;/span&gt;: /img/unsplash-photos-QRkew0KwXSM.tn-500x500.jpg
+&lt;span style=&#34;color:#66d9ef&#34;&gt;credit&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;https://unsplash.com/photos/QRkew0KwXSM&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If there&amp;rsquo;s no thumbnail, Story falls back to the full-size image.
+If there&amp;rsquo;s no article-specific image, Story uses its default, &lt;code&gt;/img/default-header-img.jpg&lt;/code&gt;, or the thumbnail equivalent, &lt;code&gt;/img/default-header-img.tn-500x500.jpg&lt;/code&gt;.
+This page doesn&amp;rsquo;t supply its own header image, so Story is using the default.&lt;/p&gt;
+&lt;p&gt;You can supply your own default header image by simply putting an image with the same name in your &lt;em&gt;site&amp;rsquo;s&lt;/em&gt; &lt;code&gt;/static/img&lt;/code&gt; directory.
+If Hugo finds that you&amp;rsquo;ve added an image of your own, it will take precedence.&lt;/p&gt;
+&lt;p&gt;You can also override section-specific header images in list
+(non-individual-page) views with parameters in the &lt;code&gt;_index.md&lt;/code&gt; content file in
+that section.  (The &lt;code&gt;title&lt;/code&gt; and &lt;code&gt;subtitle&lt;/code&gt; parameters in those files can also
+override what&amp;rsquo;s shown in list page headers.)&lt;/p&gt;
+&lt;h3 id=&#34;imageless-layout-options&#34;&gt;Imageless Layout Options&lt;/h3&gt;
+&lt;p&gt;If you don&amp;rsquo;t want header images or preview thumbnails in list views, you can set
+the &lt;code&gt;feature-nohdr&lt;/code&gt; feature. Set locally in a piece of content, it will display
+no header/banner image. Here&amp;rsquo;s an example of what a page looks like with and
+without the header image:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://tchinchow.github.io/story-customized/img/page-header-formatting.png&#34; alt=&#34;A page in Story, with and without the header&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Set globally for the whole site, it will make the site simply ignore all header
+and preview images:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://tchinchow.github.io/story-customized/img/site-header-formatting.png&#34; alt=&#34;A site in Story, with and without header and preview images&#34;&gt;&lt;/p&gt;
+&lt;p&gt;To illustrate this feature, the &lt;a href=&#34;https://tchinchow.github.io/story-customized/search&#34;&gt;search page&lt;/a&gt; has this feature set, so
+it has a plain, bannerless layout.&lt;/p&gt;
+&lt;h3 id=&#34;adding-depth-to-headers&#34;&gt;Adding Depth To Headers&lt;/h3&gt;
+&lt;p&gt;Articles (but not list pages) can be given a bit of extra depth with the
+&lt;code&gt;feature-depth&lt;/code&gt; class, which is negatable with &lt;code&gt;feature-nodepth&lt;/code&gt;. This article
+is an example: notice how the content is shifted up slightly to overlap the
+header image a bit, with rounded corners and a shadow around it.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;feature-depth&lt;/code&gt; class can be set globally in your &lt;code&gt;config.yaml&lt;/code&gt; or similar,
+and overridden as you wish on individual pages.&lt;/p&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/search-page/&#34;&gt;Story&amp;rsquo;s built-in search features&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Image Slideshows</title>
+			<link>https://tchinchow.github.io/story-customized/flexslider/</link>
+			<pubDate>Tue, 21 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/flexslider/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-WQ69GW2vZNs.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;This article is a demo of Story&amp;rsquo;s image slideshows feature based on
+&lt;a href=&#34;http://flexslider.woothemes.com/&#34;&gt;FlexSlider2&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;easily-integate-a-slideshow&#34;&gt;Easily integate a slideshow&lt;/h3&gt;
+&lt;p&gt;You can easily integrate pictures slideshow with the &lt;code&gt;flexslider&lt;/code&gt; shortcode.&lt;/p&gt;
+&lt;p&gt;Before you begin, make sure you enable the flexslider &lt;a href=&#34;https://tchinchow.github.io/story-customized/features&#34;&gt;feature&lt;/a&gt; by
+adding the following class to your article&amp;rsquo;s front matter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---
+&lt;span style=&#34;color:#66d9ef&#34;&gt;classes&lt;/span&gt;:
+- feature-flexslider
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;:
+It is important to note here that you MUST add the feature. Story will
+know that it has to add the appropriate class to images list under the
+flexslider.&lt;/p&gt;
+&lt;p&gt;If you don&amp;rsquo;t add the feature, then the shortcode alone will not work.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From there the &lt;code&gt;flexslider&lt;/code&gt; shortcode can be used with a list of images as
+illustrated below:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;flexslider&lt;/span&gt; &amp;gt;}}
+&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; ![](&lt;span style=&#34;color:#a6e22e&#34;&gt;kitchen_adventurer_cheesecake_brownie&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;jpg&lt;/span&gt;)
+&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; ![](&lt;span style=&#34;color:#a6e22e&#34;&gt;kitchen_adventurer_donut&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;jpg&lt;/span&gt;)
+{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;flexslider&lt;/span&gt; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This will be rendered into the following slideshow:&lt;/p&gt;
+
+
+
+&lt;div class=&#34;flexslider hide-print&#34;&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;kitchen_adventurer_cheesecake_brownie.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;kitchen_adventurer_donut.jpg&#34; alt=&#34;&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;images-with-captions&#34;&gt;Images With Captions&lt;/h3&gt;
+&lt;p&gt;The &lt;code&gt;flexslider&lt;/code&gt; shortcode is compatible with &lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;Story&amp;rsquo;s &lt;code&gt;fig-caption&lt;/code&gt; feature&lt;/a&gt;
+and will render the caption as you would expect.&lt;/p&gt;
+&lt;p&gt;The code below exhibits this behaviour:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;flexslider&lt;/span&gt; &amp;gt;}}
+&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; ![&lt;span style=&#34;color:#a6e22e&#34;&gt;Cheesecake&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Brownie&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;kitchen_adventurer_cheesecake_brownie&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;jpg&lt;/span&gt;)
+&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; ![&lt;span style=&#34;color:#a6e22e&#34;&gt;Lemon&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;kitchen_adventurer_lemon&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;jpg&lt;/span&gt;)
+&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; ![&lt;span style=&#34;color:#a6e22e&#34;&gt;Donut&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;kitchen_adventurer_donut&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;jpg&lt;/span&gt;)
+&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; ![](&lt;span style=&#34;color:#a6e22e&#34;&gt;kitchen_adventurer_caramel&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;jpg&lt;/span&gt;)
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;_The&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Caramel&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cup&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;cake&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;advertised&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;with&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;flexslider_&lt;/span&gt;
+{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;flexslider&lt;/span&gt; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The above snippet will be rendered as shown below. It will also advertise
+&lt;code&gt;flexslider&lt;/code&gt; shortcode&amp;rsquo;s ability of rendering multiple slideshows in a
+single page: you can use the as many times as needed.&lt;/p&gt;
+
+
+
+&lt;div class=&#34;flexslider hide-print&#34;&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;img src=&#34;kitchen_adventurer_cheesecake_brownie.jpg&#34; alt=&#34;Cheesecake Brownie&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;kitchen_adventurer_lemon.jpg&#34; alt=&#34;Lemon&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;kitchen_adventurer_donut.jpg&#34; alt=&#34;Donut&#34;&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img src=&#34;kitchen_adventurer_caramel.jpg&#34; alt=&#34;&#34;&gt;
+&lt;em&gt;The &amp;ldquo;Caramel&amp;rdquo; cup cake advertised with flexslider&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/images/&#34;&gt;Story&amp;rsquo;s image formatting features&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s JavaScript Search</title>
+			<link>https://tchinchow.github.io/story-customized/search-page/</link>
+			<pubDate>Tue, 21 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/search-page/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-4zxSWESyZio.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;This article documents Story&amp;rsquo;s built-in search features, which don&amp;rsquo;t rely on external search engines.
+Story uses the &lt;a href=&#34;https://lunrjs.com/&#34;&gt;LunrJS&lt;/a&gt; library to provide fast browser-based search.
+This page first explains how search setup works, and then provides copy-paste
+ready code samples for you to use.&lt;/p&gt;
+&lt;p&gt;To get Story&amp;rsquo;s search to work, you need to take a couple of steps:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a piece of content with the URL you want. Story assumes you want
+&lt;code&gt;/search/&lt;/code&gt; and adds an icon for that in the top menu automatically. So you
+can simply create &lt;code&gt;content/search/_index.md&lt;/code&gt; and that should work.&lt;/li&gt;
+&lt;li&gt;Give this content the &lt;code&gt;search&lt;/code&gt; layout, and a title.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;There doesn&amp;rsquo;t need to be any Markdown content; the &lt;code&gt;search&lt;/code&gt; layout ignores it.&lt;/p&gt;
+&lt;p&gt;This will create the search page, but you also need to tell Hugo that it should
+build the JSON index of the content in the site, which LunrJS uses. To do this,
+configure the &lt;code&gt;home&lt;/code&gt; output type to include JSON, which isn&amp;rsquo;t included by
+default. This will override the default output settings, so you&amp;rsquo;ll need to
+explicitly specify the defaults in addition. Here&amp;rsquo;s a YAML config file section
+for your &lt;code&gt;config.yaml&lt;/code&gt; file to enable this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;outputs:
+   home:
+      - HTML
+      - JSON
+      - RSS
+   page:
+      - HTML
+   section:
+      - HTML
+      - RSS
+   taxonomy:
+      - HTML
+      - RSS
+   taxonomyTerm:
+      - HTML
+      - RSS
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If you use TOML, use this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[outputs]
+  home = [&amp;quot;HTML&amp;quot;, &amp;quot;JSON&amp;quot;, &amp;quot;RSS&amp;quot;]
+  page = [&amp;quot;HTML&amp;quot;]
+  section = [&amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot;]
+  taxonomy = [&amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot;]
+  taxonomyTerm = [&amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot;]
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;There&amp;rsquo;s more you can do. If you want to create a full-featured search page easily, just paste the following code into &lt;code&gt;content/search/_index.md&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;---
+layout: search
+url: /search/
+title: Search
+classes:
+- feature-nosubtitle
+- feature-nohdr
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This illustrates an additional layout feature in Story:
+displaying it without a header image.&lt;/p&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/math/&#34;&gt;Story&amp;rsquo;s mathematical equation typesetting features&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Music Notation</title>
+			<link>https://tchinchow.github.io/story-customized/music/</link>
+			<pubDate>Mon, 20 Aug 2018 04:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/music/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/jordan-mixson-372435-unsplash.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Story uses the &lt;a href=&#34;https://github.com/paulrosen/abcjs&#34;&gt;abcjs&lt;/a&gt; library to transform
+&lt;a href=&#34;https://www.abcnotation.com&#34;&gt;abc&lt;/a&gt; music notation into &amp;ldquo;sheet music&amp;rdquo; dynamically.
+This works well for displaying a wide variety of music notation in a web
+browser conveniently, without embedding images or PDFs or the like.&lt;/p&gt;
+&lt;p&gt;To generate sheet music within a page, enter it in a code listing with the language &lt;code&gt;abc&lt;/code&gt;, like this:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;```abc
+[ABC music notation goes here]
+```
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you enable music notation rendering with the &lt;code&gt;feature-[no]music&lt;/code&gt; flag, then Story&amp;rsquo;s
+JavaScript, which runs when the page loads, will search for every &lt;code&gt;abc&lt;/code&gt; code listing and transform it.
+Here&amp;rsquo;s an example:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-abc&#34; data-lang=&#34;abc&#34;&gt;X: 76
+T:Mazurka
+C:F. Chopin
+T: Op.33 No.1
+M:3/4
+L:1/4
+Q:&amp;quot;Mesto&amp;quot;
+K:B
+%%staves {(RH1 RH2) (LH1 LH2)}
+V: RH1 clef=treble name=&amp;quot;Piano&amp;quot;
+V: RH2 clef=treble
+V: LH1 clef=bass
+V: LH2 clef=bass
+%
+[V: RH1] (!p!LD | E/&amp;gt;D/ [^^CGB][^C^^FA] | G2-) (G/A/ | B/c/ d {/f}e | (d/g//)) z// (Ld2 |
+[V: RH2] x  | x      x      x      | z [B,D] z  | x    x     x | x            z [G-B-]| 
+[V: LH1] x  | x      x      x      | z [D,G,] x | x3           | x3 |
+[V: LH2] z  | z      z      (D,,   | G,,2)   z  | z3           | z            z [G,-D-]|
+%
+[V: RH1] d/&amp;gt;c/ e      d) | {/c}(B/&amp;gt;A/ [EGc][DGB]) | (E/&amp;gt;D/ [^^CGB][^C^^FA] | G2 B | d/&amp;gt;c/e  d) |
+[V: RH2] [GB]  [GA] [GB] | x3                     | x3 | z [B,D][B,D]            | z [GA] [GB] |
+[V: LH1] x3 | x3 | x3 | z [D,G,] [D,G,] | x3 |
+[V: LH2] [G,D] ([C,C] [G,,G,]) | z ([C,C,,] [G,,,G,,]) | z z (D,, | G,,2) x | z ([C,C] [G,,G,])
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Story also has a &lt;code&gt;music&lt;/code&gt; shortcode, which simply takes the name of an abc file as an argument, e.g. the following example code and the resulting music notation. This enables you to store your music files separately from your content and include them easily.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;{{&amp;lt; music &amp;#34;/cooleys.abc&amp;#34; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;pre&gt;&lt;code class=&#34;language-abc&#34;&gt;X: 1
+T: Cooley&amp;#39;s
+M: 4/4
+L: 1/8
+K: Emin
+|:D2|EB{c}BA B2 EB|~B2 AB dBAG|FDAD BDAD|FDAD dAFD|
+EBBA B2 EB|B2 AB defg|afe^c dBAF|DEFD E2:|
+|:gf|eB B2 efge|eB B2 gedB|A2 FA DAFA|A2 FA defg|
+eB B2 eBgB|eB B2 defg|afe^c dBAF|DEFD E2:|
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/math/&#34;&gt;Story’s Mathematical Equation Typesetting&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Mathematical Equation Typesetting</title>
+			<link>https://tchinchow.github.io/story-customized/math/</link>
+			<pubDate>Mon, 20 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/math/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-5mZ_M06Fc9g.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;This article is a demo of Story&amp;rsquo;s ability to typeset mathematical equations,
+both inline and in block form.&lt;/p&gt;
+&lt;p&gt;Story uses the &lt;a href=&#34;https://khan.github.io/KaTeX/&#34;&gt;KaTeX&lt;/a&gt; library to typeset
+mathematical formulae in &lt;span class=&#34;math&#34;&gt;\( \LaTeX \)&lt;/span&gt; notation. KaTeX is
+similar to MathJax, but simpler and faster. It provides most of the features
+needed for typesetting equations, both inline and in block form.&lt;/p&gt;
+&lt;p&gt;Before you begin, make sure you enable the math &lt;a href=&#34;https://tchinchow.github.io/story-customized/features&#34;&gt;feature&lt;/a&gt; by
+adding the following class to your article&amp;rsquo;s front matter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---
+&lt;span style=&#34;color:#66d9ef&#34;&gt;classes&lt;/span&gt;:
+- feature-math
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then you can start using Story&amp;rsquo;s &lt;code&gt;math&lt;/code&gt; Hugo shortcode to help avoid problems that result from
+Markdown processing. Here&amp;rsquo;s an example of using the shortcode for inline math:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;The&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;quadratic&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;equation&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;is&lt;/span&gt; {{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;math&lt;/span&gt; &amp;gt;}}&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; = &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;frac&lt;/span&gt;{&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;b&lt;/span&gt; &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;pm&lt;/span&gt; &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;sqrt&lt;/span&gt;{&lt;span style=&#34;color:#a6e22e&#34;&gt;b&lt;/span&gt;^&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ac&lt;/span&gt;}}{&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt;}{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;math&lt;/span&gt; &amp;gt;}}.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The quadratic equation is &lt;span class=&#34;math&#34;&gt;\( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;And in equation mode,&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;math&lt;/span&gt; &amp;gt;}}
+&lt;span style=&#34;color:#a6e22e&#34;&gt;x&lt;/span&gt; = &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;frac&lt;/span&gt;{&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;b&lt;/span&gt; &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;pm&lt;/span&gt; &lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;\&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;sqrt&lt;/span&gt;{&lt;span style=&#34;color:#a6e22e&#34;&gt;b&lt;/span&gt;^&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;4&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;ac&lt;/span&gt;}}{&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;a&lt;/span&gt;}
+{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;math&lt;/span&gt; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&#34;math&#34;&gt;\[x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+\]&lt;/div&gt;
+&lt;p&gt;You don&amp;rsquo;t have to use the shortcode, but it saves you from needing to
+backslash-escape special characters, and fixes problems like backslashes and
+spaces at the end of the line, which Hugo&amp;rsquo;s Markdown processor will otherwise
+mangle. This enables frustration-free typesetting of more advanced equations
+such as the following:&lt;/p&gt;
+
+&lt;div class=&#34;math&#34;&gt;\[\left\{
+\begin{array}{c}
+a_1x&amp;#43;b_1y&amp;#43;c_1z=d_1 \\
+a_2x&amp;#43;b_2y&amp;#43;c_2z=d_2 \\
+a_3x&amp;#43;b_3y&amp;#43;c_3z=d_3
+\end{array}
+\right.
+\]&lt;/div&gt;
+&lt;p&gt;Math typesetting is controlled with the &lt;code&gt;feature-[no]math&lt;/code&gt; flag.&lt;/p&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/mermaid/&#34;&gt;Diagrams and Visualizations with Mermaid.js&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Render Mermaid Diagrams with Story</title>
+			<link>https://tchinchow.github.io/story-customized/mermaid/</link>
+			<pubDate>Sun, 19 Aug 2018 08:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/mermaid/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-tZc3vjPCk-Q.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;h3 id=&#34;a-work-in-progress&#34;&gt;A Work In Progress&amp;hellip;&lt;/h3&gt;
+&lt;p&gt;This page is a first attempt at integrating &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34; title=&#34;go to mermaid home page...&#34;&gt;mermaid-js&lt;/a&gt; diagrams.&lt;/p&gt;
+&lt;p&gt;It is a &lt;strong&gt;Work in Progress&lt;/strong&gt;. Here follows a non exhaustive list of things to improve or fix:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integration with &amp;ldquo;&lt;code&gt;feature-figcaption&lt;/code&gt;&amp;rdquo; may need reviewing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;However, some features are already working:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;&lt;code&gt;feature-fignum&lt;/code&gt;&amp;rdquo; does increment the figures&amp;rsquo; caption number,&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;&lt;code&gt;feature-figcaption-hidden&lt;/code&gt;&amp;rdquo; sort of work but requires further testing, and&lt;/li&gt;
+&lt;li&gt;most important diagrams are showing properly &lt;em&gt;(even though styling needs to be worked on)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;diagrams are not properly aligned / centered&lt;/li&gt;
+&lt;li&gt;git diagrams are looking better &lt;em&gt;(font size was adjusted in mermaid&amp;rsquo;s global configuration)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;feature&amp;rsquo;s blog article now stands out with its own picture+thumbnail. It also contains code
+samples for most important diagrams.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;the-guided-tour&#34;&gt;The guided Tour&lt;/h3&gt;
+&lt;p&gt;Please join me as I walk you through the classical mermaid scripts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;SequenceDiagram &lt;em&gt;(&lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/sequenceDiagram?id=sequence-diagrams&#34;&gt;read documentation&lt;/a&gt;)&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt; &amp;gt;}}
+&lt;span style=&#34;color:#a6e22e&#34;&gt;sequenceDiagram&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;participant&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Alice&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;participant&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Bob&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Alice&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;John&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;Hello&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;John&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;how&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;are&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;you&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;?&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;loop&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Healthcheck&lt;/span&gt;
+        &lt;span style=&#34;color:#a6e22e&#34;&gt;John&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;John&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;Fight&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;against&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hypochondria&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;end&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Note&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;right&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;of&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;John&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;Rational&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;thoughts&lt;/span&gt; &amp;lt;&lt;span style=&#34;color:#a6e22e&#34;&gt;br&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;prevail&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;...&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;John&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Alice&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;Great&lt;/span&gt;!
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;John&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;Bob&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;How&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;about&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;you&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;?&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Bob&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&amp;gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;John&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;Jolly&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;good&lt;/span&gt;!
+{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;figure&gt;
+    &lt;div class=&#34;mermaid&#34;&gt;
+  sequenceDiagram
+      participant Alice
+      participant Bob
+      Alice-&gt;&gt;John: Hello John, how are you?
+      loop Healthcheck
+          John-&gt;John: Fight against hypochondria
+      end
+      Note right of John: Rational thoughts &lt;br/&gt;prevail...
+      John--&gt;Alice: Great!
+      John-&gt;Bob: How about you?
+      Bob--&gt;John: Jolly good!
+  &lt;/div&gt;
+    &lt;figcaption&gt;FIXME&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Flowcharts &lt;em&gt;(&lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/flowchart?id=flowcharts-basic-syntax&#34;&gt;read documentation&lt;/a&gt;)&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt; &amp;gt;}}
+&lt;span style=&#34;color:#a6e22e&#34;&gt;graph&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;LR&lt;/span&gt;;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;A&lt;/span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;Hard&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;edge&lt;/span&gt;] &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&amp;gt;|&lt;span style=&#34;color:#a6e22e&#34;&gt;Link&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;text&lt;/span&gt;| &lt;span style=&#34;color:#a6e22e&#34;&gt;B&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;Round&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;edge&lt;/span&gt;)
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;B&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;C&lt;/span&gt;{&lt;span style=&#34;color:#a6e22e&#34;&gt;Decision&lt;/span&gt;}
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;C&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&amp;gt;|&lt;span style=&#34;color:#a6e22e&#34;&gt;One&lt;/span&gt;| &lt;span style=&#34;color:#a6e22e&#34;&gt;D&lt;/span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;Result&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;one&lt;/span&gt;]
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;C&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&amp;gt;|&lt;span style=&#34;color:#a6e22e&#34;&gt;Two&lt;/span&gt;| &lt;span style=&#34;color:#a6e22e&#34;&gt;E&lt;/span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;Result&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;two&lt;/span&gt;]
+{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;figure&gt;
+    &lt;div class=&#34;mermaid&#34;&gt;
+  graph LR;
+      A[Hard edge] --&gt;|Link text| B(Round edge)
+      B --&gt; C{Decision}
+      C --&gt;|One| D[Result one]
+      C --&gt;|Two| E[Result two]
+  &lt;/div&gt;
+    &lt;figcaption&gt;FIXME&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GANTT diagram &lt;em&gt;(&lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/gantt?id=gantt-diagrams&#34;&gt;read documentation&lt;/a&gt;)&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt; &amp;gt;}}
+&lt;span style=&#34;color:#a6e22e&#34;&gt;gantt&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;dateFormat&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;YYYY&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;MM&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;DD&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;title&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Adding&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;GANTT&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;diagram&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;functionality&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Story&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;A&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;section&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Completed&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;task&lt;/span&gt;            :&lt;span style=&#34;color:#a6e22e&#34;&gt;done&lt;/span&gt;,    &lt;span style=&#34;color:#a6e22e&#34;&gt;des1&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;2014&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;01&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;06&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;2014&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;01&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;08&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Active&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;task&lt;/span&gt;               :&lt;span style=&#34;color:#a6e22e&#34;&gt;active&lt;/span&gt;,  &lt;span style=&#34;color:#a6e22e&#34;&gt;des2&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;2014&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;01&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;09&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Future&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;task&lt;/span&gt;               :         &lt;span style=&#34;color:#a6e22e&#34;&gt;des3&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;after&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;des2&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Future&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;task2&lt;/span&gt;              :         &lt;span style=&#34;color:#a6e22e&#34;&gt;des4&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;after&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;des3&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;section&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Critical&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tasks&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Completed&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;task&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;the&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;critical&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;line&lt;/span&gt; :&lt;span style=&#34;color:#a6e22e&#34;&gt;crit&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;done&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;2014&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;01&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;06&lt;/span&gt;,&lt;span style=&#34;color:#ae81ff&#34;&gt;24&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;h&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Implement&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;parser&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;and&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;jison&lt;/span&gt;          :&lt;span style=&#34;color:#a6e22e&#34;&gt;crit&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;done&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;after&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;des1&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Create&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tests&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;parser&lt;/span&gt;             :&lt;span style=&#34;color:#a6e22e&#34;&gt;crit&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;active&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;3&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Future&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;task&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;in&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;critical&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;line&lt;/span&gt;        :&lt;span style=&#34;color:#a6e22e&#34;&gt;crit&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;5&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Create&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;tests&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;renderer&lt;/span&gt;           :&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Add&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;to&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt;                      :&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;d&lt;/span&gt;
+{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;figure&gt;
+    &lt;div class=&#34;mermaid&#34;&gt;
+  gantt
+      dateFormat  YYYY-MM-DD
+      title Adding GANTT diagram functionality to Story
+      section A section
+      Completed task            :done,    des1, 2014-01-06,2014-01-08
+      Active task               :active,  des2, 2014-01-09, 3d
+      Future task               :         des3, after des2, 5d
+      Future task2              :         des4, after des3, 5d
+      section Critical tasks
+      Completed task in the critical line :crit, done, 2014-01-06,24h
+      Implement parser and jison          :crit, done, after des1, 2d
+      Create tests for parser             :crit, active, 3d
+      Future task in critical line        :crit, 5d
+      Create tests for renderer           :2d
+      Add to mermaid                      :1d
+  &lt;/div&gt;
+    &lt;figcaption&gt;FIXME&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Class diagram &lt;em&gt;(&lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/classDiagram?id=class-diagrams&#34;&gt;read documentation&lt;/a&gt;)&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt; &amp;gt;}}
+&lt;span style=&#34;color:#f92672&#34;&gt;%%&lt;/span&gt;{
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;init&lt;/span&gt;: {
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;theme&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;base&amp;#34;&lt;/span&gt;,
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;themeVariables&amp;#34;&lt;/span&gt;: {
+      &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;lineColor&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;#ff0000&amp;#34;&lt;/span&gt;
+    }
+  }
+}&lt;span style=&#34;color:#f92672&#34;&gt;%%&lt;/span&gt;
+&lt;span style=&#34;color:#a6e22e&#34;&gt;classDiagram&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class01&lt;/span&gt; &amp;lt;|&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;AveryLongClass&lt;/span&gt; : &lt;span style=&#34;color:#a6e22e&#34;&gt;Cool&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class03&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*--&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Class04&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class05&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;o&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Class06&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class07&lt;/span&gt; .. &lt;span style=&#34;color:#a6e22e&#34;&gt;Class08&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class09&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;C2&lt;/span&gt; : &lt;span style=&#34;color:#a6e22e&#34;&gt;Where&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;am&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;?&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class09&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--*&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;C3&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class09&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;--&lt;/span&gt;|&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;Class07&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class07&lt;/span&gt; : &lt;span style=&#34;color:#a6e22e&#34;&gt;equals&lt;/span&gt;()
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class07&lt;/span&gt; : &lt;span style=&#34;color:#a6e22e&#34;&gt;Object&lt;/span&gt;[] &lt;span style=&#34;color:#a6e22e&#34;&gt;elementData&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class01&lt;/span&gt; : &lt;span style=&#34;color:#a6e22e&#34;&gt;size&lt;/span&gt;()
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class01&lt;/span&gt; : &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;chimp&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class01&lt;/span&gt; : &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;gorilla&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;Class08&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;--&lt;/span&gt;&amp;gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;C2&lt;/span&gt;: &lt;span style=&#34;color:#a6e22e&#34;&gt;Cool&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;label&lt;/span&gt;
+{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;figure&gt;
+    &lt;div class=&#34;mermaid&#34;&gt;
+  %%{
+    init: {
+      &#34;theme&#34;: &#34;base&#34;,
+      &#34;themeVariables&#34;: {
+        &#34;lineColor&#34;: &#34;#ff0000&#34;
+      }
+    }
+  }%%
+  classDiagram
+      Class01 &lt;|-- AveryLongClass : Cool
+      Class03 *-- Class04
+      Class05 o-- Class06
+      Class07 .. Class08
+      Class09 --&gt; C2 : Where am i?
+      Class09 --* C3
+      Class09 --|&gt; Class07
+      Class07 : equals()
+      Class07 : Object[] elementData
+      Class01 : size()
+      Class01 : int chimp
+      Class01 : int gorilla
+      Class08 &lt;--&gt; C2: Cool label
+  &lt;/div&gt;
+    &lt;figcaption&gt;FIXME&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Git graph &lt;em&gt;(experimental)&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt; &amp;gt;}}
+&lt;span style=&#34;color:#a6e22e&#34;&gt;gitGraph&lt;/span&gt;:
+&lt;span style=&#34;color:#a6e22e&#34;&gt;options&lt;/span&gt;
+{
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;nodeSpacing&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;64&lt;/span&gt;,
+    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;nodeRadius&amp;#34;&lt;/span&gt;: &lt;span style=&#34;color:#ae81ff&#34;&gt;8&lt;/span&gt;
+}
+&lt;span style=&#34;color:#a6e22e&#34;&gt;end&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;commit&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;branch&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;newbranch&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;checkout&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;newbranch&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;commit&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;commit&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;checkout&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;master&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;commit&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;commit&lt;/span&gt;
+    &lt;span style=&#34;color:#a6e22e&#34;&gt;merge&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;newbranch&lt;/span&gt;
+{{&amp;lt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;mermaid&lt;/span&gt; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;figure&gt;
+    &lt;div class=&#34;mermaid&#34;&gt;
+gitGraph:
+options
+{
+  &#34;nodeSpacing&#34;: 64,
+  &#34;nodeRadius&#34;: 6
+}
+end
+  commit
+  branch newbranch
+  checkout newbranch
+  commit
+  commit
+  checkout master
+  commit
+  commit
+  merge newbranch
+  &lt;/div&gt;
+    &lt;figcaption&gt;FIXME&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/leaflet/&#34;&gt;Maps with Leaflet.js&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Maps with Leaflet.js</title>
+			<link>https://tchinchow.github.io/story-customized/leaflet/</link>
+			<pubDate>Sun, 19 Aug 2018 04:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/leaflet/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-nXt5HtLmlgE.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Story integrates &lt;a href=&#34;https://github.com/altrdev/hugo-leaflet/blob/master/README.md&#34; title=&#34;Hugo Leaflet home page...&#34;&gt;Hugo Leaflet&lt;/a&gt;
+and allow you to embed maps and GPX trails in your blog posts.&lt;/p&gt;
+&lt;p&gt;This article demonstrates a handfull of the possibilities offered by this
+powerful combination.&lt;/p&gt;
+&lt;h3 id=&#34;map-only&#34;&gt;Map only&lt;/h3&gt;
+&lt;p&gt;Once the &lt;code&gt;feature-leaflet&lt;/code&gt; class have been added to your article, embedding
+a simple map merely requires using the &lt;code&gt;leaflet-map&lt;/code&gt; hugo shortcode. And you
+don&amp;rsquo;t have to take my word for it ; Just take a look at the following code:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;{{&amp;lt; leaflet-map mapId=&amp;#34;first_map&amp;#34; mapHeight=&amp;#34;500px&amp;#34; mapWidth=&amp;#34;100%&amp;#34; mapLat=&amp;#34;43.2500000&amp;#34; mapLon=&amp;#34;5.4500000&amp;#34; /&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is rendered as follows:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+    &lt;div id=&#39;mapid_first_map&#39; class=&#34;leaflet-map&#34; style=&#39;width: 100%; height: 500px;&#39;&gt;&lt;/div&gt;
+    
+    
+&lt;script&gt;
+    
+    leafletMapsObj[&#34;first_map&#34;] = L.map(&#39;mapid_first_map&#39;).setView([&#34;43.2500000&#34;, &#34;5.4500000&#34;], &#34;12&#34;);
+    
+        leafletMapsObj[&#34;first_map&#34;].scrollWheelZoom.disable();
+    
+    
+    L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+        attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;
+    }).addTo(leafletMapsObj[&#34;first_map&#34;]);
+
+&lt;/script&gt;
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Here follows a list of parameters that can be used with the &lt;code&gt;leaflet-map&lt;/code&gt;
+shortcode &lt;em&gt;(Except for the &lt;code&gt;caption&lt;/code&gt; parameters that have been added for
+Story, this list come directly from the &lt;a href=&#34;https://github.com/altrdev/hugo-leaflet/blob/master/README.md&#34; title=&#34;Hugo Leaflet home page...&#34;&gt;Hugo Leaflet&lt;/a&gt; site&lt;/em&gt;).&lt;/p&gt;
+&lt;h4 id=&#34;storys-specific-parameters&#34;&gt;Story&amp;rsquo;s specific parameters:&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Parameter&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Description&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Mandatory&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Default&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Possible values&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;caption&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Text to be displayed below the map&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;quot;&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any string&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;parameters-from-the-original-hugo-leaflethugo_leaflet_home-project&#34;&gt;Parameters from the original &lt;a href=&#34;https://github.com/altrdev/hugo-leaflet/blob/master/README.md&#34; title=&#34;Hugo Leaflet home page...&#34;&gt;Hugo Leaflet&lt;/a&gt; project&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Parameter&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Description&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Mandatory&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Default&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Possible values&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mapHeight&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Map height size&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;400px&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any number in px&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;mapWidth&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Map width size&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;100%&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any number in px or %&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;mapLat&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Latitude where to center the map&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;yes&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;quot;&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any valid coords number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;mapLon&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Longitude where to center the map&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;yes&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;quot;&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any valid coords number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;mapId&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Unique id. Useful for add multiple map in the post with same longitude and latitude&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;md5(mapLat,mapLon)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any string&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;zoom&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;The zoom level. If set, it must be parsable as int.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;13&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;scrollWheelZoom&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Enable or disable zoom with mouse scroll wheel&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;true&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;true&amp;quot;&lt;/code&gt; or &lt;code&gt;&amp;quot;false&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;maps-unique-identifier&#34;&gt;Map&amp;rsquo;s unique identifier&lt;/h3&gt;
+&lt;p&gt;Maps &lt;strong&gt;MUST&lt;/strong&gt; be distinguished by a unique identifier. As you can see in the
+above parameters list, a default identifier is computed from the digest of
+the coordinates that are provided to the &lt;code&gt;leaflet-map&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;If you plan on re-using the same map with identical coordinates, then this
+computed identifier will be the same for all your maps and this will viloate
+the unicity constrain.&lt;/p&gt;
+&lt;p&gt;In that case, you shall provide unique &lt;code&gt;mapId&lt;/code&gt; values and make sure that
+they are indeed different from each other. You must do that in each and every
+map that may be duplicated in your page.&lt;/p&gt;
+&lt;h3 id=&#34;direct-links-to-your-maps&#34;&gt;Direct links to your maps&lt;/h3&gt;
+&lt;p&gt;In most cases, leaving &lt;a href=&#34;#maps-unique-identifier&#34;&gt;MapId&lt;/a&gt; to its default value
+is a good idea. However, because it is based on cryptographic primitives, it
+is not always easy to guess what this default value will be.&lt;/p&gt;
+&lt;p&gt;When you fix the &lt;code&gt;mapId&lt;/code&gt;, then you can create leverage on this knowledge to
+forge &lt;a href=&#34;#mapid_first_map&#34;&gt;direct links&lt;/a&gt; to your maps as follows:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;[a link to my map](#mapid_&amp;lt;your_id_here&amp;gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;map-with-gpx-track&#34;&gt;Map with GPX track&lt;/h3&gt;
+&lt;p&gt;You can share your hikes, motorcycle rides, snowshoeing trails, etc&amp;hellip; by
+adding a GPX track to your map &lt;em&gt;(You don&amp;rsquo;t need to provide coordinates,
+leaflet will center the track for you but &lt;a href=&#34;#maps-unique-identifier&#34;&gt;be careful that your map has
+a unique id&lt;/a&gt;)&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;{{&amp;lt; leaflet-map mapHeight=&amp;#34;400px&amp;#34; mapWidth=&amp;#34;100%&amp;#34; ... &amp;gt;}}
+    {{&amp;lt; leaflet-track trackPath=&amp;#34;les_bories_de_tallagard.gpx&amp;#34; downloadIcon=true caption=&amp;#34;Discover shepherd shelters in Provence&amp;#34; /&amp;gt;}}
+{{&amp;lt; /leaflet-map &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;As an exemple, the GPX trail from the above snippet comes from a nice
+one hour walk in &lt;a href=&#34;https://en.wikipedia.org/wiki/Provence&#34;&gt;Provence&lt;/a&gt;
+&lt;em&gt;(a region of southeastern France)&lt;/em&gt;. Leaflet will add the elevation
+profile as follows:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+    &lt;div id=&#39;mapid_les_bories_de_tallagard&#39; class=&#34;leaflet-map&#34; style=&#39;width: 100%; height: 400px;&#39;&gt;&lt;/div&gt;
+    
+    
+&lt;script&gt;
+    
+    leafletMapsObj[&#34;les_bories_de_tallagard&#34;] = L.map(&#39;mapid_les_bories_de_tallagard&#39;).setView([&#34;&#34;, &#34;&#34;], &#34;13&#34;);
+    
+    
+    L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+        attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;
+    }).addTo(leafletMapsObj[&#34;les_bories_de_tallagard&#34;]);
+
+&lt;/script&gt;
+
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+
+        
+        
+        
+        
+
+        &lt;script&gt;
+            trackOpts = {
+                mapId: &#34;les_bories_de_tallagard&#34;,
+                trackId: &#34;42bc2d5d80c82241c6b21e0f05a3f270&#34;,
+                trackPath: &#39;https:\/\/tchinchow.github.io\/story-customized\/gpx/les_bories_de_tallagard.gpx&#39;,
+                lineColor: &#34;#006EFF&#34;,
+                lineWeight: &#34;3&#34;,
+                lineOpacity: &#34;1&#34;
+            };
+            elevationOpts = {
+                graphPosition: &#34;topright&#34;,
+                graphTheme: &#34;story-theme&#34;,
+                graphWidth: &#34;300&#34;,
+                graphHeight: &#34;150&#34;,
+                graphFollowMarker:  false ,
+                graphCollapsed:  true ,
+                graphDetached:  false 
+            };
+            markerOpts = {
+                icon: &#34;fa-thumb-tack&#34;,
+                iconColor: &#34;cyan&#34;,
+                iconShape: &#34;star&#34;,
+                iconClasses: &#34;fa-icon-marker&#34;,
+                iconStart: &#34;fa-play&#34;,
+                iconStartColor: &#34;green-light&#34;,
+                iconStartShape: &#34;circle&#34;,
+                iconStartClasses: &#34;fa-icon-marker fa-icon-start-stop&#34;,
+                iconEnd: &#34;fa-flag-checkered&#34;,
+                iconEndColor: &#34;red&#34;,
+                iconEndShape: &#34;circle&#34;,
+                iconEndClasses: &#34;fa-icon-marker fa-icon-start-stop&#34;
+            };
+            drawTrack(trackOpts, elevationOpts, markerOpts);
+        &lt;/script&gt;
+
+        
+
+        
+        &lt;figcaption class=&#34;f5 lh-copy i ph3&#34;&gt;
+            
+            &lt;span&gt;
+                Discover shepherd shelters in Provence
+            &lt;/span&gt;
+            
+            
+            &lt;span class=&#34;download-link&#34; style=&#34;float:right;cursor: pointer;&#34;&gt;
+                &lt;i class=&#34;fas fa-file-download&#34; onclick=&#34;downloadFile(&#39;https:\/\/tchinchow.github.io\/story-customized\/gpx/les_bories_de_tallagard.gpx&#39;);&#34;&gt;&lt;/i&gt;
+            &lt;/span&gt;
+               
+        &lt;/figcaption&gt;
+        
+
+    
+
+
+
+
+
+&lt;/figure&gt;
+
+
+&lt;h4 id=&#34;storys-specific-parameters-1&#34;&gt;Story&amp;rsquo;s specific parameters:&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Parameter&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Description&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Mandatory&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Default&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Possible values&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;downloadIcon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;whether we shall display the download icon and provide a download link for the GPX trail&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;false&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;true of false&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;caption&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;A caption for the track&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;quot;&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any string&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;graphTheme&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Elevation graph theme _(in addition to leaflet existing themes)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;story-theme&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;story-theme&amp;quot;&lt;/code&gt; or any theme from the original library&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4 id=&#34;parameters-from-the-original-hugo-leaflethugo_leaflet_home-project-1&#34;&gt;Parameters from the original &lt;a href=&#34;https://github.com/altrdev/hugo-leaflet/blob/master/README.md&#34; title=&#34;Hugo Leaflet home page...&#34;&gt;Hugo Leaflet&lt;/a&gt; project&lt;/h4&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Parameter&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Description&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Mandatory&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Default&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Possible values&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;trackPath&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Your GPX file. You must place in &lt;code&gt;static/gpx&lt;/code&gt; folder.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;yes&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;quot;&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any filename like &lt;code&gt;&amp;quot;my_track.gpx&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lineColor&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Line track color&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;#006EFF&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any valid hex color&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lineWeight&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Line track weight on the map&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;3&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;lineOpacity&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Line track opacity on the map&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;1&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;decimal range from 0 to 1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;graphPosition&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Elevation graph position on the map. Not valid if you use &lt;code&gt;graphDetached&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;topright&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;myLocation&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;graphTheme&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Elevation graph theme already present&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;steelblue-theme&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;steelblue-theme&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;lime-theme&amp;quot;&lt;/code&gt; or &lt;code&gt;&amp;quot;purple-theme&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;graphWidth&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Elevation graph width. Not valid if you use &lt;code&gt;graphDetached&lt;/code&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;500&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;graphHeight&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Elevation graph height&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;150&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;graphFollowMarker&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Auto zoom on the mouse movement over the map&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;false&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;graphCollapsed&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Hide elevation graph below the button&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;false&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;graphDetached&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Detach elevation graph outside map&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;true&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;true&lt;/code&gt; or &lt;code&gt;false&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerIcon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Waypoint Fontawesome icon name&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;fa-thumb-tack&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;fa-thumb-tack&amp;quot;&lt;/code&gt; (see fontawesome documentation)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerIconColor&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Waypoint icon color&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;cyan&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;red&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;orange-dark&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;orange&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;yellow&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;blue-dark&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;cyan&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;purple&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;violet&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;pink&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;green-dark&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;green&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;green-light&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;black&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;white&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerIconShape&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Waypoint icon shape&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;penta&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;circle&amp;quot;&lt;/code&gt;, &lt;code&gt;square&lt;/code&gt;, &lt;code&gt;penta&lt;/code&gt; or &lt;code&gt;star&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerIconClasses&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Extra classes for extends icon css&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;fa-icon-marker&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;my-class my-second-class&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerStartIcon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Start Waypoint Fontawesome icon name&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;fa-play&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;fa-play&amp;quot;&lt;/code&gt; (see fontawesome documentation)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerStartIconColor&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Start Waypoint icon color&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;green-light&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;red&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;orange-dark&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;orange&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;yellow&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;blue-dark&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;cyan&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;purple&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;violet&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;pink&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;green-dark&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;green&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;green-light&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;black&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;white&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerStartIconShape&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Start Waypoint icon shape&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;circle&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;circle&amp;quot;&lt;/code&gt;, &lt;code&gt;square&lt;/code&gt;, &lt;code&gt;penta&lt;/code&gt; or &lt;code&gt;star&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerStartIconClass&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Extra classes for extends start icon css&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;fa-icon-marker fa-icon-start-stop&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;my-class my-second-class&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerEndIcon&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;End Waypoint Fontawesome icon name&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;fa-flag-checkered&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;fa-flag-checkered&amp;quot;&lt;/code&gt; (see fontawesome documentation)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerEndIconColor&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;End Waypoint icon color&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;red&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;red&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;orange-dark&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;orange&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;yellow&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;blue-dark&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;cyan&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;purple&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;violet&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;pink&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;green-dark&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;green&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;green-light&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;black&amp;quot;&lt;/code&gt;, &lt;code&gt;&amp;quot;white&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerEndIconShape&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;End Waypoint icon shape&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;circle&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;circle&amp;quot;&lt;/code&gt;, &lt;code&gt;square&lt;/code&gt;, &lt;code&gt;penta&lt;/code&gt; or &lt;code&gt;star&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerEndIconClasses&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Extra classes for extends end icon css&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;ldquo;fa-icon-marker fa-icon-start-stop&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;code&gt;&amp;quot;my-class my-second-class&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;map-with-one-marker&#34;&gt;Map with one marker&lt;/h3&gt;
+&lt;p&gt;You can showcase one particular place with a single marker:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;{{&amp;lt; leaflet-map mapHeight=&amp;#34;300px&amp;#34; mapWidth=&amp;#34;100%&amp;#34; mapLat=&amp;#34;44.9178069&amp;#34; mapLon=&amp;#34;4.8852736&amp;#34; zoom=18 &amp;gt;}}
+    {{&amp;lt; leaflet-marker markerLat=&amp;#34;44.9175319&amp;#34; markerLon=&amp;#34;4.8855297&amp;#34; markerContent=&amp;#34;Gastronomic restaurant &amp;lt;em&amp;gt;(3 Michelin Star)&amp;lt;/em&amp;gt;&amp;#34; &amp;gt;}}
+{{&amp;lt; /leaflet-map &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+    &lt;div id=&#39;mapid_e94655c16e65954a8b014feff251e535&#39; class=&#34;leaflet-map&#34; style=&#39;width: 100%; height: 300px;&#39;&gt;&lt;/div&gt;
+    
+    
+&lt;script&gt;
+    
+    leafletMapsObj[&#34;e94655c16e65954a8b014feff251e535&#34;] = L.map(&#39;mapid_e94655c16e65954a8b014feff251e535&#39;).setView([&#34;44.9178069&#34;, &#34;4.8852736&#34;],  18 );
+    
+    
+    L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+        attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;
+    }).addTo(leafletMapsObj[&#34;e94655c16e65954a8b014feff251e535&#34;]);
+
+&lt;/script&gt;
+
+    
+
+
+
+
+
+    
+
+        
+        
+        
+        
+
+        &lt;script&gt;
+            
+            leafletMarkersObj[&#34;35e925347815f008d4e00a1b42b32ee5&#34;] = L.marker([&#34;44.9175319&#34;, &#34;4.8855297&#34;]).addTo(leafletMapsObj[&#34;e94655c16e65954a8b014feff251e535&#34;]);
+
+            
+                leafletMarkersObj[&#34;35e925347815f008d4e00a1b42b32ee5&#34;].bindPopup(&#34;\x3cstrong\x3eMaison PIC\x3c\/strong\x3e\x3cbr\/\x3e\x3cem\x3e(3 Michelin Star)\x3c\/em\x3e\x3cbr\/\x3eGastronomic restaurant&#34;).openPopup();
+            
+        &lt;/script&gt;
+
+    
+
+
+
+
+
+
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;or many places at once &lt;em&gt;(by the way notice the use of the &amp;ldquo;caption&amp;rdquo; parameter)&lt;/em&gt;:&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure&gt;
+    &lt;div id=&#39;mapid_8db9d32973a5f166082347978520a89b&#39; class=&#34;leaflet-map&#34; style=&#39;width: 100%; height: 500px;&#39;&gt;&lt;/div&gt;
+    
+    
+    &lt;figcaption class=&#34;f5 lh-copy i ph3&#34;&gt;Starred Michelin guide restaurants in Valence&lt;/figcaption&gt;
+    
+    
+&lt;script&gt;
+    
+    leafletMapsObj[&#34;8db9d32973a5f166082347978520a89b&#34;] = L.map(&#39;mapid_8db9d32973a5f166082347978520a89b&#39;).setView([&#34;44.93012&#34;, &#34;4.8929719&#34;],  14 );
+    
+    
+    L.tileLayer(&#39;https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png&#39;, {
+        attribution: &#39;&amp;copy; &lt;a href=&#34;https://www.openstreetmap.org/copyright&#34;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;
+    }).addTo(leafletMapsObj[&#34;8db9d32973a5f166082347978520a89b&#34;]);
+
+&lt;/script&gt;
+
+    
+
+
+
+
+
+    
+
+        
+        
+        
+        
+
+        &lt;script&gt;
+            
+            leafletMarkersObj[&#34;3d51976c5450bd147053acdac2acd4a2&#34;] = L.marker([&#34;44.9324959&#34;, &#34;4.8865007&#34;]).addTo(leafletMapsObj[&#34;8db9d32973a5f166082347978520a89b&#34;]);
+
+            
+                leafletMarkersObj[&#34;3d51976c5450bd147053acdac2acd4a2&#34;].bindPopup(&#34;La Cachette&#34;).openPopup();
+            
+        &lt;/script&gt;
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+        
+        
+        
+        
+
+        &lt;script&gt;
+            
+            leafletMarkersObj[&#34;80808d2e14d8ab58adde580323c1f96f&#34;] = L.marker([&#34;44.9175319&#34;, &#34;4.8855297&#34;]).addTo(leafletMapsObj[&#34;8db9d32973a5f166082347978520a89b&#34;]);
+
+            
+                leafletMarkersObj[&#34;80808d2e14d8ab58adde580323c1f96f&#34;].bindPopup(&#34;Maison PIC&#34;).openPopup();
+            
+        &lt;/script&gt;
+
+    
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+        
+        
+        
+        
+
+        &lt;script&gt;
+            
+            leafletMarkersObj[&#34;0f42f1db941bd6b2606bfcc53eed4cd6&#34;] = L.marker([&#34;44.9327024&#34;, &#34;4.8908747&#34;]).addTo(leafletMapsObj[&#34;8db9d32973a5f166082347978520a89b&#34;]);
+
+            
+                leafletMarkersObj[&#34;0f42f1db941bd6b2606bfcc53eed4cd6&#34;].bindPopup(&#34;Flaveurs&#34;).openPopup();
+            
+        &lt;/script&gt;
+
+    
+
+
+
+
+
+
+
+
+&lt;/figure&gt;
+
+
+&lt;p&gt;Just like other sub-shortcodes, &lt;code&gt;leaflet-marker&lt;/code&gt; takes a number of arguments that
+we repeat below as they come directly from the &lt;a href=&#34;https://github.com/altrdev/hugo-leaflet/blob/master/README.md&#34; title=&#34;Hugo Leaflet home page...&#34;&gt;Hugo Leaflet&lt;/a&gt; site:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Parameter&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Description&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Mandatory&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Default&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Possible values&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;markerLat&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Latitude where to place the marker&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;yes&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;quot;&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any valid coords number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;markerLon&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Longitude where to place the marker&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;yes&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;quot;&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any valid coords number&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;markerContent&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Popup content text&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;em&gt;no&lt;/em&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&amp;quot;&amp;rdquo;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;any text, html accepted&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/videojs/&#34;&gt;Story&amp;rsquo;s Embedded Screencasts and Videos&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Embedded Screencasts and Videos</title>
+			<link>https://tchinchow.github.io/story-customized/videojs/</link>
+			<pubDate>Sun, 19 Aug 2018 03:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/videojs/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-wSkfttEaBw8.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;Story provides &lt;a href=&#34;https://videojs.com/&#34;&gt;Video Js&lt;/a&gt; integration through a
+shortcode.&lt;/p&gt;
+&lt;p&gt;You can now showcase your screencasts and videos no matter where they
+are stored and this article will show you how.&lt;/p&gt;
+&lt;h3 id=&#34;easily-integate-a-video&#34;&gt;Easily integate a video&lt;/h3&gt;
+&lt;p&gt;You can easily integrate screencasts or videos &lt;code&gt;videojs&lt;/code&gt; shortcode.&lt;/p&gt;
+&lt;p&gt;Story is smart enough to recognize that you are using a &lt;code&gt;videojs&lt;/code&gt; shortcode
+in your page and will automatically load the required javascript libraries
+for you.&lt;/p&gt;
+&lt;p&gt;The following code is all you need to display your video. It&amp;rsquo;s so
+simple that it speaks for itself:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-plaintext&#34; data-lang=&#34;plaintext&#34;&gt;{{&amp;lt; videojs videoPath=&amp;#34;file_example_MP4_640_3MG.mp4&amp;#34; &amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+    
+    
+
+&lt;video id=&#34;35e161eeea6fdd332009a7d65b552c77&#34; class=&#34;center hide-print video-js vjs-fluid vjs-theme-story&#34; controls preload=&#34;auto&#34; data-setup=&#34;{}&#34;&gt;
+    &lt;source src=&#34;https://ia800701.us.archive.org/26/items/SampleVideo1280x7205mb/SampleVideo_1280x720_5mb.mp4&#34; type=&#39;video/mp4&#39;&gt;
+    &lt;p class=&#34;vjs-no-js&#34;&gt;
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        &lt;a href=&#34;http://videojs.com/html5-video-support/&#34; target=&#34;_blank&#34;&gt;supports HTML5 video&lt;/a&gt;
+    &lt;/p&gt;
+&lt;/video&gt;
+
+
+
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/typography/&#34;&gt;Story&amp;rsquo;s beautiful typography&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s Typography</title>
+			<link>https://tchinchow.github.io/story-customized/typography/</link>
+			<pubDate>Sun, 19 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/typography/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-h-M3O25tyvI.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;This article is a demo of Story&amp;rsquo;s beautiful typography.&lt;/p&gt;
+&lt;p&gt;Story is designed to showcase long-form content such as essays and technical
+blog posts.  It is built for readability and grace in both screen and print
+media at all sizes.&lt;/p&gt;
+&lt;p&gt;Try opening your print dialog and saving this page as a
+PDF. Now try viewing this page on a cellphone.&lt;/p&gt;
+&lt;p&gt;Story supports text justification and hyphenation. Click here to toggle &lt;!-- raw HTML omitted --&gt;hyphenation&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;justification&lt;!-- raw HTML omitted --&gt;. These features can
+be enabled or disabled with the &lt;code&gt;feature-[no]hyphenate&lt;/code&gt; and
+&lt;code&gt;feature-[no]justify&lt;/code&gt; feature flags.&lt;/p&gt;
+&lt;h3 id=&#34;moby-dick-or-the-whale-heading-level-3&#34;&gt;Moby-Dick; Or, The Whale: Heading Level 3&lt;/h3&gt;
+&lt;p&gt;Story reserves H1 and H2 for its own use, and assumes you&amp;rsquo;ll use H3 in your content.
+To hide subtitles, use the &lt;code&gt;feature-nosubtitle&lt;/code&gt; feature.&lt;/p&gt;
+&lt;p&gt;Floated images occasionally interfere with content, usually headings.
+Story provides &lt;a href=&#34;https://tchinchow.github.io/story-customized/features&#34;&gt;feature flags&lt;/a&gt; to add clears (left, right, and both) to &lt;code&gt;&amp;lt;h3&amp;gt;&lt;/code&gt; elements.&lt;/p&gt;
+&lt;p&gt;Call me Ishmael. Some years ago&amp;mdash;never mind how long precisely&amp;mdash;having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people’s hats off&amp;mdash;then, I account it high time to get to sea as soon as I can.&lt;/p&gt;
+&lt;h4 id=&#34;fleuron-and-dinkus-heading-level-4&#34;&gt;Fleuron and Dinkus: Heading Level 4&lt;/h4&gt;
+&lt;p&gt;An &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; tag can be rendered as a fleuron, with the &lt;code&gt;feature-hrfleuron&lt;/code&gt; flag. It
+can also be a dinkus if you like; use the &lt;code&gt;feature-hrdinkus&lt;/code&gt; flag. Both are
+negatable and implemented in CSS. Here&amp;rsquo;s a demo. You can toggle these features
+with &lt;!-- raw HTML omitted --&gt;feature-hrfleuron&lt;!-- raw HTML omitted --&gt; and &lt;!-- raw HTML omitted --&gt;feature-hrdinkus&lt;!-- raw HTML omitted --&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;Call me Ishmael. Some years ago&amp;mdash;never mind how long precisely&amp;mdash;having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation.&lt;/p&gt;
+&lt;p&gt;Story has support for syntax highlighting inside of code blocks. It uses
+&lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt; for this. This feature is controlled with the &lt;code&gt;feature-[no]highlight&lt;/code&gt; flag.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;$initHighlight&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;block&lt;/span&gt;, &lt;span style=&#34;color:#a6e22e&#34;&gt;cls&lt;/span&gt;) {
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;try&lt;/span&gt; {
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;cls&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;search&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;/\bno\-highlight\b/&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;!=&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;)
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;return&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;process&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;block&lt;/span&gt;, &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;0x0F&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt;
+             &lt;span style=&#34;color:#e6db74&#34;&gt;` class=&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;${&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;cls&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;}&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;`&lt;/span&gt;;
+  } &lt;span style=&#34;color:#66d9ef&#34;&gt;catch&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;e&lt;/span&gt;) {
+    &lt;span style=&#34;color:#75715e&#34;&gt;/* handle exception */&lt;/span&gt;
+  }
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt; &lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;; &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;&amp;lt;&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;classes&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;length&lt;/span&gt;; &lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;++&lt;/span&gt;) {
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt; (&lt;span style=&#34;color:#a6e22e&#34;&gt;checkCondition&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;classes&lt;/span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;]) &lt;span style=&#34;color:#f92672&#34;&gt;===&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;undefined&lt;/span&gt;)
+      &lt;span style=&#34;color:#a6e22e&#34;&gt;console&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;log&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;undefined&amp;#39;&lt;/span&gt;);
+  }
+}
+
+&lt;span style=&#34;color:#66d9ef&#34;&gt;export&lt;/span&gt;  &lt;span style=&#34;color:#a6e22e&#34;&gt;$initHighlight&lt;/span&gt;;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Here is text with &lt;em&gt;emphasis&lt;/em&gt; and &lt;strong&gt;boldness&lt;/strong&gt;; &lt;del&gt;strikethrough&lt;/del&gt;.^[A footnote]&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote. I thought I would sail about the unimaginative incomprehensibilities of the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. (This quote is a demo of justification and hyphenation.)&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Blockquotes can nest.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here is an unordered list:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Item one&lt;/li&gt;
+&lt;li&gt;Item two&lt;/li&gt;
+&lt;li&gt;Item three is longer. I thought I would sail about a little and see the unimaginative incomprehensibilities of the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. (This is a justification and hyphenation demo.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And an ordered list:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Item one&lt;/li&gt;
+&lt;li&gt;Item two&lt;/li&gt;
+&lt;li&gt;Item three is longer. I thought I would sail about a little and see the unimaginative incomprehensibilities of the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. (This is a justification and hyphenation demo.)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;quotes-that-link-to-tweets&#34;&gt;Quotes That Link To Tweets&lt;/h3&gt;
+&lt;p&gt;If you don&amp;rsquo;t like embedding tweets, Story has a cleaner way to quote and link to a tweet. Just blockquote the content and begin it with a link containing the author&amp;rsquo;s name and the tweet&amp;rsquo;s permalink, and enable the &lt;code&gt;feature-tweetquote&lt;/code&gt; flag. Story will transform the quote to resemble a simplistic tweet styling. If the flag isn&amp;rsquo;t enabled, normal blockquote styling applies.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/xaprb/status/921004656402321408&#34;&gt;Baron Sc​hwartz&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Monitoring tells you whether the system works. Observability lets you ask why it&amp;rsquo;s not working.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/keyboard-keys&#34;&gt;Story&amp;rsquo;s ability to render Keyboard Keys&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Keyboard&#39;s Keys Feature</title>
+			<link>https://tchinchow.github.io/story-customized/keyboard-keys/</link>
+			<pubDate>Sat, 18 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/keyboard-keys/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/unsplash-photos-_UeY8aTI6d0.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;You might have found that when you explain a procedure that requires typing
+keyboard shortcuts then it is difficult to make those shortcut stand out.&lt;/p&gt;
+&lt;p&gt;Story has a shortcode for you that will sort you out.&lt;/p&gt;
+&lt;h3 id=&#34;keyboard-keys-that-stand-out&#34;&gt;Keyboard Keys that stand out:&lt;/h3&gt;
+&lt;p&gt;Let&amp;rsquo;s consider the following shortcode sequence in your markdown article:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;kbd&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;keyCode&lt;/span&gt;=&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ctrl&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&amp;gt;}} &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; {{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;kbd&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;keyCode&lt;/span&gt;=&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;a&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If you enable keyboard-keys rendering with the &lt;code&gt;feature-[no]kbd-keys&lt;/code&gt; flag &lt;em&gt;(see &amp;ldquo;&lt;a href=&#34;https://tchinchow.github.io/story-customized/features&#34;&gt;features&lt;/a&gt;&amp;quot;)&lt;/em&gt;, then the required CSS
+will be loaded and the result will be displayed as follows:&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;icon class=&#34;keyboard-key ctrl&#34;&gt;&lt;/icon&gt;
+
+
+
+ + 
+
+
+&lt;icon class=&#34;keyboard-key a&#34;&gt;&lt;/icon&gt;
+
+
+
+&lt;/p&gt;
+&lt;p&gt;Now keyboard shortcut really stand out in your text.&lt;/p&gt;
+&lt;h3 id=&#34;dark-theme&#34;&gt;Dark Theme:&lt;/h3&gt;
+&lt;p&gt;You can also choose to use a dark theme by adding the &lt;code&gt;dark&lt;/code&gt; keyword to your
+&lt;code&gt;keyCode&lt;/code&gt; as shown below:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;{{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;kbd&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;keyCode&lt;/span&gt;=&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;dark alt&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&amp;gt;}} &lt;span style=&#34;color:#f92672&#34;&gt;+&lt;/span&gt; {{&amp;lt; &lt;span style=&#34;color:#a6e22e&#34;&gt;kbd&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;key&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;keyCode&lt;/span&gt;=&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;dark f4&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;/&lt;/span&gt;&amp;gt;}}
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;which will display as:&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;icon class=&#34;keyboard-key dark alt&#34;&gt;&lt;/icon&gt;
+
+
+
+ + 
+
+
+&lt;icon class=&#34;keyboard-key dark f4&#34;&gt;&lt;/icon&gt;
+
+
+
+&lt;/p&gt;
+&lt;h3 id=&#34;more-about-specific-keys&#34;&gt;More about specific keys:&lt;/h3&gt;
+&lt;p&gt;Key &amp;ldquo;names&amp;rdquo; that you can use with the &amp;ldquo;&lt;code&gt;kbd-key&lt;/code&gt;&amp;rdquo; shortcode include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Function Keys:&lt;/p&gt;
+&lt;p&gt;From &lt;em&gt;&amp;ldquo;f1&amp;rdquo;&lt;/em&gt; to &lt;em&gt;&amp;ldquo;f12&amp;rdquo;&lt;/em&gt; in lower case:&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;icon class=&#34;keyboard-key f1&#34;&gt;&lt;/icon&gt;
+
+
+
+ 
+
+
+&lt;icon class=&#34;keyboard-key f2&#34;&gt;&lt;/icon&gt;
+
+
+
+&amp;hellip;
+
+
+&lt;icon class=&#34;keyboard-key f12&#34;&gt;&lt;/icon&gt;
+
+
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Numbers:&lt;/p&gt;
+&lt;p&gt;From &lt;em&gt;&amp;ldquo;zero&amp;rdquo;&lt;/em&gt; to &lt;em&gt;&amp;ldquo;nine&amp;rdquo;&lt;/em&gt; in text:&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;icon class=&#34;keyboard-key one&#34;&gt;&lt;/icon&gt;
+
+
+
+ 
+
+
+&lt;icon class=&#34;keyboard-key two&#34;&gt;&lt;/icon&gt;
+
+
+
+&amp;hellip;
+
+
+&lt;icon class=&#34;keyboard-key zero&#34;&gt;&lt;/icon&gt;
+
+
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Alphabetical Keys:&lt;/p&gt;
+&lt;p&gt;From &lt;em&gt;&amp;ldquo;a&amp;rdquo;&lt;/em&gt; to &lt;em&gt;&amp;ldquo;z&amp;rdquo;&lt;/em&gt; in lower case:&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;icon class=&#34;keyboard-key a&#34;&gt;&lt;/icon&gt;
+
+
+
+ &amp;hellip; 
+
+
+&lt;icon class=&#34;keyboard-key z&#34;&gt;&lt;/icon&gt;
+
+
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Media Keys:&lt;/p&gt;
+&lt;p&gt;Like &lt;em&gt;&amp;ldquo;eject&amp;rdquo;&lt;/em&gt;&amp;hellip;&lt;/p&gt;
+
+
+
+&lt;icon class=&#34;keyboard-key eject&#34;&gt;&lt;/icon&gt;
+
+
+
+
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Misc Control Keys:&lt;/p&gt;
+&lt;p&gt;Like &lt;em&gt;&amp;ldquo;tab&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;shift&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;ctrl&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;alt&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;space&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;return&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;delete&amp;rdquo;&lt;/em&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;icon class=&#34;keyboard-key tab&#34;&gt;&lt;/icon&gt;
+
+
+
+
+
+
+
+&lt;icon class=&#34;keyboard-key shift&#34;&gt;&lt;/icon&gt;
+
+
+
+
+
+
+
+&lt;icon class=&#34;keyboard-key ctrl&#34;&gt;&lt;/icon&gt;
+
+
+
+
+
+
+
+&lt;icon class=&#34;keyboard-key alt&#34;&gt;&lt;/icon&gt;
+
+
+
+
+
+
+
+&lt;icon class=&#34;keyboard-key space&#34;&gt;&lt;/icon&gt;
+
+
+
+
+
+
+
+&lt;icon class=&#34;keyboard-key return&#34;&gt;&lt;/icon&gt;
+
+
+
+
+
+
+
+&lt;icon class=&#34;keyboard-key delete&#34;&gt;&lt;/icon&gt;
+
+
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;OS Specific Keys:&lt;/p&gt;
+&lt;p&gt;Like &lt;em&gt;&amp;ldquo;option&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;win&amp;rdquo;&lt;/em&gt;, &lt;em&gt;&amp;ldquo;cmd&amp;rdquo;&lt;/em&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;
+
+
+&lt;icon class=&#34;keyboard-key option&#34;&gt;&lt;/icon&gt;
+
+
+
+
+
+
+
+&lt;icon class=&#34;keyboard-key win&#34;&gt;&lt;/icon&gt;
+
+
+
+
+
+
+
+&lt;icon class=&#34;keyboard-key cmd&#34;&gt;&lt;/icon&gt;
+
+
+
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/mailchimp-features&#34;&gt;Story&amp;rsquo;s MailChimp subscribe forms and RSS feeds&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Story&#39;s MailChimp Integration Features</title>
+			<link>https://tchinchow.github.io/story-customized/mailchimp-features/</link>
+			<pubDate>Sat, 18 Aug 2018 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/mailchimp-features/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/jessy-hoffmann-720198-unsplash.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description>&lt;p&gt;If you&amp;rsquo;re a blogger, you might use MailChimp to build a subscriber list, and
+Story makes that easy. MailChimp also has the ability to automatically send your
+new content to the list from an RSS feed, and guess what&amp;mdash;Story helps you
+create an RSS feed customized just for that if you like, too.&lt;/p&gt;
+&lt;p&gt;First, MailChimp subscriber forms. If you want to add a subscription form at the
+bottom of each page, just add your MailChimp URL as a parameter in your
+configuration file. Here&amp;rsquo;s a YAML example for &lt;code&gt;config.yaml&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;params&lt;/span&gt;:
+- &lt;span style=&#34;color:#66d9ef&#34;&gt;mailchimp&lt;/span&gt;: &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;your URL here&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And here&amp;rsquo;s an example for &lt;code&gt;config.toml&lt;/code&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;params&lt;/span&gt;]
+  &lt;span style=&#34;color:#a6e22e&#34;&gt;mailchimp&lt;/span&gt; = &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;your URL here&amp;#34;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You can copy the URL from the address bar of your MailChimp subscriber form. It
+becomes the &lt;code&gt;action&lt;/code&gt; of the form, which will appear at the bottom of each page
+near your author biography.&lt;/p&gt;
+&lt;p&gt;Next, an RSS feed. Story has an RSS layout customized to create summaries of
+your content&amp;rsquo;s title, description, featured image, and summary content. The
+summary content is either delimited explicitly by the &lt;code&gt;&amp;lt;!--more--&amp;gt;&lt;/code&gt; comment in
+your Markdown source, or generated automatically by Hugo. (Read more
+&lt;a href=&#34;https://gohugo.io/content-management/summaries/&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+&lt;p&gt;The default content of the RSS feed entries is generated from the page&amp;rsquo;s
+&lt;code&gt;description&lt;/code&gt; front matter and &lt;code&gt;.Summary&lt;/code&gt; content, but you can provide your own
+to override this.  Simply add an excerpt in the &lt;code&gt;tldr&lt;/code&gt; front matter property.&lt;/p&gt;
+&lt;p&gt;To enable the RSS feed, you need to create a special &lt;code&gt;.md&lt;/code&gt; file that won&amp;rsquo;t
+appear as regular content, but will render an extra RSS feed file. Its content
+is ignored, and only its front matter is important. For example, you could
+create it as &lt;code&gt;content/mailchimp/_index.md&lt;/code&gt; with the following contents, using YAML
+front matter:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;---
+&lt;span style=&#34;color:#66d9ef&#34;&gt;layout&lt;/span&gt;: mailchimp
+&lt;span style=&#34;color:#66d9ef&#34;&gt;outputs&lt;/span&gt;:
+- rss
+---
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Now Hugo will build an extra feed at
+&lt;a href=&#34;https://tchinchow.github.io/story-customized/mailchimp/index.xml&#34;&gt;&lt;code&gt;/mailchimp/index.xml&lt;/code&gt;&lt;/a&gt;, and you can use it to create
+&lt;a href=&#34;https://mailchimp.com/help/share-your-blog-posts-with-mailchimp/&#34;&gt;RSS campaigns in
+MailChimp&lt;/a&gt;. Of
+course, you can also use your normal RSS feed, but Story&amp;rsquo;s default is to put
+full content into that, so it might be more than you want.&lt;/p&gt;
+&lt;p&gt;Read next: &lt;a href=&#34;https://tchinchow.github.io/story-customized/talks/adirondack/&#34;&gt;Story&amp;rsquo;s &amp;lsquo;talks&amp;rsquo; feature for presentations&lt;/a&gt;.&lt;/p&gt;</description>
+		</item>
+		
+		<item>
+			<title>Archives</title>
+			<link>https://tchinchow.github.io/story-customized/archives/</link>
+			<pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/archives/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description></description>
+		</item>
+		
+		<item>
+			<title>Authors</title>
+			<link>https://tchinchow.github.io/story-customized/authors/</link>
+			<pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/authors/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description></description>
+		</item>
+		
+		<item>
+			<title>Search</title>
+			<link>https://tchinchow.github.io/story-customized/search/</link>
+			<pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+			<author>Baron Schwartz</author>
+			<guid>https://tchinchow.github.io/story-customized/search/</guid>
+			<media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tchinchow.github.io/story-customized/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100" />
+			<description></description>
+		</item>
+		
+	</channel>
+</rss>
