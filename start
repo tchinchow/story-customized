@@ -2,3 +2,18 @@
 set -e
 set -x
 hugo -c exampleSite/content --config exampleSite/config.toml server
+
+# So far we use a git worktree to publish on an independent gh-pages branch
+# (see https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/github-pages-blog/)
+#
+# The theme demo was compiled then published to github pages in project mode, with:
+# hugo --baseURL https://tchinchow.github.io/story-customized/ --config exampleSite/config.toml --contentDir exampleSite/content --destination ./public
+# Then
+# the usual git add ; git commit ; git push origin gh-pages
+#
+# Notes about github actions:
+# see also (github actions)
+# - https://ruddra.com/hugo-deploy-static-page-using-github-actions/
+# - https://github.com/peaceiris/actions-hugo#%EF%B8%8F-use-hugo-extended
+# - https://github.com/peaceiris/actions-gh-pages
+# - https://docs.github.com/en/actions/reference/events-that-trigger-workflows
