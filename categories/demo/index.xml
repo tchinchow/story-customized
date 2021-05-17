@@ -1,204 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Demo on Hugo Story Theme</title>
-    <link>https://tchinchow.github.io/story-customized/categories/demo/</link>
-    <description>Recent content in Demo on Hugo Story Theme</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://tchinchow.github.io/story-customized/categories/demo/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>The Story Hugo Theme Customized</title>
-      <link>https://tchinchow.github.io/story-customized/about-story/</link>
-      <pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/about-story/</guid>
-      <description>&lt;p&gt;Story is a beautiful Hugo theme.  &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; is a static website
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Demo on Hugo Story Theme</title><link>https://tchinchow.github.io/story-customized/categories/demo/</link><description>Recent content in Demo on Hugo Story Theme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Mon, 03 Sep 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://tchinchow.github.io/story-customized/categories/demo/index.xml" rel="self" type="application/rss+xml"/><item><title>The Story Hugo Theme Customized</title><link>https://tchinchow.github.io/story-customized/about-story/</link><pubDate>Mon, 03 Sep 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/about-story/</guid><description>&lt;p>Story is a beautiful Hugo theme. &lt;a href="https://gohugo.io">Hugo&lt;/a> is a static website
 generator, which builds websites by rendering
-&lt;a href=&#34;https://commonmark.org/help/&#34;&gt;Markdown&lt;/a&gt; content into templates from themes like
-Story. The resulting site is fast, secure, and easy to build and maintain.&lt;/p&gt;
-&lt;p&gt;Story is a responsive theme that supports blogs, with many extra features such
-as presentations, math and music typesetting, and search.  The Story design
+&lt;a href="https://commonmark.org/help/">Markdown&lt;/a> content into templates from themes like
+Story. The resulting site is fast, secure, and easy to build and maintain.&lt;/p>
+&lt;p>Story is a responsive theme that supports blogs, with many extra features such
+as presentations, math and music typesetting, and search. The Story design
 philosophy prioritizes simplicity and elegance, so it can be sophisticated
-and powerful at the same time.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s Theme Features</title>
-      <link>https://tchinchow.github.io/story-customized/theme-features/</link>
-      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/theme-features/</guid>
-      <description>&lt;p&gt;Story has a lot of features, but most are optional and have smart defaults!
+and powerful at the same time.&lt;/p></description></item><item><title>Story's Theme Features</title><link>https://tchinchow.github.io/story-customized/theme-features/</link><pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/theme-features/</guid><description>&lt;p>Story has a lot of features, but most are optional and have smart defaults!
 This page is an introduction to Story, with links to further pages that go into
 more details. There&amp;rsquo;s also a listing of features that either don&amp;rsquo;t need
-a separate documentation page, or just don&amp;rsquo;t have full documentation yet.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s Feature Flags</title>
-      <link>https://tchinchow.github.io/story-customized/features/</link>
-      <pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/features/</guid>
-      <description>&lt;p&gt;Feature flags, which are called &lt;em&gt;classes&lt;/em&gt; in the markup, control many of Story&amp;rsquo;s features.
+a separate documentation page, or just don&amp;rsquo;t have full documentation yet.&lt;/p></description></item><item><title>Story's Feature Flags</title><link>https://tchinchow.github.io/story-customized/features/</link><pubDate>Thu, 30 Aug 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/features/</guid><description>&lt;p>Feature flags, which are called &lt;em>classes&lt;/em> in the markup, control many of Story&amp;rsquo;s features.
 You can enable and disable them in your site config, or in an individual post&amp;rsquo;s front matter.
-This article documents Story&amp;rsquo;s feature flags.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s Author Profiles</title>
-      <link>https://tchinchow.github.io/story-customized/author-profiles/</link>
-      <pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/author-profiles/</guid>
-      <description>&lt;p&gt;Story supports author profiles, so you can highlight your bio.
+This article documents Story&amp;rsquo;s feature flags.&lt;/p></description></item><item><title>Story's Author Profiles</title><link>https://tchinchow.github.io/story-customized/author-profiles/</link><pubDate>Wed, 29 Aug 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/author-profiles/</guid><description>&lt;p>Story supports author profiles, so you can highlight your bio.
 It&amp;rsquo;s possible to set this globally for the entire site, or individually for each
 piece of content. Or you can set a global default and override it on individual
 pieces of content.
 Scroll to the bottom of any page on this site to see how author profiles are
-styled.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s Figures, Captions, and Tables</title>
-      <link>https://tchinchow.github.io/story-customized/figures/</link>
-      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/figures/</guid>
-      <description>&lt;p&gt;Story can automatically transform images into figures with captions.
+styled.&lt;/p></description></item><item><title>Story's Figures, Captions, and Tables</title><link>https://tchinchow.github.io/story-customized/figures/</link><pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/figures/</guid><description>&lt;p>Story can automatically transform images into figures with captions.
 It can also add captions to tables.
 And it adds features and styling to both images and tables.
-This article is a demo of Story&amp;rsquo;s features for figures, tables, and captions.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s Image Formatting Controls</title>
-      <link>https://tchinchow.github.io/story-customized/images/</link>
-      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/images/</guid>
-      <description>&lt;p&gt;This article is a demo of Story&amp;rsquo;s image-related features (other than &lt;a href=&#34;https://tchinchow.github.io/story-customized/figures&#34;&gt;figure captions&lt;/a&gt;).
+This article is a demo of Story&amp;rsquo;s features for figures, tables, and captions.&lt;/p></description></item><item><title>Story's Image Formatting Controls</title><link>https://tchinchow.github.io/story-customized/images/</link><pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/images/</guid><description>&lt;p>This article is a demo of Story&amp;rsquo;s image-related features (other than &lt;a href="https://tchinchow.github.io/story-customized/figures">figure captions&lt;/a>).
 Story can apply a variety of stylistic and layout transformations to your images.
 These features are enabled by unobtrusive, accessibility-friendly tricks that give you more control over images than Markdown typically provides.
-Story also has out-of-the-box support for header and preview images, for a visually stunning site.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s Image Slideshows</title>
-      <link>https://tchinchow.github.io/story-customized/flexslider/</link>
-      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/flexslider/</guid>
-      <description>&lt;p&gt;This article is a demo of Story&amp;rsquo;s image slideshows feature based on
-&lt;a href=&#34;http://flexslider.woothemes.com/&#34;&gt;FlexSlider2&lt;/a&gt;.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s JavaScript Search</title>
-      <link>https://tchinchow.github.io/story-customized/search-page/</link>
-      <pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/search-page/</guid>
-      <description>&lt;p&gt;This article documents Story&amp;rsquo;s built-in search features, which don&amp;rsquo;t rely on external search engines.
-Story uses the &lt;a href=&#34;https://lunrjs.com/&#34;&gt;LunrJS&lt;/a&gt; library to provide fast browser-based search.
+Story also has out-of-the-box support for header and preview images, for a visually stunning site.&lt;/p></description></item><item><title>Story's Image Slideshows</title><link>https://tchinchow.github.io/story-customized/flexslider/</link><pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/flexslider/</guid><description>&lt;p>This article is a demo of Story&amp;rsquo;s image slideshows feature based on
+&lt;a href="http://flexslider.woothemes.com/">FlexSlider2&lt;/a>.&lt;/p></description></item><item><title>Story's JavaScript Search</title><link>https://tchinchow.github.io/story-customized/search-page/</link><pubDate>Tue, 21 Aug 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/search-page/</guid><description>&lt;p>This article documents Story&amp;rsquo;s built-in search features, which don&amp;rsquo;t rely on external search engines.
+Story uses the &lt;a href="https://lunrjs.com/">LunrJS&lt;/a> library to provide fast browser-based search.
 This page first explains how search setup works, and then provides copy-paste
-ready code samples for you to use.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s Music Notation</title>
-      <link>https://tchinchow.github.io/story-customized/music/</link>
-      <pubDate>Mon, 20 Aug 2018 04:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/music/</guid>
-      <description>&lt;p&gt;Story uses the &lt;a href=&#34;https://github.com/paulrosen/abcjs&#34;&gt;abcjs&lt;/a&gt; library to transform
-&lt;a href=&#34;https://www.abcnotation.com&#34;&gt;abc&lt;/a&gt; music notation into &amp;ldquo;sheet music&amp;rdquo; dynamically.
+ready code samples for you to use.&lt;/p></description></item><item><title>Story's Music Notation</title><link>https://tchinchow.github.io/story-customized/music/</link><pubDate>Mon, 20 Aug 2018 04:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/music/</guid><description>&lt;p>Story uses the &lt;a href="https://github.com/paulrosen/abcjs">abcjs&lt;/a> library to transform
+&lt;a href="https://www.abcnotation.com">abc&lt;/a> music notation into &amp;ldquo;sheet music&amp;rdquo; dynamically.
 This works well for displaying a wide variety of music notation in a web
-browser conveniently, without embedding images or PDFs or the like.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s Mathematical Equation Typesetting</title>
-      <link>https://tchinchow.github.io/story-customized/math/</link>
-      <pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/math/</guid>
-      <description>&lt;p&gt;This article is a demo of Story&amp;rsquo;s ability to typeset mathematical equations,
-both inline and in block form.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Render Mermaid Diagrams with Story</title>
-      <link>https://tchinchow.github.io/story-customized/mermaid/</link>
-      <pubDate>Sun, 19 Aug 2018 08:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/mermaid/</guid>
-      <description>&lt;h3 id=&#34;a-work-in-progress&#34;&gt;A Work In Progress&amp;hellip;&lt;/h3&gt;
-&lt;p&gt;This page is a first attempt at integrating &lt;a href=&#34;https://mermaid-js.github.io/mermaid/#/&#34; title=&#34;go to mermaid home page...&#34;&gt;mermaid-js&lt;/a&gt; diagrams.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Maps with Leaflet.js</title>
-      <link>https://tchinchow.github.io/story-customized/leaflet/</link>
-      <pubDate>Sun, 19 Aug 2018 04:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/leaflet/</guid>
-      <description>&lt;p&gt;Story integrates &lt;a href=&#34;https://github.com/altrdev/hugo-leaflet/blob/master/README.md&#34; title=&#34;Hugo Leaflet home page...&#34;&gt;Hugo Leaflet&lt;/a&gt;
-and allow you to embed maps and GPX trails in your blog posts.&lt;/p&gt;
-&lt;p&gt;This article demonstrates a handfull of the possibilities offered by this
-powerful combination.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s Embedded Screencasts and Videos</title>
-      <link>https://tchinchow.github.io/story-customized/videojs/</link>
-      <pubDate>Sun, 19 Aug 2018 03:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/videojs/</guid>
-      <description>&lt;p&gt;Story provides &lt;a href=&#34;https://videojs.com/&#34;&gt;Video Js&lt;/a&gt; integration through a
-shortcode.&lt;/p&gt;
-&lt;p&gt;You can now showcase your screencasts and videos no matter where they
-are stored and this article will show you how.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s Typography</title>
-      <link>https://tchinchow.github.io/story-customized/typography/</link>
-      <pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/typography/</guid>
-      <description>&lt;p&gt;This article is a demo of Story&amp;rsquo;s beautiful typography.&lt;/p&gt;
-&lt;p&gt;Story is designed to showcase long-form content such as essays and technical
-blog posts.  It is built for readability and grace in both screen and print
-media at all sizes.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Keyboard&#39;s Keys Feature</title>
-      <link>https://tchinchow.github.io/story-customized/keyboard-keys/</link>
-      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/keyboard-keys/</guid>
-      <description>&lt;p&gt;You might have found that when you explain a procedure that requires typing
-keyboard shortcuts then it is difficult to make those shortcut stand out.&lt;/p&gt;
-&lt;p&gt;Story has a shortcode for you that will sort you out.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Story&#39;s MailChimp Integration Features</title>
-      <link>https://tchinchow.github.io/story-customized/mailchimp-features/</link>
-      <pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://tchinchow.github.io/story-customized/mailchimp-features/</guid>
-      <description>&lt;p&gt;If you&amp;rsquo;re a blogger, you might use MailChimp to build a subscriber list, and
+browser conveniently, without embedding images or PDFs or the like.&lt;/p></description></item><item><title>Story's Mathematical Equation Typesetting</title><link>https://tchinchow.github.io/story-customized/math/</link><pubDate>Mon, 20 Aug 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/math/</guid><description>&lt;p>This article is a demo of Story&amp;rsquo;s ability to typeset mathematical equations,
+both inline and in block form.&lt;/p></description></item><item><title>Render Mermaid Diagrams with Story</title><link>https://tchinchow.github.io/story-customized/mermaid/</link><pubDate>Sun, 19 Aug 2018 08:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/mermaid/</guid><description>&lt;h3 id="a-work-in-progress">A Work In Progress&amp;hellip;&lt;/h3>
+&lt;p>This page is a first attempt at integrating &lt;a href="https://mermaid-js.github.io/mermaid/#/" title="go to mermaid home page...">mermaid-js&lt;/a> diagrams.&lt;/p></description></item><item><title>Maps with Leaflet.js</title><link>https://tchinchow.github.io/story-customized/leaflet/</link><pubDate>Sun, 19 Aug 2018 04:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/leaflet/</guid><description>&lt;p>Story integrates &lt;a href="https://github.com/altrdev/hugo-leaflet/blob/master/README.md" title="Hugo Leaflet home page...">Hugo Leaflet&lt;/a>
+and allow you to embed maps and GPX trails in your blog posts.&lt;/p>
+&lt;p>This article demonstrates a handfull of the possibilities offered by this
+powerful combination.&lt;/p></description></item><item><title>Story's Embedded Screencasts and Videos</title><link>https://tchinchow.github.io/story-customized/videojs/</link><pubDate>Sun, 19 Aug 2018 03:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/videojs/</guid><description>&lt;p>Story provides &lt;a href="https://videojs.com/">Video Js&lt;/a> integration through a
+shortcode.&lt;/p>
+&lt;p>You can now showcase your screencasts and videos no matter where they
+are stored and this article will show you how.&lt;/p></description></item><item><title>Story's Typography</title><link>https://tchinchow.github.io/story-customized/typography/</link><pubDate>Sun, 19 Aug 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/typography/</guid><description>&lt;p>This article is a demo of Story&amp;rsquo;s beautiful typography.&lt;/p>
+&lt;p>Story is designed to showcase long-form content such as essays and technical
+blog posts. It is built for readability and grace in both screen and print
+media at all sizes.&lt;/p></description></item><item><title>Keyboard's Keys Feature</title><link>https://tchinchow.github.io/story-customized/keyboard-keys/</link><pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/keyboard-keys/</guid><description>&lt;p>You might have found that when you explain a procedure that requires typing
+keyboard shortcuts then it is difficult to make those shortcut stand out.&lt;/p>
+&lt;p>Story has a shortcode for you that will sort you out.&lt;/p></description></item><item><title>Story's MailChimp Integration Features</title><link>https://tchinchow.github.io/story-customized/mailchimp-features/</link><pubDate>Sat, 18 Aug 2018 00:00:00 +0000</pubDate><guid>https://tchinchow.github.io/story-customized/mailchimp-features/</guid><description>&lt;p>If you&amp;rsquo;re a blogger, you might use MailChimp to build a subscriber list, and
 Story makes that easy. MailChimp also has the ability to automatically send your
 new content to the list from an RSS feed, and guess what&amp;mdash;Story helps you
-create an RSS feed customized just for that if you like, too.&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
-</rss>
+create an RSS feed customized just for that if you like, too.&lt;/p></description></item></channel></rss>
