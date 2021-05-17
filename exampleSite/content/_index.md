@@ -2,9 +2,10 @@
 title: Story Hugo Custom Theme _(demo site)_
 subtitle: "Showcase Your Work"
 ---
-[![Baron Schwartz](/img/baron-square.jpg)](https://www.xaprb.com)
+![Lionel](/img/lionel-victor.jpg)
 
-Baron Schwartz is the founder and CTO of [VividCortex](https://vividcortex.com), author of
-several books, and creator of various open-source software. He writes about topics
-such as technology, entrepreneurship, and fitness. [More about
-Baron](https://www.xaprb.com/).
+Lionel VICTOR is an applied cryptography engineer and an enthusiastic
+_Story_ user. He started augmenting the [original Hugo's Story theme](https://github.com/xaprb/story)
+with his own derivative called ["Story-Customized"](https://github.com/tchinchow/story-customized).
+
+Find out more about Lionel [on LinkedIn](https://www.linkedin.com/in/lionelvictor).

@@ -2,10 +2,11 @@
 title: Story's Figures, Captions, and Tables
 date: "2018-08-22"
 url: "/figures"
+author: Baron SCHWARTZ
 description: "This article shows you how to enhance your images and tables with features such as captions and alternative stylings."
-credit: "https://unsplash.com/photos/vHnVtLK8rCc"
 image: "img/unsplash-photos-vHnVtLK8rCc.jpg"
-thumbnail: img/unsplash-photos-vHnVtLK8rCc.tn-500x500.jpg
+credit: "https://unsplash.com/photos/vHnVtLK8rCc"
+thumbnail: "img/unsplash-photos-vHnVtLK8rCc.tn-500x500.jpg"
 classes:
 - feature-figcaption
 - feature-figcaption-hidden

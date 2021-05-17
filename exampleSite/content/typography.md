@@ -2,10 +2,11 @@
 title: Story's Typography
 date: "2018-08-19"
 url: "/typography"
+author: Baron SCHWARTZ
 description: "Story uses gorgeous typefaces and is optimized for a pleasant reading experience on any device."
-credit: "https://unsplash.com/photos/h-M3O25tyvI"
 image: "img/unsplash-photos-h-M3O25tyvI.jpg"
-thumbnail: img/unsplash-photos-h-M3O25tyvI.tn-500x500.jpg
+credit: "https://unsplash.com/photos/h-M3O25tyvI"
+thumbnail: "img/unsplash-photos-h-M3O25tyvI.tn-500x500.jpg"
 classes:
 - feature-hyphenate
 - feature-justify

@@ -2,6 +2,7 @@
 title: Story's JavaScript Search
 date: "2018-08-21"
 url: "/search-page"
+author: Baron SCHWARTZ
 description: "With Story, your site will have built-in search with no external dependencies."
 image: "img/unsplash-photos-4zxSWESyZio.jpg"
 credit: "https://unsplash.com/photos/4zxSWESyZio"

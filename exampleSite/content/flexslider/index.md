@@ -2,8 +2,8 @@
 title: Story's Image Slideshows
 date: "2018-08-21"
 url: "/flexslider"
-description: "Story now also let you include nice images slideshows with FlexSlider"
 author: Lionel VICTOR
+description: "Story now also let you include nice images slideshows with FlexSlider"
 image: "img/unsplash-photos-WQ69GW2vZNs.jpg"
 credit: "https://unsplash.com/photos/WQ69GW2vZNs"
 thumbnail: img/unsplash-photos-WQ69GW2vZNs.tn-500x500.jpg

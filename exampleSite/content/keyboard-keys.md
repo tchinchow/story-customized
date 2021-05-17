@@ -1,9 +1,9 @@
 ---
 title: Keyboard's Keys Feature
-url: /keyboard-keys
 date: "2018-08-18"
-description: "This article shows how to display neat keyboard keys if you need to emphasis on keyboard shortcuts for instance."
+url: /keyboard-keys
 author: Lionel VICTOR
+description: "This article shows how to display neat keyboard keys if you need to emphasis on keyboard shortcuts for instance."
 image: "img/unsplash-photos-_UeY8aTI6d0.jpg"
 credit: "https://unsplash.com/photos/_UeY8aTI6d0"
 thumbnail: "img/unsplash-photos-_UeY8aTI6d0.tn-500x500.jpg"

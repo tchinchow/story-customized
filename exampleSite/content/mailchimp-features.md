@@ -2,6 +2,7 @@
 title: "Story's MailChimp Integration Features"
 date: "2018-08-18"
 url: "/mailchimp-features"
+author: Baron SCHWARTZ
 description: "Story makes it easy to grow a MailChimp subscriber list and send beautifully formatted emails to them automatically."
 image: "img/jessy-hoffmann-720198-unsplash.jpg"
 credit: "https://unsplash.com/photos/EsNkWAv6Vmw/"

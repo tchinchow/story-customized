@@ -2,8 +2,8 @@
 title: Maps with Leaflet.js
 date: "2018-08-19 04:00:00"
 url: "/leaflet"
-description: "Integration of leaflet.js provides mobile-friendly interactive maps."
 author: Lionel VICTOR
+description: "Integration of leaflet.js provides mobile-friendly interactive maps."
 image: "img/unsplash-photos-nXt5HtLmlgE.jpg"
 credit: "https://unsplash.com/photos/nXt5HtLmlgE"
 thumbnail: img/unsplash-photos-nXt5HtLmlgE.tn-500x500.jpg

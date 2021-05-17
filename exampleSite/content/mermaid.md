@@ -2,11 +2,11 @@
 title: Render Mermaid Diagrams with Story
 date: "2018-08-19 08:00:00"
 url: "/mermaid"
-author: 'Lionel VICTOR'
+author: "Lionel VICTOR"
 description: "A chart or a diagram is worth a thousand words. Story has your back with MermaidJS."
-credit: "https://unsplash.com/photos/5mZ_M06Fc9g/download"
 image: "img/unsplash-photos-tZc3vjPCk-Q.jpg"
-thumbnail: img/unsplash-photos-tZc3vjPCk-Q.tn-500x500.jpg
+credit: "https://unsplash.com/photos/5mZ_M06Fc9g/download"
+thumbnail: "img/unsplash-photos-tZc3vjPCk-Q.tn-500x500.jpg"
 classes:
 - feature-figcaption
 - feature-figcaption-hidden

@@ -2,13 +2,15 @@
 title: "Creating Beautiful Presentations with Story"
 date: 2018-05-08T16:00:00-05:00
 event: "RemarkConf 2018"
+author: Baron SCHWARTZ
 location: "Mount Remarkable, 6346+F7 Wilmington, South Australia, Australia"
+description: "Story's Remark frameworks help you create sophisticated slides with simple, clean Markdown. There are predefined layouts for most presentation needs, beautiful typography and colors, precise image control, and a simple modular way to create custom layouts."
 site: "https://www.environment.sa.gov.au/parks/find-a-park/Browse_by_region/flinders-ranges-outback/mount-remarkable-national-park"
-slides: slides/adirondack/
+slides: "slides/adirondack/"
 video: "https://www.youtube.com/watch?v=aVS4W7GZSq0"
 image: "slides/adirondack/leo-serrat-533922-unsplash.jpg"
-description: "Story's Remark frameworks help you create sophisticated slides with simple, clean Markdown. There are predefined layouts for most presentation needs, beautiful typography and colors, precise image control, and a simple modular way to create custom layouts."
-thumbnail: slides/adirondack/thumbnail.jpg
+credit: "https://unsplash.com/photos/T2vkCx_b04E"
+thumbnail: "slides/adirondack/thumbnail.jpg"
 ---
 This is a "talk" page in Story, which is the permanent homepage for a talk
 you've given at a specific event. It's designed to showcase your appearance by

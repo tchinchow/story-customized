@@ -2,8 +2,8 @@
 title: Story's Embedded Screencasts and Videos
 date: "2018-08-19 03:00:00"
 url: "/videojs"
-description: "Illustrate your work with embedded videos and screencasts"
 author: Lionel VICTOR
+description: "Illustrate your work with embedded videos and screencasts"
 image: "img/unsplash-photos-wSkfttEaBw8.jpg"
 credit: "https://unsplash.com/photos/wSkfttEaBw8"
 thumbnail: img/unsplash-photos-wSkfttEaBw8.tn-500x500.jpg

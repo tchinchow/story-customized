@@ -2,6 +2,7 @@
 title: Story's Theme Features
 url: /theme-features
 date: "2018-09-01"
+author: Baron SCHWARTZ
 description: "This page is a tour of Story's features, so you can take full advantage of its power."
 image: "img/unsplash-photos-nehfi_SfqtU.jpg"
 credit: "https://unsplash.com/photos/nehfi_SfqtU"

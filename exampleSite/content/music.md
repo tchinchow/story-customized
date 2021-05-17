@@ -2,10 +2,11 @@
 title: Story's Music Notation
 date: "2018-08-20 04:00:00"
 url: "/music"
+author: Baron SCHWARTZ
 description: "Story can render music notation in your website."
-credit: "https://unsplash.com/photos/UpdR5OaUJl0"
 image: "img/jordan-mixson-372435-unsplash.jpg"
-thumbnail: img/jordan-mixson-372435-unsplash.tn-500x500.jpg
+credit: "https://unsplash.com/photos/UpdR5OaUJl0"
+thumbnail: "img/jordan-mixson-372435-unsplash.tn-500x500.jpg"
 classes:
 - feature-music
 categories:
