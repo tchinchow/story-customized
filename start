@@ -1,13 +1,15 @@
 #!/bin/sh
 set -e
 set -x
-hugo -c exampleSite/content --config exampleSite/config.toml server
+hugo --baseURL http://localhost:1313/ --config exampleSite/config.toml --contentDir exampleSite/content server
 
 # So far we use a git worktree to publish on an independent gh-pages branch
 # (see https://bwaycer.github.io/hugo_tutorial.hugo/tutorials/github-pages-blog/)
 #
 # The theme demo was compiled then published to github pages in project mode, with:
 # hugo --baseURL https://tchinchow.github.io/story-customized/ --config exampleSite/config.toml --contentDir exampleSite/content --destination ./public
+# or
+# hugo --baseURL https://story-customized.tchinchow.net/ --config exampleSite/config.toml --contentDir exampleSite/content --destination ./public
 # Then
 # the usual git add ; git commit ; git push origin gh-pages
 #

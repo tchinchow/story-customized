@@ -23,7 +23,7 @@ jobs:
       - name: Build
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
-        run: hugo --baseURL https://tchinchow.github.io/story-customized/ --config exampleSite/config.toml --contentDir exampleSite/content --minify
+        run: hugo --baseURL https://story-customized.tchinchow.net/ --config exampleSite/config.toml --contentDir exampleSite/content --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
@@ -36,4 +36,4 @@ jobs:
           # external_repository: <username>/<username>.github.io
           publish_dir: ./public
           publish_branch: gh-pages
-        #   cname: example.com
+          cname: story-customized.tchinchow.net
