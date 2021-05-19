@@ -20,5 +20,6 @@ It has a lot of features for people who invest effort in their websites and blog
 - Music notation typesetting with [abcjs](https://abcjs.net/).
 - Easy-to-use, backwards-compatible Markdown enhancements such as ways to control image behavior (size, float, etc) with CSS.
 
-This is just a fraction of Story's feature set, see the [demo site](https://story.xaprb.com/) for much more
+This is just a fraction of Story's original feature set now augmented with Story-Customized.
+See the [demo site](https://story-customized.tchinchow.net/) for much more
 documentation and screenshots.
