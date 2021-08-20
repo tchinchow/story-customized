@@ -1,8 +1,14 @@
+[![CI](https://github.com/tchinchow/story-customized/actions/workflows/main.yml/badge.svg)](https://github.com/tchinchow/story-customized/actions/workflows/main.yml)
+
 # Story
 
 Story is a beautiful [Hugo theme](https://gohugo.io) for showcasing your writing
-and presentations. There's a robust [demo site](https://story.xaprb.com/) where you can see its
-many features in action, and learn more about how to use them. You can also see Story in use on a real site by [Baron Schwartz](https://www.xaprb.com/).
+and presentations. You can see Story in use on a real site by its creator:
+[Baron Schwartz](https://www.xaprb.com/).
+
+Story-Customized is an augmented version of the original Story theme. Just like
+with Story, there's a robust [demo site](https://story-customized.tchinchow.net/)
+where you can see its many features in action, and learn more about how to use them.
 
 ![Story screenshot](https://raw.githubusercontent.com/xaprb/story/master/images/screenshot.png)
 
@@ -20,6 +26,13 @@ It has a lot of features for people who invest effort in their websites and blog
 - Music notation typesetting with [abcjs](https://abcjs.net/).
 - Easy-to-use, backwards-compatible Markdown enhancements such as ways to control image behavior (size, float, etc) with CSS.
 
-This is just a fraction of Story's original feature set now augmented with Story-Customized.
-See the [demo site](https://story-customized.tchinchow.net/) for much more
-documentation and screenshots.
+Story-Customized now adds a handful of new features !
+
+- Slideshows with [FlexSlider2](http://flexslider.woothemes.com/).
+- [MermaidJS](https://mermaid-js.github.io/mermaid/#/) diagrams.
+- Maps with [LeafletJS](https://leafletjs.com/).
+- Embedded videos with [VideoJS](https://videojs.com/).
+- Keyboard Keys.
+
+Don't take my word for it. Browse through the [demo site](https://story-customized.tchinchow.net/)
+for a complete walkthrough and an introduction to all the features.
