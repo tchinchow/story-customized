@@ -3,13 +3,13 @@
 
 name = "Story"
 license = "MIT"
-licenselink = "https://github.com/xaprb/story/blob/master/LICENSE.md"
+licenselink = "https://github.com/tchinchow/story-customized/blob/master/LICENSE.md"
 description = "A beautiful, responsive blog and homepage theme with support for features like search, math typesetting, and RemarkJS presentations."
-homepage = "https://story.xaprb.com/"
+homepage = "https://story-customized.tchinchow.net/"
 tags = ["Blog", "Presentation", "Slide", "Newsletter"]
 features = ["blog", "slides", "LaTeX", "search", "newsletter", "math", "music"]
 min_version = "0.47"
 
 [author]
-  name = "Baron Schwartz"
-  homepage = "https://www.xaprb.com/"
+  name = "Baron Schwartz / Lionel VICTOR"
+  homepage = "https://story-customized.tchinchow.net/"

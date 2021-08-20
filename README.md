@@ -10,7 +10,7 @@ Story-Customized is an augmented version of the original Story theme. Just like
 with Story, there's a robust [demo site](https://story-customized.tchinchow.net/)
 where you can see its many features in action, and learn more about how to use them.
 
-![Story screenshot](https://raw.githubusercontent.com/xaprb/story/master/images/screenshot.png)
+![Story screenshot](https://raw.githubusercontent.com/tchinchow/story-customized/master/images/screenshot.png)
 
 Story is targeted to technical writers and
 speakers: people such as software engineers and open source developers, who want a
