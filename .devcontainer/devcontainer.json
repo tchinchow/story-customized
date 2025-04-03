@@ -1,0 +1,25 @@
+{
+  // "build": { "dockerfile": "Dockerfile" },
+  "image": "cibuilds/hugo:0.145",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        // # Fix for browse lite
+        // cd /tmp
+        // wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+        // sudo dpkg -i google-chrome-stable_current_amd64.deb
+        // sudo apt --fix-broken install
+        // sudo dpkg -i google-chrome-stable_current_amd64.deb
+        //
+        // "browse-lite.chromeExecutable": "/usr/bin/google-chrome-stable"
+      },
+      "extensions": [
+        "github.vscode-github-actions",
+        "mhutchie.git-graph",
+        "eliostruyf.vscode-front-matter"
+        // "antfu.browse-lite"
+      ]
+    }
+  }
+}
+
