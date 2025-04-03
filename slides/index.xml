@@ -1,3 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo Story Theme</title><link>https://story-customized.tchinchow.net/slides/</link><description>Recent content on Hugo Story Theme</description><generator>Hugo -- gohugo.io</generator><lastBuildDate>Wed, 25 Apr 2018 09:50:00 -0700</lastBuildDate><atom:link href="https://story-customized.tchinchow.net/slides/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating Beautiful Presentations with Story</title><link>https://story-customized.tchinchow.net/slides/adirondack/</link><pubDate>Wed, 25 Apr 2018 09:50:00 -0700</pubDate><guid>https://story-customized.tchinchow.net/slides/adirondack/</guid><description>class: title, smokescreen, shelf, no-footer background-image: url(leo-serrat-533922-unsplash.jpg)
-Creating Beautiful Presentations With Remark, Apron, Adirondack, and Descartes The Story Remark Themes Story offers helper themes for creating beautiful presentations with Remark, using simple Markdown to create slide layouts.
-Apron defines the layouts&amp;rsquo; structure and size. Adirondack adds typography, theme colors, and helpful features. Descartes provides element and image positioning and colors. Story has a design goal of clean, simple Markdown content.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo Story Theme</title><link>https://story-customized.tchinchow.net/slides/</link><description>Recent content on Hugo Story Theme</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 25 Apr 2018 09:50:00 -0700</lastBuildDate><atom:link href="https://story-customized.tchinchow.net/slides/index.xml" rel="self" type="application/rss+xml"/><item><title>Creating Beautiful Presentations with Story</title><link>https://story-customized.tchinchow.net/slides/adirondack/</link><pubDate>Wed, 25 Apr 2018 09:50:00 -0700</pubDate><guid>https://story-customized.tchinchow.net/slides/adirondack/</guid><description>&lt;p>class: title, smokescreen, shelf, no-footer
+background-image: url(leo-serrat-533922-unsplash.jpg)&lt;/p>
+&lt;h1 id="creating-beautiful-presentations">Creating Beautiful Presentations&lt;/h1>
+&lt;h3 id="with-remark-apron-adirondack-and-descartes">With Remark, Apron, Adirondack, and Descartes&lt;/h3>
+&lt;hr>
+&lt;h1 id="the-story-remark-themes">The Story Remark Themes&lt;/h1>
+&lt;p>&lt;a href="https://github.com/xaprb/story">Story&lt;/a> offers helper themes for creating
+beautiful presentations with &lt;a href="https://remarkjs.com/">Remark&lt;/a>, using simple
+Markdown to create slide layouts.&lt;/p>
+&lt;ul>
+&lt;li>Apron defines the layouts&amp;rsquo; structure and size.&lt;/li>
+&lt;li>Adirondack adds typography, theme colors, and helpful features.&lt;/li>
+&lt;li>Descartes provides element and image positioning and colors.&lt;/li>
+&lt;/ul>
+&lt;p>Story has a design goal of clean, simple Markdown content. Avoiding &amp;ldquo;raw&amp;rdquo; HTML
+and Remark&amp;rsquo;s Markdown extensions makes things easier.
+View the source of this page to see the Markdown that creates it.&lt;/p></description></item></channel></rss>

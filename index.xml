@@ -1,4 +1,6 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo Story Theme</title><link>https://story-customized.tchinchow.net/</link><generator>Hugo -- gohugo.io</generator><language>en-us</language><author>Baron Schwartz / Lionel VICTOR</author><rights>Copyright (c) 2025</rights><updated>2018-09-03 00:00:00 +0000 UTC</updated><item><title>The Story Hugo Theme Customized</title><link>https://story-customized.tchinchow.net/about-story/</link><pubDate>Mon, 03 Sep 2018 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/about-story/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/unsplash-photos-o-ubWHV29Uk.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description>&lt;p>Story is a beautiful Hugo theme. &lt;a href="https://gohugo.io">Hugo&lt;/a> is a static website
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo Story Theme</title><link>https://story-customized.tchinchow.net/</link><generator>Hugo -- gohugo.io</generator><language>en-us</language><author>Baron Schwartz / Lionel VICTOR</author><rights>Copyright (c) 2025</rights><updated>2025-01-01 00:00:00 +0000 UTC</updated><item><title/><link>https://story-customized.tchinchow.net/talks/</link><pubDate>Wed, 01 Jan 2025 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/talks/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description>&lt;p>&lt;a href="https://www.xaprb.com">&lt;img src="https://story-customized.tchinchow.net/img/baron-square.jpg" alt="Baron Schwartz">&lt;/a>&lt;/p>
+&lt;p>Baron Schwartz is the creator of &lt;a href="https://github.com/xaprb/story">Hugo&amp;rsquo;s Story theme&lt;/a>.&lt;/p>
+&lt;p>Find out more about Baron &lt;a href="https://www.xaprb.com/">on his web site&lt;/a>.&lt;/p></description></item><item><title>The Story Hugo Theme Customized</title><link>https://story-customized.tchinchow.net/about-story/</link><pubDate>Mon, 03 Sep 2018 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/about-story/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/unsplash-photos-o-ubWHV29Uk.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description>&lt;p>Story is a beautiful Hugo theme. &lt;a href="https://gohugo.io">Hugo&lt;/a> is a static website
 generator, which builds websites by rendering
 &lt;a href="https://commonmark.org/help/">Markdown&lt;/a> content into templates from themes like
 Story. The resulting site is fast, secure, and easy to build and maintain.&lt;/p>
@@ -80,26 +82,26 @@ This article documents Story&amp;rsquo;s feature flags.&lt;/p>
 This lets you enable them for the entire site, or for an individual post.
 The combined list of features that applies to a piece of content is the union of the two lists.&lt;/p>
 &lt;p>Here&amp;rsquo;s how to enable the &amp;ldquo;example&amp;rdquo; feature for the entire site, in your site&amp;rsquo;s &lt;code>config.yaml&lt;/code> file:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="color:#66d9ef">params&lt;/span>:
-&lt;span style="color:#66d9ef">classes&lt;/span>:
-- feature-example
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here&amp;rsquo;s how to enable the &amp;ldquo;misc&amp;rdquo; feature in an individual piece of content, via its YAML front matter:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yaml" data-lang="yaml">---
-&lt;span style="color:#66d9ef">classes&lt;/span>:
-- feature-misc
----
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The contents of both feature lists are combined and put into the &lt;code>&amp;lt;body&amp;gt;&lt;/code> tag&amp;rsquo;s &lt;code>class&lt;/code> attribute, verbatim:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-html" data-lang="html">&amp;lt;&lt;span style="color:#f92672">body&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;feature-example feature-misc&amp;#34;&lt;/span>&amp;gt;...&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you&amp;rsquo;re using TOML, then the syntax in &lt;code>config.toml&lt;/code> looks like this:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">[&lt;span style="color:#a6e22e">params&lt;/span>]
-&lt;span style="color:#a6e22e">classes&lt;/span> = [&lt;span style="color:#e6db74">&amp;#34;feature-example&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;feature-misc&amp;#34;&lt;/span>]
-&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="disabling-features">Disabling Features&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#f92672">classes&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> - &lt;span style="color:#ae81ff">feature-example&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here&amp;rsquo;s how to enable the &amp;ldquo;misc&amp;rdquo; feature in an individual piece of content, via its YAML front matter:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">classes&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#ae81ff">feature-misc&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The contents of both feature lists are combined and put into the &lt;code>&amp;lt;body&amp;gt;&lt;/code> tag&amp;rsquo;s &lt;code>class&lt;/code> attribute, verbatim:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-html" data-lang="html">&lt;span style="display:flex;">&lt;span>&amp;lt;&lt;span style="color:#f92672">body&lt;/span> &lt;span style="color:#a6e22e">class&lt;/span>&lt;span style="color:#f92672">=&lt;/span>&lt;span style="color:#e6db74">&amp;#34;feature-example feature-misc&amp;#34;&lt;/span>&amp;gt;...&amp;lt;/&lt;span style="color:#f92672">body&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you&amp;rsquo;re using TOML, then the syntax in &lt;code>config.toml&lt;/code> looks like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">params&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">classes&lt;/span> = [&lt;span style="color:#e6db74">&amp;#34;feature-example&amp;#34;&lt;/span>, &lt;span style="color:#e6db74">&amp;#34;feature-misc&amp;#34;&lt;/span>]
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="disabling-features">Disabling Features&lt;/h3>
 &lt;p>Many features can be &lt;em>negated&lt;/em> by prefixing the feature name with &lt;code>no&lt;/code>, like this:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yaml" data-lang="yaml">---
-&lt;span style="color:#66d9ef">classes&lt;/span>:
-- feature-noexample
----
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>If a feature is enabled globally and negated in a single piece of content&amp;rsquo;s front matter, both the positive and negative form will appear in the CSS classes.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">classes&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#ae81ff">feature-noexample&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If a feature is enabled globally and negated in a single piece of content&amp;rsquo;s front matter, both the positive and negative form will appear in the CSS classes.
 Features in Story are inside of code that checks not only whether flags are enabled, but also whether they&amp;rsquo;re overridden with a negation.
 One consequence of this is that if you disable a feature globally in &lt;code>config.yaml&lt;/code>, you can&amp;rsquo;t enable it locally in a single piece of content.
 You can only enable globally and disable locally, not the other way around.&lt;/p>
@@ -254,14 +256,14 @@ features Netlify describes, and b) easier to set up.&lt;/p>
 &lt;h3 id="global-and-per-content-authors">Global And Per-Content Authors&lt;/h3>
 &lt;p>If you want to specify an author in the front matter of each post, it&amp;rsquo;s
 simply specified like this (YAML example):&lt;/p>
-&lt;pre>&lt;code>---
-author: &amp;quot;Elvis Presley&amp;quot;
+&lt;pre tabindex="0">&lt;code>---
+author: &amp;#34;Elvis Presley&amp;#34;
 ---
 &lt;/code>&lt;/pre>&lt;p>If you want to set a global author parameter for the entire site, which will serve as
 the default in case any pieces of content don&amp;rsquo;t specify their own, use your
 config file&amp;rsquo;s &lt;code>params&lt;/code> array:&lt;/p>
-&lt;pre>&lt;code>params:
-author: &amp;quot;Baron Schwartz&amp;quot;
+&lt;pre tabindex="0">&lt;code>params:
+author: &amp;#34;Baron Schwartz&amp;#34;
 &lt;/code>&lt;/pre>&lt;p>That&amp;rsquo;s exactly what this sample site you&amp;rsquo;re reading right now does: Baron is the
 author by default, but Elvis is the author of &lt;em>this&lt;/em> content you&amp;rsquo;re reading now.&lt;/p>
 &lt;h3 id="creating-author-profiles">Creating Author Profiles&lt;/h3>
@@ -270,7 +272,7 @@ author by default, but Elvis is the author of &lt;em>this&lt;/em> content you&am
 file into each of those directories, and give it the content needed to describe
 the author.&lt;/p>
 &lt;p>For example:&lt;/p>
-&lt;pre>&lt;code>└── content/
+&lt;pre tabindex="0">&lt;code>└── content/
 └── authors/
 ├── elvis-presley/
 │ └── _index.md
@@ -282,13 +284,13 @@ the author.&lt;/p>
 a square image followed by a paragraph of text. This page you&amp;rsquo;re viewing right
 now has &amp;ldquo;Elvis Presley&amp;rdquo; as its author, and the content of
 &lt;code>content/authors/elvis-presley/_index.md&lt;/code> is:&lt;/p>
-&lt;pre>&lt;code>---
+&lt;pre tabindex="0">&lt;code>---
 ---
 ![Elvis](/img/elvis.jpg)
 Elvis Aaron Presley (January 8, 1935 – August 16, 1977) was an American singer
 and actor. Regarded as one of the most significant cultural icons of the 20th
-century, he is often referred to as the &amp;quot;King of Rock and Roll&amp;quot; or simply &amp;quot;the
-King&amp;quot;.
+century, he is often referred to as the &amp;#34;King of Rock and Roll&amp;#34; or simply &amp;#34;the
+King&amp;#34;.
 &lt;/code>&lt;/pre>&lt;h3 id="global-fallback-content">Global Fallback Content&lt;/h3>
 &lt;p>Even if you don&amp;rsquo;t have an author directory and a specific author&amp;rsquo;s file as
 described above, you can create content that will serve as a fallback across the
@@ -299,7 +301,7 @@ site uses to provide Baron Schwartz&amp;rsquo;s author information. This informa
 appear on all pages &lt;em>other than&lt;/em> the current page, which is authored by Elvis
 Presley. This fallback information from &lt;code>content/_index.md&lt;/code> looks like the
 following:&lt;/p>
-&lt;pre>&lt;code>[![Baron Schwartz](/img/baron-square.jpg)](https://www.xaprb.com)
+&lt;pre tabindex="0">&lt;code>[![Baron Schwartz](/img/baron-square.jpg)](https://www.xaprb.com)
 Baron Schwartz is the founder and CTO of [VividCortex](https://vividcortex.com), author of
 several books, and creator of various open-source software. He writes about topics
 such as technology, entrepreneurship, and fitness. [More about
@@ -317,18 +319,18 @@ each method, in the following order.&lt;/p>
 &lt;p>First, if an image is followed immediately by an &lt;code>&amp;lt;em&amp;gt;&lt;/code> &lt;em>in the same paragraph&lt;/em>, Story treats
 the content of the &lt;code>&amp;lt;em&amp;gt;&lt;/code> as the image caption. To enable this, the image and
 the text must not have a blank line between them. Example:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-md" data-lang="md">![&lt;span style="color:#f92672">Water Lily&lt;/span>](&lt;span style="color:#a6e22e">/img/unsplash-photos-vHnVtLK8rCc.jpg&lt;/span>)
-&lt;span style="font-style:italic">_Water lily photo by Zoltan Tasi on Unsplash_&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>This markup results in a &lt;code>&amp;lt;p&amp;gt;&amp;lt;img...&amp;gt;&amp;lt;em...&amp;gt;&amp;lt;/p&amp;gt;&lt;/code> markup that Story converts into a captioned figure.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-md" data-lang="md">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Water Lily&lt;/span>](&lt;span style="color:#a6e22e">/img/unsplash-photos-vHnVtLK8rCc.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="font-style:italic">_Water lily photo by Zoltan Tasi on Unsplash_&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This markup results in a &lt;code>&amp;lt;p&amp;gt;&amp;lt;img...&amp;gt;&amp;lt;em...&amp;gt;&amp;lt;/p&amp;gt;&lt;/code> markup that Story converts into a captioned figure.
 Hover your mouse over the picture to see the caption:&lt;/p>
 &lt;p>&lt;img src="https://story-customized.tchinchow.net/img/unsplash-photos-vHnVtLK8rCc.jpg" alt="Water Lily">
 &lt;em>Water lily photo by Zoltan Tasi on Unsplash&lt;/em>&lt;/p>
 &lt;p>If there&amp;rsquo;s no &lt;code>&amp;lt;em&amp;gt;&lt;/code> to use, Story uses the image&amp;rsquo;s &lt;code>title&lt;/code> attribute as a fallback:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-md" data-lang="md">![&lt;span style="color:#f92672">Water Lily&lt;/span>](&lt;span style="color:#a6e22e">/img/unsplash-photos-vHnVtLK8rCc.jpg &amp;#34;A water lily&amp;#34;&lt;/span>)
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://story-customized.tchinchow.net/img/unsplash-photos-vHnVtLK8rCc.jpg" alt="Water Lily" title="A water lily">&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-md" data-lang="md">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Water Lily&lt;/span>](&lt;span style="color:#a6e22e">/img/unsplash-photos-vHnVtLK8rCc.jpg &amp;#34;A water lily&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://story-customized.tchinchow.net/img/unsplash-photos-vHnVtLK8rCc.jpg" alt="Water Lily" title="A water lily">&lt;/p>
 &lt;p>Finally, Story falls back to the &lt;code>alt&lt;/code> attribute:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-md" data-lang="md">![&lt;span style="color:#f92672">Water Lily&lt;/span>](&lt;span style="color:#a6e22e">/img/unsplash-photos-vHnVtLK8rCc.jpg&lt;/span>)
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://story-customized.tchinchow.net/img/unsplash-photos-vHnVtLK8rCc.jpg" alt="Water Lily">&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-md" data-lang="md">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Water Lily&lt;/span>](&lt;span style="color:#a6e22e">/img/unsplash-photos-vHnVtLK8rCc.jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;img src="https://story-customized.tchinchow.net/img/unsplash-photos-vHnVtLK8rCc.jpg" alt="Water Lily">&lt;/p>
 &lt;h3 id="table-styling">Table Styling&lt;/h3>
 &lt;p>Story has multiple built-in table styles that you can apply with feature flags.
 The default is similar to GitHub&amp;rsquo;s table styling:&lt;/p>
@@ -360,171 +362,172 @@ The default is similar to GitHub&amp;rsquo;s table styling:&lt;/p>
 &lt;/table>
 &lt;p>There is &lt;em>also&lt;/em> a style designed for tables that are part of an
 article with figures, resembling scientific papers or other more formal use
-cases. This is enabled with &lt;code>feature-tablefig&lt;/code>. Click &lt;!-- raw HTML omitted -->here&lt;!-- raw HTML omitted --> to toggle.&lt;/p>
+cases. This is enabled with &lt;code>feature-tablefig&lt;/code>. Click &lt;a
+id="tablefig">here&lt;/a> to toggle.&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>Item&lt;/th>
-&lt;th align="center">Estimated&lt;/th>
-&lt;th align="center">Positive and Significant&lt;/th>
-&lt;th align="center">Negative and Significant&lt;/th>
+&lt;th style="text-align: center">Estimated&lt;/th>
+&lt;th style="text-align: center">Positive and Significant&lt;/th>
+&lt;th style="text-align: center">Negative and Significant&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
 &lt;td>Demographic Variables for Head&lt;/td>
-&lt;td align="center">&lt;/td>
-&lt;td align="center">&lt;/td>
-&lt;td align="center">&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Male&lt;/td>
-&lt;td align="center">85&lt;/td>
-&lt;td align="center">74&lt;/td>
-&lt;td align="center">11&lt;/td>
+&lt;td style="text-align: center">85&lt;/td>
+&lt;td style="text-align: center">74&lt;/td>
+&lt;td style="text-align: center">11&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Age&lt;/td>
-&lt;td align="center">85&lt;/td>
-&lt;td align="center">85&lt;/td>
-&lt;td align="center">0&lt;/td>
+&lt;td style="text-align: center">85&lt;/td>
+&lt;td style="text-align: center">85&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Age Squared&lt;/td>
-&lt;td align="center">85&lt;/td>
-&lt;td align="center">0&lt;/td>
-&lt;td align="center">85&lt;/td>
+&lt;td style="text-align: center">85&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
+&lt;td style="text-align: center">85&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Head&amp;rsquo;s Education&lt;/td>
-&lt;td align="center">&lt;/td>
-&lt;td align="center">&lt;/td>
-&lt;td align="center">&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
+&lt;td style="text-align: center">&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Completed primary or incomplete secondary&lt;/td>
-&lt;td align="center">76&lt;/td>
-&lt;td align="center">76&lt;/td>
-&lt;td align="center">0&lt;/td>
+&lt;td style="text-align: center">76&lt;/td>
+&lt;td style="text-align: center">76&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Completed secondary or higher&lt;/td>
-&lt;td align="center">60&lt;/td>
-&lt;td align="center">60&lt;/td>
-&lt;td align="center">0&lt;/td>
+&lt;td style="text-align: center">60&lt;/td>
+&lt;td style="text-align: center">60&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Completed secondary&lt;/td>
-&lt;td align="center">19&lt;/td>
-&lt;td align="center">19&lt;/td>
-&lt;td align="center">0&lt;/td>
+&lt;td style="text-align: center">19&lt;/td>
+&lt;td style="text-align: center">19&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Higher&lt;/td>
-&lt;td align="center">20&lt;/td>
-&lt;td align="center">20&lt;/td>
-&lt;td align="center">0&lt;/td>
+&lt;td style="text-align: center">20&lt;/td>
+&lt;td style="text-align: center">20&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Unknown&lt;/td>
-&lt;td align="center">12&lt;/td>
-&lt;td align="center">12&lt;/td>
-&lt;td align="center">0&lt;/td>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">12&lt;/td>
+&lt;td style="text-align: center">0&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>Tables with columns of right-aligned numbers are more readable with fixed-width numerals; click to toggle &lt;!-- raw HTML omitted -->&lt;code>feature-tablefw&lt;/code>&lt;!-- raw HTML omitted -->. Observe the table below and see how its columns are easier to read with fixed-width numerals. This is noticeable with Github-style table formatting, but not with academic-style.&lt;/p>
+&lt;p>Tables with columns of right-aligned numbers are more readable with fixed-width numerals; click to toggle &lt;a id="tablefw">&lt;code>feature-tablefw&lt;/code>&lt;/a>. Observe the table below and see how its columns are easier to read with fixed-width numerals. This is noticeable with Github-style table formatting, but not with academic-style.&lt;/p>
 &lt;table>
 &lt;thead>
 &lt;tr>
 &lt;th>Date&lt;/th>
-&lt;th align="right">Inclination, deg.&lt;/th>
-&lt;th align="right">Longitude, Asc. Node, deg.&lt;/th>
-&lt;th align="right">Mean Distance, au&lt;/th>
-&lt;th align="right">Eccentricity&lt;/th>
-&lt;th align="right">Mean Longitude, deg.&lt;/th>
+&lt;th style="text-align: right">Inclination, deg.&lt;/th>
+&lt;th style="text-align: right">Longitude, Asc. Node, deg.&lt;/th>
+&lt;th style="text-align: right">Mean Distance, au&lt;/th>
+&lt;th style="text-align: right">Eccentricity&lt;/th>
+&lt;th style="text-align: right">Mean Longitude, deg.&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
 &lt;td>Jan. 28&lt;/td>
-&lt;td align="right">7.0052&lt;/td>
-&lt;td align="right">48.486&lt;/td>
-&lt;td align="right">0.387097&lt;/td>
-&lt;td align="right">0.205644&lt;/td>
-&lt;td align="right">355.3943&lt;/td>
+&lt;td style="text-align: right">7.0052&lt;/td>
+&lt;td style="text-align: right">48.486&lt;/td>
+&lt;td style="text-align: right">0.387097&lt;/td>
+&lt;td style="text-align: right">0.205644&lt;/td>
+&lt;td style="text-align: right">355.3943&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Mar. 9&lt;/td>
-&lt;td align="right">7.0052&lt;/td>
-&lt;td align="right">48.487&lt;/td>
-&lt;td align="right">0.387098&lt;/td>
-&lt;td align="right">0.205646&lt;/td>
-&lt;td align="right">159.0899&lt;/td>
+&lt;td style="text-align: right">7.0052&lt;/td>
+&lt;td style="text-align: right">48.487&lt;/td>
+&lt;td style="text-align: right">0.387098&lt;/td>
+&lt;td style="text-align: right">0.205646&lt;/td>
+&lt;td style="text-align: right">159.0899&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Apr. 18&lt;/td>
-&lt;td align="right">7.0052&lt;/td>
-&lt;td align="right">48.489&lt;/td>
-&lt;td align="right">0.387097&lt;/td>
-&lt;td align="right">0.205649&lt;/td>
-&lt;td align="right">322.7854&lt;/td>
+&lt;td style="text-align: right">7.0052&lt;/td>
+&lt;td style="text-align: right">48.489&lt;/td>
+&lt;td style="text-align: right">0.387097&lt;/td>
+&lt;td style="text-align: right">0.205649&lt;/td>
+&lt;td style="text-align: right">322.7854&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>May 28&lt;/td>
-&lt;td align="right">7.0052&lt;/td>
-&lt;td align="right">48.490&lt;/td>
-&lt;td align="right">0.387097&lt;/td>
-&lt;td align="right">0.205650&lt;/td>
-&lt;td align="right">126.4812&lt;/td>
+&lt;td style="text-align: right">7.0052&lt;/td>
+&lt;td style="text-align: right">48.490&lt;/td>
+&lt;td style="text-align: right">0.387097&lt;/td>
+&lt;td style="text-align: right">0.205650&lt;/td>
+&lt;td style="text-align: right">126.4812&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>July 7&lt;/td>
-&lt;td align="right">7.0052&lt;/td>
-&lt;td align="right">48.492&lt;/td>
-&lt;td align="right">0.387098&lt;/td>
-&lt;td align="right">0.205645&lt;/td>
-&lt;td align="right">290.1771&lt;/td>
+&lt;td style="text-align: right">7.0052&lt;/td>
+&lt;td style="text-align: right">48.492&lt;/td>
+&lt;td style="text-align: right">0.387098&lt;/td>
+&lt;td style="text-align: right">0.205645&lt;/td>
+&lt;td style="text-align: right">290.1771&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Aug. 16&lt;/td>
-&lt;td align="right">7.0052&lt;/td>
-&lt;td align="right">48.493&lt;/td>
-&lt;td align="right">0.387098&lt;/td>
-&lt;td align="right">0.205645&lt;/td>
-&lt;td align="right">93.8725&lt;/td>
+&lt;td style="text-align: right">7.0052&lt;/td>
+&lt;td style="text-align: right">48.493&lt;/td>
+&lt;td style="text-align: right">0.387098&lt;/td>
+&lt;td style="text-align: right">0.205645&lt;/td>
+&lt;td style="text-align: right">93.8725&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Sept. 25&lt;/td>
-&lt;td align="right">7.0052&lt;/td>
-&lt;td align="right">48.494&lt;/td>
-&lt;td align="right">0.387098&lt;/td>
-&lt;td align="right">0.205642&lt;/td>
-&lt;td align="right">257.5683&lt;/td>
+&lt;td style="text-align: right">7.0052&lt;/td>
+&lt;td style="text-align: right">48.494&lt;/td>
+&lt;td style="text-align: right">0.387098&lt;/td>
+&lt;td style="text-align: right">0.205642&lt;/td>
+&lt;td style="text-align: right">257.5683&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Nov. 4&lt;/td>
-&lt;td align="right">7.0052&lt;/td>
-&lt;td align="right">48.495&lt;/td>
-&lt;td align="right">0.387099&lt;/td>
-&lt;td align="right">0.205635&lt;/td>
-&lt;td align="right">61.2628&lt;/td>
+&lt;td style="text-align: right">7.0052&lt;/td>
+&lt;td style="text-align: right">48.495&lt;/td>
+&lt;td style="text-align: right">0.387099&lt;/td>
+&lt;td style="text-align: right">0.205635&lt;/td>
+&lt;td style="text-align: right">61.2628&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Dec. 14&lt;/td>
-&lt;td align="right">7.0052&lt;/td>
-&lt;td align="right">48.497&lt;/td>
-&lt;td align="right">0.387099&lt;/td>
-&lt;td align="right">0.205635&lt;/td>
-&lt;td align="right">224.9579&lt;/td>
+&lt;td style="text-align: right">7.0052&lt;/td>
+&lt;td style="text-align: right">48.497&lt;/td>
+&lt;td style="text-align: right">0.387099&lt;/td>
+&lt;td style="text-align: right">0.205635&lt;/td>
+&lt;td style="text-align: right">224.9579&lt;/td>
 &lt;/tr>
 &lt;tr>
 &lt;td>Dec. 54&lt;/td>
-&lt;td align="right">7.0052&lt;/td>
-&lt;td align="right">48.498&lt;/td>
-&lt;td align="right">0.387098&lt;/td>
-&lt;td align="right">0.205633&lt;/td>
-&lt;td align="right">28.6524&lt;/td>
+&lt;td style="text-align: right">7.0052&lt;/td>
+&lt;td style="text-align: right">48.498&lt;/td>
+&lt;td style="text-align: right">0.387098&lt;/td>
+&lt;td style="text-align: right">0.205633&lt;/td>
+&lt;td style="text-align: right">28.6524&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -538,12 +541,12 @@ you can link to them.&lt;/li>
 &lt;li>The &lt;code>feature-figlink&lt;/code> feature flag searches the article for text such as
 Figure 1 and automatically links it to the appropriate figure.&lt;/li>
 &lt;li>If the &lt;code>feature-fignum&lt;/code> feature is enabled, the text of the caption is
-prepended with the figure number. Click here to &lt;!-- raw HTML omitted -->toggle this
-feature&lt;!-- raw HTML omitted -->, then inspect the captions again to see the effect.&lt;/li>
+prepended with the figure number. Click here to &lt;a id="fignum">toggle this
+feature&lt;/a>, then inspect the captions again to see the effect.&lt;/li>
 &lt;li>The &lt;code>feature-figcaption-hidden&lt;/code> feature makes the captions hidden until you
 move the mouse over them. The &lt;code>feature-figcaption-visible&lt;/code> feature flag
 overrides this and makes the captions visible immediately below the image.
-Click here to &lt;!-- raw HTML omitted -->toggle this feature&lt;!-- raw HTML omitted -->.&lt;/li>
+Click here to &lt;a id="figvisible">toggle this feature&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;h3 id="table-captions">Table Captions&lt;/h3>
 &lt;p>Story doesn&amp;rsquo;t convert tables to figures, but it can add captions to tables.
@@ -551,8 +554,20 @@ See Table 3, which is followed by a paragraph whose entire content is inside an 
 If the &lt;code>feature-tablecaption&lt;/code> feature is enabled, Story will use unobtrusive JavaScript to move that paragraph&amp;rsquo;s text into the table&amp;rsquo;s &lt;code>&amp;lt;caption&amp;gt;&lt;/code> element.&lt;/p>
 &lt;p>Tables can be autolinked and table captions can be numbered, similar to images.
 These features are controlled by the same &lt;code>feature-figlink&lt;/code> and &lt;code>feature-fignum&lt;/code> flags that control image captioning and linking, so they&amp;rsquo;ll be consistently applied.&lt;/p>
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
+&lt;script type="text/javascript">
+$( "#fignum" ).click(function() {
+$("body").toggleClass("feature-fignum");
+});
+$( "#figvisible" ).click(function() {
+$("body").toggleClass("feature-figcaption-visible");
+});
+$( "#tablefig" ).click(function() {
+$("body").toggleClass("feature-tablefig");
+});
+$( "#tablefw" ).click(function() {
+$("body").toggleClass("feature-tablefw");
+});
+&lt;/script>
 &lt;p>Read next: &lt;a href="https://story-customized.tchinchow.net/flexslider/">Story&amp;rsquo;s Image Slideshows&lt;/a>.&lt;/p></description></item><item><title>Story's Image Formatting Controls</title><link>https://story-customized.tchinchow.net/images/</link><pubDate>Tue, 21 Aug 2018 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/images/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description>&lt;p>This article is a demo of Story&amp;rsquo;s image-related features (other than &lt;a href="https://story-customized.tchinchow.net/figures">figure captions&lt;/a>).
 Story can apply a variety of stylistic and layout transformations to your images.
 These features are enabled by unobtrusive, accessibility-friendly tricks that give you more control over images than Markdown typically provides.
@@ -568,8 +583,8 @@ give you control over image styling.
 Images that use this technique don&amp;rsquo;t get converted into &lt;a href="https://story-customized.tchinchow.net/figures">figures with captions&lt;/a>.&lt;/p>
 &lt;p>![Small Lily](/img/lily.jpg# fr)&lt;/p>
 &lt;p>For example, you can float an image right with the &lt;code>fr&lt;/code> URL fragment:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-md" data-lang="md">![&lt;span style="color:#f92672">Small Lily&lt;/span>](&lt;span style="color:#a6e22e">/img/lily.jpg# fr&lt;/span>)
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>There&amp;rsquo;s a selection of these pseudo-classes built into Story via the Descartes
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-md" data-lang="md">&lt;span style="display:flex;">&lt;span>![&lt;span style="color:#f92672">Small Lily&lt;/span>](&lt;span style="color:#a6e22e">/img/lily.jpg# fr&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>There&amp;rsquo;s a selection of these pseudo-classes built into Story via the Descartes
 CSS file; inspect the CSS or LESS source to see what styles you can attach to
 images.&lt;/p>
 &lt;p>If floated images interfere with headings, you can use &lt;a href="https://story-customized.tchinchow.net/features">heading clear feature flags&lt;/a> to fix this.&lt;/p>
@@ -577,17 +592,17 @@ images.&lt;/p>
 &lt;p>&lt;a href="https://unsplash.com/photos/vHnVtLK8rCc">![Small Lily](/img/lily.jpg# 3dbook)&lt;/a>&lt;/p>
 &lt;p>A book cover image that&amp;rsquo;s inside an &lt;code>&amp;lt;a&amp;gt;&lt;/code> link can be floated right and given
 a 3d look with the &lt;code>3dbook&lt;/code> URL fragment pseudo-class.&lt;/p>
-&lt;pre>&lt;code>[![Small Lily](/img/lily.jpg# 3dbook)](https://unsplash.com/photos/vHnVtLK8rCc)
+&lt;pre tabindex="0">&lt;code>[![Small Lily](/img/lily.jpg# 3dbook)](https://unsplash.com/photos/vHnVtLK8rCc)
 &lt;/code>&lt;/pre>&lt;h3 id="header-images">Header Images&lt;/h3>
 &lt;p>Story is designed for visual impact, with a featured image for each piece of content.
 Use the &lt;code>image&lt;/code> property in the article&amp;rsquo;s front-matter to set the image.
 Use the &lt;code>credit&lt;/code> to give credit to the image&amp;rsquo;s creator if you wish; Story will put a small camera icon in the header if it finds that parameter.
 Use the &lt;code>thumbnail&lt;/code> property to supply a smaller version of the image in list views.&lt;/p>
 &lt;p>A typical piece of content will have front matter like the following:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="color:#66d9ef">image&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;/img/unsplash-photos-QRkew0KwXSM.jpg&amp;#34;&lt;/span>
-&lt;span style="color:#66d9ef">thumbnail&lt;/span>: /img/unsplash-photos-QRkew0KwXSM.tn-500x500.jpg
-&lt;span style="color:#66d9ef">credit&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;https://unsplash.com/photos/QRkew0KwXSM&amp;#34;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>If there&amp;rsquo;s no thumbnail, Story falls back to the full-size image.
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">image&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;/img/unsplash-photos-QRkew0KwXSM.jpg&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">thumbnail&lt;/span>: &lt;span style="color:#ae81ff">/img/unsplash-photos-QRkew0KwXSM.tn-500x500.jpg&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">credit&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;https://unsplash.com/photos/QRkew0KwXSM&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If there&amp;rsquo;s no thumbnail, Story falls back to the full-size image.
 If there&amp;rsquo;s no article-specific image, Story uses its default, &lt;code>/img/default-header-img.jpg&lt;/code>, or the thumbnail equivalent, &lt;code>/img/default-header-img.tn-500x500.jpg&lt;/code>.
 This page doesn&amp;rsquo;t supply its own header image, so Story is using the default.&lt;/p>
 &lt;p>You can supply your own default header image by simply putting an image with the same name in your &lt;em>site&amp;rsquo;s&lt;/em> &lt;code>/static/img&lt;/code> directory.
@@ -620,24 +635,23 @@ and overridden as you wish on individual pages.&lt;/p>
 &lt;p>You can easily integrate pictures slideshow with the &lt;code>flexslider&lt;/code> shortcode.&lt;/p>
 &lt;p>Before you begin, make sure you enable the flexslider &lt;a href="https://story-customized.tchinchow.net/features">feature&lt;/a> by
 adding the following class to your article&amp;rsquo;s front matter:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yaml" data-lang="yaml">---
-&lt;span style="color:#66d9ef">classes&lt;/span>:
-- feature-flexslider
----
-&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">classes&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#ae81ff">feature-flexslider&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;blockquote>
 &lt;p>&lt;strong>Note&lt;/strong>:
 It is important to note here that you MUST add the feature. Story will
 know that it has to add the appropriate class to images list under the
 flexslider.&lt;/p>
-&lt;p>If you don&amp;rsquo;t add the feature, then the shortcode alone will not work.&lt;/p>
-&lt;/blockquote>
+&lt;p>If you don&amp;rsquo;t add the feature, then the shortcode alone will not work.&lt;/p>&lt;/blockquote>
 &lt;p>From there the &lt;code>flexslider&lt;/code> shortcode can be used with a list of images as
 illustrated below:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&amp;lt; &lt;span style="color:#a6e22e">flexslider&lt;/span> &amp;gt;}}
-&lt;span style="color:#f92672">-&lt;/span> ![](&lt;span style="color:#a6e22e">kitchen_adventurer_cheesecake_brownie&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
-&lt;span style="color:#f92672">-&lt;/span> ![](&lt;span style="color:#a6e22e">kitchen_adventurer_donut&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
-{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">flexslider&lt;/span> &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will be rendered into the following slideshow:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#a6e22e">flexslider&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">-&lt;/span> ![](&lt;span style="color:#a6e22e">kitchen_adventurer_cheesecake_brownie&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">-&lt;/span> ![](&lt;span style="color:#a6e22e">kitchen_adventurer_donut&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">flexslider&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This will be rendered into the following slideshow:&lt;/p>
 &lt;div class="flexslider hide-print">
 &lt;ul>
 &lt;li>&lt;img src="kitchen_adventurer_cheesecake_brownie.jpg" alt="">&lt;/li>
@@ -648,14 +662,14 @@ illustrated below:&lt;/p>
 &lt;p>The &lt;code>flexslider&lt;/code> shortcode is compatible with &lt;a href="https://story-customized.tchinchow.net/figures">Story&amp;rsquo;s &lt;code>fig-caption&lt;/code> feature&lt;/a>
 and will render the caption as you would expect.&lt;/p>
 &lt;p>The code below exhibits this behaviour:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&amp;lt; &lt;span style="color:#a6e22e">flexslider&lt;/span> &amp;gt;}}
-&lt;span style="color:#f92672">-&lt;/span> ![&lt;span style="color:#a6e22e">Cheesecake&lt;/span> &lt;span style="color:#a6e22e">Brownie&lt;/span>](&lt;span style="color:#a6e22e">kitchen_adventurer_cheesecake_brownie&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
-&lt;span style="color:#f92672">-&lt;/span> ![&lt;span style="color:#a6e22e">Lemon&lt;/span>](&lt;span style="color:#a6e22e">kitchen_adventurer_lemon&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
-&lt;span style="color:#f92672">-&lt;/span> ![&lt;span style="color:#a6e22e">Donut&lt;/span>](&lt;span style="color:#a6e22e">kitchen_adventurer_donut&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
-&lt;span style="color:#f92672">-&lt;/span> ![](&lt;span style="color:#a6e22e">kitchen_adventurer_caramel&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
-&lt;span style="color:#a6e22e">_The&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Caramel&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">cup&lt;/span> &lt;span style="color:#a6e22e">cake&lt;/span> &lt;span style="color:#a6e22e">advertised&lt;/span> &lt;span style="color:#a6e22e">with&lt;/span> &lt;span style="color:#a6e22e">flexslider_&lt;/span>
-{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">flexslider&lt;/span> &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The above snippet will be rendered as shown below. It will also advertise
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#a6e22e">flexslider&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">-&lt;/span> ![&lt;span style="color:#a6e22e">Cheesecake&lt;/span> &lt;span style="color:#a6e22e">Brownie&lt;/span>](&lt;span style="color:#a6e22e">kitchen_adventurer_cheesecake_brownie&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">-&lt;/span> ![&lt;span style="color:#a6e22e">Lemon&lt;/span>](&lt;span style="color:#a6e22e">kitchen_adventurer_lemon&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">-&lt;/span> ![&lt;span style="color:#a6e22e">Donut&lt;/span>](&lt;span style="color:#a6e22e">kitchen_adventurer_donut&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">-&lt;/span> ![](&lt;span style="color:#a6e22e">kitchen_adventurer_caramel&lt;/span>.&lt;span style="color:#a6e22e">jpg&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">_The&lt;/span> &lt;span style="color:#e6db74">&amp;#34;Caramel&amp;#34;&lt;/span> &lt;span style="color:#a6e22e">cup&lt;/span> &lt;span style="color:#a6e22e">cake&lt;/span> &lt;span style="color:#a6e22e">advertised&lt;/span> &lt;span style="color:#a6e22e">with&lt;/span> &lt;span style="color:#a6e22e">flexslider_&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">flexslider&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The above snippet will be rendered as shown below. It will also advertise
 &lt;code>flexslider&lt;/code> shortcode&amp;rsquo;s ability of rendering multiple slideshows in a
 single page: you can use the as many times as needed.&lt;/p>
 &lt;div class="flexslider hide-print">
@@ -685,7 +699,7 @@ configure the &lt;code>home&lt;/code> output type to include JSON, which isn&amp
 default. This will override the default output settings, so you&amp;rsquo;ll need to
 explicitly specify the defaults in addition. Here&amp;rsquo;s a YAML config file section
 for your &lt;code>config.yaml&lt;/code> file to enable this:&lt;/p>
-&lt;pre>&lt;code>outputs:
+&lt;pre tabindex="0">&lt;code>outputs:
 home:
 - HTML
 - JSON
@@ -702,14 +716,14 @@ taxonomyTerm:
 - HTML
 - RSS
 &lt;/code>&lt;/pre>&lt;p>If you use TOML, use this:&lt;/p>
-&lt;pre>&lt;code>[outputs]
-home = [&amp;quot;HTML&amp;quot;, &amp;quot;JSON&amp;quot;, &amp;quot;RSS&amp;quot;]
-page = [&amp;quot;HTML&amp;quot;]
-section = [&amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot;]
-taxonomy = [&amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot;]
-taxonomyTerm = [&amp;quot;HTML&amp;quot;, &amp;quot;RSS&amp;quot;]
+&lt;pre tabindex="0">&lt;code>[outputs]
+home = [&amp;#34;HTML&amp;#34;, &amp;#34;JSON&amp;#34;, &amp;#34;RSS&amp;#34;]
+page = [&amp;#34;HTML&amp;#34;]
+section = [&amp;#34;HTML&amp;#34;, &amp;#34;RSS&amp;#34;]
+taxonomy = [&amp;#34;HTML&amp;#34;, &amp;#34;RSS&amp;#34;]
+taxonomyTerm = [&amp;#34;HTML&amp;#34;, &amp;#34;RSS&amp;#34;]
 &lt;/code>&lt;/pre>&lt;p>There&amp;rsquo;s more you can do. If you want to create a full-featured search page easily, just paste the following code into &lt;code>content/search/_index.md&lt;/code>&lt;/p>
-&lt;pre>&lt;code>---
+&lt;pre tabindex="0">&lt;code>---
 layout: search
 url: /search/
 title: Search
@@ -731,16 +745,16 @@ browser conveniently, without embedding images or PDFs or the like.&lt;/p>
 &lt;p>If you enable music notation rendering with the &lt;code>feature-[no]music&lt;/code> flag, then Story&amp;rsquo;s
 JavaScript, which runs when the page loads, will search for every &lt;code>abc&lt;/code> code listing and transform it.
 Here&amp;rsquo;s an example:&lt;/p>
-&lt;pre>&lt;code class="language-abc" data-lang="abc">X: 76
+&lt;pre tabindex="0">&lt;code class="language-abc" data-lang="abc">X: 76
 T:Mazurka
 C:F. Chopin
 T: Op.33 No.1
 M:3/4
 L:1/4
-Q:&amp;quot;Mesto&amp;quot;
+Q:&amp;#34;Mesto&amp;#34;
 K:B
 %%staves {(RH1 RH2) (LH1 LH2)}
-V: RH1 clef=treble name=&amp;quot;Piano&amp;quot;
+V: RH1 clef=treble name=&amp;#34;Piano&amp;#34;
 V: RH2 clef=treble
 V: LH1 clef=bass
 V: LH2 clef=bass
@@ -755,8 +769,8 @@ V: LH2 clef=bass
 [V: LH1] x3 | x3 | x3 | z [D,G,] [D,G,] | x3 |
 [V: LH2] [G,D] ([C,C] [G,,G,]) | z ([C,C,,] [G,,,G,,]) | z z (D,, | G,,2) x | z ([C,C] [G,,G,])
 &lt;/code>&lt;/pre>&lt;p>Story also has a &lt;code>music&lt;/code> shortcode, which simply takes the name of an abc file as an argument, e.g. the following example code and the resulting music notation. This enables you to store your music files separately from your content and include them easily.&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-plaintext" data-lang="plaintext">{{&amp;lt; music &amp;#34;/cooleys.abc&amp;#34; &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code class="language-abc">X: 1
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-plaintext" data-lang="plaintext">&lt;span style="display:flex;">&lt;span>{{&amp;lt; music &amp;#34;/cooleys.abc&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;pre>&lt;code class="language-abc">X: 1
 T: Cooley&amp;#39;s
 M: 4/4
 L: 1/8
@@ -774,19 +788,19 @@ similar to MathJax, but simpler and faster. It provides most of the features
 needed for typesetting equations, both inline and in block form.&lt;/p>
 &lt;p>Before you begin, make sure you enable the math &lt;a href="https://story-customized.tchinchow.net/features">feature&lt;/a> by
 adding the following class to your article&amp;rsquo;s front matter:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yaml" data-lang="yaml">---
-&lt;span style="color:#66d9ef">classes&lt;/span>:
-- feature-math
----
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then you can start using Story&amp;rsquo;s &lt;code>math&lt;/code> Hugo shortcode to help avoid problems that result from
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">classes&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#ae81ff">feature-math&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Then you can start using Story&amp;rsquo;s &lt;code>math&lt;/code> Hugo shortcode to help avoid problems that result from
 Markdown processing. Here&amp;rsquo;s an example of using the shortcode for inline math:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">&lt;span style="color:#a6e22e">The&lt;/span> &lt;span style="color:#a6e22e">quadratic&lt;/span> &lt;span style="color:#a6e22e">equation&lt;/span> &lt;span style="color:#a6e22e">is&lt;/span> {{&amp;lt; &lt;span style="color:#a6e22e">math&lt;/span> &amp;gt;}}&lt;span style="color:#a6e22e">x&lt;/span> = &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">frac&lt;/span>{&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">b&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">pm&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">sqrt&lt;/span>{&lt;span style="color:#a6e22e">b&lt;/span>^&lt;span style="color:#ae81ff">2&lt;/span> &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">4&lt;/span>&lt;span style="color:#a6e22e">ac&lt;/span>}}{&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#a6e22e">a&lt;/span>}{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">math&lt;/span> &amp;gt;}}.
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>The quadratic equation is &lt;span class="math">\( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \)&lt;/span>.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">The&lt;/span> &lt;span style="color:#a6e22e">quadratic&lt;/span> &lt;span style="color:#a6e22e">equation&lt;/span> &lt;span style="color:#a6e22e">is&lt;/span> {{&amp;lt; &lt;span style="color:#a6e22e">math&lt;/span> &amp;gt;}}&lt;span style="color:#a6e22e">x&lt;/span> = &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">frac&lt;/span>{&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">b&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">pm&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">sqrt&lt;/span>{&lt;span style="color:#a6e22e">b&lt;/span>^&lt;span style="color:#ae81ff">2&lt;/span> &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">4&lt;/span>&lt;span style="color:#a6e22e">ac&lt;/span>}}{&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#a6e22e">a&lt;/span>}{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">math&lt;/span> &amp;gt;}}.
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>The quadratic equation is &lt;span class="math">\( x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \)&lt;/span>.&lt;/p>
 &lt;p>And in equation mode,&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&amp;lt; &lt;span style="color:#a6e22e">math&lt;/span> &amp;gt;}}
-&lt;span style="color:#a6e22e">x&lt;/span> = &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">frac&lt;/span>{&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">b&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">pm&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">sqrt&lt;/span>{&lt;span style="color:#a6e22e">b&lt;/span>^&lt;span style="color:#ae81ff">2&lt;/span> &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">4&lt;/span>&lt;span style="color:#a6e22e">ac&lt;/span>}}{&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#a6e22e">a&lt;/span>}
-{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">math&lt;/span> &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#a6e22e">math&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">x&lt;/span> = &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">frac&lt;/span>{&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">b&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">pm&lt;/span> &lt;span style="color:#960050;background-color:#1e0010">\&lt;/span>&lt;span style="color:#a6e22e">sqrt&lt;/span>{&lt;span style="color:#a6e22e">b&lt;/span>^&lt;span style="color:#ae81ff">2&lt;/span> &lt;span style="color:#f92672">-&lt;/span> &lt;span style="color:#ae81ff">4&lt;/span>&lt;span style="color:#a6e22e">ac&lt;/span>}}{&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#a6e22e">a&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">math&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;div class="math">\[x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 \]&lt;/div>
 &lt;p>You don&amp;rsquo;t have to use the shortcode, but it saves you from needing to
@@ -824,20 +838,20 @@ samples for most important diagrams.&lt;/li>
 &lt;ul>
 &lt;li>
 &lt;p>SequenceDiagram &lt;em>(&lt;a href="https://mermaid-js.github.io/mermaid/#/sequenceDiagram?id=sequence-diagrams">read documentation&lt;/a>)&lt;/em>:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&amp;lt; &lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
-&lt;span style="color:#a6e22e">sequenceDiagram&lt;/span>
-&lt;span style="color:#a6e22e">participant&lt;/span> &lt;span style="color:#a6e22e">Alice&lt;/span>
-&lt;span style="color:#a6e22e">participant&lt;/span> &lt;span style="color:#a6e22e">Bob&lt;/span>
-&lt;span style="color:#a6e22e">Alice&lt;/span>&lt;span style="color:#f92672">-&amp;gt;&amp;gt;&lt;/span>&lt;span style="color:#a6e22e">John&lt;/span>: &lt;span style="color:#a6e22e">Hello&lt;/span> &lt;span style="color:#a6e22e">John&lt;/span>, &lt;span style="color:#a6e22e">how&lt;/span> &lt;span style="color:#a6e22e">are&lt;/span> &lt;span style="color:#a6e22e">you&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">?&lt;/span>
-&lt;span style="color:#a6e22e">loop&lt;/span> &lt;span style="color:#a6e22e">Healthcheck&lt;/span>
-&lt;span style="color:#a6e22e">John&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">John&lt;/span>: &lt;span style="color:#a6e22e">Fight&lt;/span> &lt;span style="color:#a6e22e">against&lt;/span> &lt;span style="color:#a6e22e">hypochondria&lt;/span>
-&lt;span style="color:#a6e22e">end&lt;/span>
-&lt;span style="color:#a6e22e">Note&lt;/span> &lt;span style="color:#a6e22e">right&lt;/span> &lt;span style="color:#a6e22e">of&lt;/span> &lt;span style="color:#a6e22e">John&lt;/span>: &lt;span style="color:#a6e22e">Rational&lt;/span> &lt;span style="color:#a6e22e">thoughts&lt;/span> &amp;lt;&lt;span style="color:#a6e22e">br&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">prevail&lt;/span>&lt;span style="color:#f92672">...&lt;/span>
-&lt;span style="color:#a6e22e">John&lt;/span>&lt;span style="color:#f92672">--&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">Alice&lt;/span>: &lt;span style="color:#a6e22e">Great&lt;/span>!
-&lt;span style="color:#a6e22e">John&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">Bob&lt;/span>: &lt;span style="color:#a6e22e">How&lt;/span> &lt;span style="color:#a6e22e">about&lt;/span> &lt;span style="color:#a6e22e">you&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">?&lt;/span>
-&lt;span style="color:#a6e22e">Bob&lt;/span>&lt;span style="color:#f92672">--&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">John&lt;/span>: &lt;span style="color:#a6e22e">Jolly&lt;/span> &lt;span style="color:#a6e22e">good&lt;/span>!
-{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;figure>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#a6e22e">mermaid&lt;/span> &lt;span style="color:#e6db74">&amp;#34;some caption&amp;#34;&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">sequenceDiagram&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">participant&lt;/span> &lt;span style="color:#a6e22e">Alice&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">participant&lt;/span> &lt;span style="color:#a6e22e">Bob&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Alice&lt;/span>&lt;span style="color:#f92672">-&amp;gt;&amp;gt;&lt;/span>&lt;span style="color:#a6e22e">John&lt;/span>: &lt;span style="color:#a6e22e">Hello&lt;/span> &lt;span style="color:#a6e22e">John&lt;/span>, &lt;span style="color:#a6e22e">how&lt;/span> &lt;span style="color:#a6e22e">are&lt;/span> &lt;span style="color:#a6e22e">you&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">?&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">loop&lt;/span> &lt;span style="color:#a6e22e">Healthcheck&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">John&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">John&lt;/span>: &lt;span style="color:#a6e22e">Fight&lt;/span> &lt;span style="color:#a6e22e">against&lt;/span> &lt;span style="color:#a6e22e">hypochondria&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">end&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Note&lt;/span> &lt;span style="color:#a6e22e">right&lt;/span> &lt;span style="color:#a6e22e">of&lt;/span> &lt;span style="color:#a6e22e">John&lt;/span>: &lt;span style="color:#a6e22e">Rational&lt;/span> &lt;span style="color:#a6e22e">thoughts&lt;/span> &amp;lt;&lt;span style="color:#a6e22e">br&lt;/span>&lt;span style="color:#f92672">/&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">prevail&lt;/span>&lt;span style="color:#f92672">...&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">John&lt;/span>&lt;span style="color:#f92672">--&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">Alice&lt;/span>: &lt;span style="color:#a6e22e">Great&lt;/span>!
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">John&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">Bob&lt;/span>: &lt;span style="color:#a6e22e">How&lt;/span> &lt;span style="color:#a6e22e">about&lt;/span> &lt;span style="color:#a6e22e">you&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">?&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Bob&lt;/span>&lt;span style="color:#f92672">--&lt;/span>&amp;gt;&lt;span style="color:#a6e22e">John&lt;/span>: &lt;span style="color:#a6e22e">Jolly&lt;/span> &lt;span style="color:#a6e22e">good&lt;/span>!
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;figure>
 &lt;div class="mermaid">
 sequenceDiagram
 participant Alice
@@ -851,19 +865,23 @@ John-->Alice: Great!
 John->Bob: How about you?
 Bob-->John: Jolly good!
 &lt;/div>
-&lt;figcaption>FIXME&lt;/figcaption>
+&lt;figcaption>some caption&lt;/figcaption>
 &lt;/figure>
+&lt;blockquote>
+&lt;p>&lt;strong>Note&lt;/strong>:&lt;br>
+Please notice how the caption that was provided as a parameter of the Hugo
+&lt;code>shortcode&lt;/code> appears when you hover you mouse over the diagram.&lt;/p>&lt;/blockquote>
 &lt;/li>
 &lt;li>
 &lt;p>Flowcharts &lt;em>(&lt;a href="https://mermaid-js.github.io/mermaid/#/flowchart?id=flowcharts-basic-syntax">read documentation&lt;/a>)&lt;/em>:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&amp;lt; &lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
-&lt;span style="color:#a6e22e">graph&lt;/span> &lt;span style="color:#a6e22e">LR&lt;/span>;
-&lt;span style="color:#a6e22e">A&lt;/span>[&lt;span style="color:#a6e22e">Hard&lt;/span> &lt;span style="color:#a6e22e">edge&lt;/span>] &lt;span style="color:#f92672">--&lt;/span>&amp;gt;|&lt;span style="color:#a6e22e">Link&lt;/span> &lt;span style="color:#a6e22e">text&lt;/span>| &lt;span style="color:#a6e22e">B&lt;/span>(&lt;span style="color:#a6e22e">Round&lt;/span> &lt;span style="color:#a6e22e">edge&lt;/span>)
-&lt;span style="color:#a6e22e">B&lt;/span> &lt;span style="color:#f92672">--&lt;/span>&amp;gt; &lt;span style="color:#a6e22e">C&lt;/span>{&lt;span style="color:#a6e22e">Decision&lt;/span>}
-&lt;span style="color:#a6e22e">C&lt;/span> &lt;span style="color:#f92672">--&lt;/span>&amp;gt;|&lt;span style="color:#a6e22e">One&lt;/span>| &lt;span style="color:#a6e22e">D&lt;/span>[&lt;span style="color:#a6e22e">Result&lt;/span> &lt;span style="color:#a6e22e">one&lt;/span>]
-&lt;span style="color:#a6e22e">C&lt;/span> &lt;span style="color:#f92672">--&lt;/span>&amp;gt;|&lt;span style="color:#a6e22e">Two&lt;/span>| &lt;span style="color:#a6e22e">E&lt;/span>[&lt;span style="color:#a6e22e">Result&lt;/span> &lt;span style="color:#a6e22e">two&lt;/span>]
-{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;figure>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">graph&lt;/span> &lt;span style="color:#a6e22e">LR&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">A&lt;/span>[&lt;span style="color:#a6e22e">Hard&lt;/span> &lt;span style="color:#a6e22e">edge&lt;/span>] &lt;span style="color:#f92672">--&lt;/span>&amp;gt;|&lt;span style="color:#a6e22e">Link&lt;/span> &lt;span style="color:#a6e22e">text&lt;/span>| &lt;span style="color:#a6e22e">B&lt;/span>(&lt;span style="color:#a6e22e">Round&lt;/span> &lt;span style="color:#a6e22e">edge&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">B&lt;/span> &lt;span style="color:#f92672">--&lt;/span>&amp;gt; &lt;span style="color:#a6e22e">C&lt;/span>{&lt;span style="color:#a6e22e">Decision&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">C&lt;/span> &lt;span style="color:#f92672">--&lt;/span>&amp;gt;|&lt;span style="color:#a6e22e">One&lt;/span>| &lt;span style="color:#a6e22e">D&lt;/span>[&lt;span style="color:#a6e22e">Result&lt;/span> &lt;span style="color:#a6e22e">one&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">C&lt;/span> &lt;span style="color:#f92672">--&lt;/span>&amp;gt;|&lt;span style="color:#a6e22e">Two&lt;/span>| &lt;span style="color:#a6e22e">E&lt;/span>[&lt;span style="color:#a6e22e">Result&lt;/span> &lt;span style="color:#a6e22e">two&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;figure>
 &lt;div class="mermaid">
 graph LR;
 A[Hard edge] -->|Link text| B(Round edge)
@@ -871,29 +889,28 @@ B --> C{Decision}
 C -->|One| D[Result one]
 C -->|Two| E[Result two]
 &lt;/div>
-&lt;figcaption>FIXME&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
 &lt;li>
 &lt;p>GANTT diagram &lt;em>(&lt;a href="https://mermaid-js.github.io/mermaid/#/gantt?id=gantt-diagrams">read documentation&lt;/a>)&lt;/em>:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&amp;lt; &lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
-&lt;span style="color:#a6e22e">gantt&lt;/span>
-&lt;span style="color:#a6e22e">dateFormat&lt;/span> &lt;span style="color:#a6e22e">YYYY&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">MM&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">DD&lt;/span>
-&lt;span style="color:#a6e22e">title&lt;/span> &lt;span style="color:#a6e22e">Adding&lt;/span> &lt;span style="color:#a6e22e">GANTT&lt;/span> &lt;span style="color:#a6e22e">diagram&lt;/span> &lt;span style="color:#a6e22e">functionality&lt;/span> &lt;span style="color:#a6e22e">to&lt;/span> &lt;span style="color:#a6e22e">Story&lt;/span>
-&lt;span style="color:#a6e22e">section&lt;/span> &lt;span style="color:#a6e22e">A&lt;/span> &lt;span style="color:#a6e22e">section&lt;/span>
-&lt;span style="color:#a6e22e">Completed&lt;/span> &lt;span style="color:#a6e22e">task&lt;/span> :&lt;span style="color:#a6e22e">done&lt;/span>, &lt;span style="color:#a6e22e">des1&lt;/span>, &lt;span style="color:#ae81ff">2014&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">01&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">06&lt;/span>,&lt;span style="color:#ae81ff">2014&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">01&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">08&lt;/span>
-&lt;span style="color:#a6e22e">Active&lt;/span> &lt;span style="color:#a6e22e">task&lt;/span> :&lt;span style="color:#a6e22e">active&lt;/span>, &lt;span style="color:#a6e22e">des2&lt;/span>, &lt;span style="color:#ae81ff">2014&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">01&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">09&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
-&lt;span style="color:#a6e22e">Future&lt;/span> &lt;span style="color:#a6e22e">task&lt;/span> : &lt;span style="color:#a6e22e">des3&lt;/span>, &lt;span style="color:#a6e22e">after&lt;/span> &lt;span style="color:#a6e22e">des2&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
-&lt;span style="color:#a6e22e">Future&lt;/span> &lt;span style="color:#a6e22e">task2&lt;/span> : &lt;span style="color:#a6e22e">des4&lt;/span>, &lt;span style="color:#a6e22e">after&lt;/span> &lt;span style="color:#a6e22e">des3&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
-&lt;span style="color:#a6e22e">section&lt;/span> &lt;span style="color:#a6e22e">Critical&lt;/span> &lt;span style="color:#a6e22e">tasks&lt;/span>
-&lt;span style="color:#a6e22e">Completed&lt;/span> &lt;span style="color:#a6e22e">task&lt;/span> &lt;span style="color:#a6e22e">in&lt;/span> &lt;span style="color:#a6e22e">the&lt;/span> &lt;span style="color:#a6e22e">critical&lt;/span> &lt;span style="color:#a6e22e">line&lt;/span> :&lt;span style="color:#a6e22e">crit&lt;/span>, &lt;span style="color:#a6e22e">done&lt;/span>, &lt;span style="color:#ae81ff">2014&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">01&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">06&lt;/span>,&lt;span style="color:#ae81ff">24&lt;/span>&lt;span style="color:#a6e22e">h&lt;/span>
-&lt;span style="color:#a6e22e">Implement&lt;/span> &lt;span style="color:#a6e22e">parser&lt;/span> &lt;span style="color:#a6e22e">and&lt;/span> &lt;span style="color:#a6e22e">jison&lt;/span> :&lt;span style="color:#a6e22e">crit&lt;/span>, &lt;span style="color:#a6e22e">done&lt;/span>, &lt;span style="color:#a6e22e">after&lt;/span> &lt;span style="color:#a6e22e">des1&lt;/span>, &lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
-&lt;span style="color:#a6e22e">Create&lt;/span> &lt;span style="color:#a6e22e">tests&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">parser&lt;/span> :&lt;span style="color:#a6e22e">crit&lt;/span>, &lt;span style="color:#a6e22e">active&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
-&lt;span style="color:#a6e22e">Future&lt;/span> &lt;span style="color:#a6e22e">task&lt;/span> &lt;span style="color:#a6e22e">in&lt;/span> &lt;span style="color:#a6e22e">critical&lt;/span> &lt;span style="color:#a6e22e">line&lt;/span> :&lt;span style="color:#a6e22e">crit&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
-&lt;span style="color:#a6e22e">Create&lt;/span> &lt;span style="color:#a6e22e">tests&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">renderer&lt;/span> :&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
-&lt;span style="color:#a6e22e">Add&lt;/span> &lt;span style="color:#a6e22e">to&lt;/span> &lt;span style="color:#a6e22e">mermaid&lt;/span> :&lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
-{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;figure>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">gantt&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">dateFormat&lt;/span> &lt;span style="color:#a6e22e">YYYY&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">MM&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">DD&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">title&lt;/span> &lt;span style="color:#a6e22e">Adding&lt;/span> &lt;span style="color:#a6e22e">GANTT&lt;/span> &lt;span style="color:#a6e22e">diagram&lt;/span> &lt;span style="color:#a6e22e">functionality&lt;/span> &lt;span style="color:#a6e22e">to&lt;/span> &lt;span style="color:#a6e22e">Story&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">section&lt;/span> &lt;span style="color:#a6e22e">A&lt;/span> &lt;span style="color:#a6e22e">section&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Completed&lt;/span> &lt;span style="color:#a6e22e">task&lt;/span> :&lt;span style="color:#a6e22e">done&lt;/span>, &lt;span style="color:#a6e22e">des1&lt;/span>, &lt;span style="color:#ae81ff">2014&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">01&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">06&lt;/span>,&lt;span style="color:#ae81ff">2014&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">01&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">08&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Active&lt;/span> &lt;span style="color:#a6e22e">task&lt;/span> :&lt;span style="color:#a6e22e">active&lt;/span>, &lt;span style="color:#a6e22e">des2&lt;/span>, &lt;span style="color:#ae81ff">2014&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">01&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">09&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Future&lt;/span> &lt;span style="color:#a6e22e">task&lt;/span> : &lt;span style="color:#a6e22e">des3&lt;/span>, &lt;span style="color:#a6e22e">after&lt;/span> &lt;span style="color:#a6e22e">des2&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Future&lt;/span> &lt;span style="color:#a6e22e">task2&lt;/span> : &lt;span style="color:#a6e22e">des4&lt;/span>, &lt;span style="color:#a6e22e">after&lt;/span> &lt;span style="color:#a6e22e">des3&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">section&lt;/span> &lt;span style="color:#a6e22e">Critical&lt;/span> &lt;span style="color:#a6e22e">tasks&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Completed&lt;/span> &lt;span style="color:#a6e22e">task&lt;/span> &lt;span style="color:#a6e22e">in&lt;/span> &lt;span style="color:#a6e22e">the&lt;/span> &lt;span style="color:#a6e22e">critical&lt;/span> &lt;span style="color:#a6e22e">line&lt;/span> :&lt;span style="color:#a6e22e">crit&lt;/span>, &lt;span style="color:#a6e22e">done&lt;/span>, &lt;span style="color:#ae81ff">2014&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">01&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">06&lt;/span>,&lt;span style="color:#ae81ff">24&lt;/span>&lt;span style="color:#a6e22e">h&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Implement&lt;/span> &lt;span style="color:#a6e22e">parser&lt;/span> &lt;span style="color:#a6e22e">and&lt;/span> &lt;span style="color:#a6e22e">jison&lt;/span> :&lt;span style="color:#a6e22e">crit&lt;/span>, &lt;span style="color:#a6e22e">done&lt;/span>, &lt;span style="color:#a6e22e">after&lt;/span> &lt;span style="color:#a6e22e">des1&lt;/span>, &lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Create&lt;/span> &lt;span style="color:#a6e22e">tests&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">parser&lt;/span> :&lt;span style="color:#a6e22e">crit&lt;/span>, &lt;span style="color:#a6e22e">active&lt;/span>, &lt;span style="color:#ae81ff">3&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Future&lt;/span> &lt;span style="color:#a6e22e">task&lt;/span> &lt;span style="color:#a6e22e">in&lt;/span> &lt;span style="color:#a6e22e">critical&lt;/span> &lt;span style="color:#a6e22e">line&lt;/span> :&lt;span style="color:#a6e22e">crit&lt;/span>, &lt;span style="color:#ae81ff">5&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Create&lt;/span> &lt;span style="color:#a6e22e">tests&lt;/span> &lt;span style="color:#66d9ef">for&lt;/span> &lt;span style="color:#a6e22e">renderer&lt;/span> :&lt;span style="color:#ae81ff">2&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Add&lt;/span> &lt;span style="color:#a6e22e">to&lt;/span> &lt;span style="color:#a6e22e">mermaid&lt;/span> :&lt;span style="color:#ae81ff">1&lt;/span>&lt;span style="color:#a6e22e">d&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;figure>
 &lt;div class="mermaid">
 gantt
 dateFormat YYYY-MM-DD
@@ -911,36 +928,35 @@ Future task in critical line :crit, 5d
 Create tests for renderer :2d
 Add to mermaid :1d
 &lt;/div>
-&lt;figcaption>FIXME&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
 &lt;li>
 &lt;p>Class diagram &lt;em>(&lt;a href="https://mermaid-js.github.io/mermaid/#/classDiagram?id=class-diagrams">read documentation&lt;/a>)&lt;/em>:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&amp;lt; &lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
-&lt;span style="color:#f92672">%%&lt;/span>{
-&lt;span style="color:#a6e22e">init&lt;/span>: {
-&lt;span style="color:#e6db74">&amp;#34;theme&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;base&amp;#34;&lt;/span>,
-&lt;span style="color:#e6db74">&amp;#34;themeVariables&amp;#34;&lt;/span>: {
-&lt;span style="color:#e6db74">&amp;#34;lineColor&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;#ff0000&amp;#34;&lt;/span>
-}
-}
-}&lt;span style="color:#f92672">%%&lt;/span>
-&lt;span style="color:#a6e22e">classDiagram&lt;/span>
-&lt;span style="color:#a6e22e">Class01&lt;/span> &amp;lt;|&lt;span style="color:#f92672">--&lt;/span> &lt;span style="color:#a6e22e">AveryLongClass&lt;/span> : &lt;span style="color:#a6e22e">Cool&lt;/span>
-&lt;span style="color:#a6e22e">Class03&lt;/span> &lt;span style="color:#f92672">*--&lt;/span> &lt;span style="color:#a6e22e">Class04&lt;/span>
-&lt;span style="color:#a6e22e">Class05&lt;/span> &lt;span style="color:#a6e22e">o&lt;/span>&lt;span style="color:#f92672">--&lt;/span> &lt;span style="color:#a6e22e">Class06&lt;/span>
-&lt;span style="color:#a6e22e">Class07&lt;/span> .. &lt;span style="color:#a6e22e">Class08&lt;/span>
-&lt;span style="color:#a6e22e">Class09&lt;/span> &lt;span style="color:#f92672">--&lt;/span>&amp;gt; &lt;span style="color:#a6e22e">C2&lt;/span> : &lt;span style="color:#a6e22e">Where&lt;/span> &lt;span style="color:#a6e22e">am&lt;/span> &lt;span style="color:#a6e22e">i&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">?&lt;/span>
-&lt;span style="color:#a6e22e">Class09&lt;/span> &lt;span style="color:#f92672">--*&lt;/span> &lt;span style="color:#a6e22e">C3&lt;/span>
-&lt;span style="color:#a6e22e">Class09&lt;/span> &lt;span style="color:#f92672">--&lt;/span>|&amp;gt; &lt;span style="color:#a6e22e">Class07&lt;/span>
-&lt;span style="color:#a6e22e">Class07&lt;/span> : &lt;span style="color:#a6e22e">equals&lt;/span>()
-&lt;span style="color:#a6e22e">Class07&lt;/span> : &lt;span style="color:#a6e22e">Object&lt;/span>[] &lt;span style="color:#a6e22e">elementData&lt;/span>
-&lt;span style="color:#a6e22e">Class01&lt;/span> : &lt;span style="color:#a6e22e">size&lt;/span>()
-&lt;span style="color:#a6e22e">Class01&lt;/span> : &lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">chimp&lt;/span>
-&lt;span style="color:#a6e22e">Class01&lt;/span> : &lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">gorilla&lt;/span>
-&lt;span style="color:#a6e22e">Class08&lt;/span> &lt;span style="color:#f92672">&amp;lt;--&lt;/span>&amp;gt; &lt;span style="color:#a6e22e">C2&lt;/span>: &lt;span style="color:#a6e22e">Cool&lt;/span> &lt;span style="color:#a6e22e">label&lt;/span>
-{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;figure>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">%%&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">init&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;theme&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;base&amp;#34;&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;themeVariables&amp;#34;&lt;/span>: {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;lineColor&amp;#34;&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;#ff0000&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;span style="color:#f92672">%%&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">classDiagram&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class01&lt;/span> &amp;lt;|&lt;span style="color:#f92672">--&lt;/span> &lt;span style="color:#a6e22e">AveryLongClass&lt;/span> : &lt;span style="color:#a6e22e">Cool&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class03&lt;/span> &lt;span style="color:#f92672">*--&lt;/span> &lt;span style="color:#a6e22e">Class04&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class05&lt;/span> &lt;span style="color:#a6e22e">o&lt;/span>&lt;span style="color:#f92672">--&lt;/span> &lt;span style="color:#a6e22e">Class06&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class07&lt;/span> .. &lt;span style="color:#a6e22e">Class08&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class09&lt;/span> &lt;span style="color:#f92672">--&lt;/span>&amp;gt; &lt;span style="color:#a6e22e">C2&lt;/span> : &lt;span style="color:#a6e22e">Where&lt;/span> &lt;span style="color:#a6e22e">am&lt;/span> &lt;span style="color:#a6e22e">i&lt;/span>&lt;span style="color:#960050;background-color:#1e0010">?&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class09&lt;/span> &lt;span style="color:#f92672">--*&lt;/span> &lt;span style="color:#a6e22e">C3&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class09&lt;/span> &lt;span style="color:#f92672">--&lt;/span>|&amp;gt; &lt;span style="color:#a6e22e">Class07&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class07&lt;/span> : &lt;span style="color:#a6e22e">equals&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class07&lt;/span> : &lt;span style="color:#a6e22e">Object&lt;/span>[] &lt;span style="color:#a6e22e">elementData&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class01&lt;/span> : &lt;span style="color:#a6e22e">size&lt;/span>()
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class01&lt;/span> : &lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">chimp&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class01&lt;/span> : &lt;span style="color:#66d9ef">int&lt;/span> &lt;span style="color:#a6e22e">gorilla&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">Class08&lt;/span> &lt;span style="color:#f92672">&amp;lt;--&lt;/span>&amp;gt; &lt;span style="color:#a6e22e">C2&lt;/span>: &lt;span style="color:#a6e22e">Cool&lt;/span> &lt;span style="color:#a6e22e">label&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;figure>
 &lt;div class="mermaid">
 %%{
 init: {
@@ -965,30 +981,29 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 &lt;--> C2: Cool label
 &lt;/div>
-&lt;figcaption>FIXME&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
 &lt;li>
 &lt;p>Git graph &lt;em>(experimental)&lt;/em>:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&amp;lt; &lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
-&lt;span style="color:#a6e22e">gitGraph&lt;/span>:
-&lt;span style="color:#a6e22e">options&lt;/span>
-{
-&lt;span style="color:#e6db74">&amp;#34;nodeSpacing&amp;#34;&lt;/span>: &lt;span style="color:#ae81ff">64&lt;/span>,
-&lt;span style="color:#e6db74">&amp;#34;nodeRadius&amp;#34;&lt;/span>: &lt;span style="color:#ae81ff">8&lt;/span>
-}
-&lt;span style="color:#a6e22e">end&lt;/span>
-&lt;span style="color:#a6e22e">commit&lt;/span>
-&lt;span style="color:#a6e22e">branch&lt;/span> &lt;span style="color:#a6e22e">newbranch&lt;/span>
-&lt;span style="color:#a6e22e">checkout&lt;/span> &lt;span style="color:#a6e22e">newbranch&lt;/span>
-&lt;span style="color:#a6e22e">commit&lt;/span>
-&lt;span style="color:#a6e22e">commit&lt;/span>
-&lt;span style="color:#a6e22e">checkout&lt;/span> &lt;span style="color:#a6e22e">master&lt;/span>
-&lt;span style="color:#a6e22e">commit&lt;/span>
-&lt;span style="color:#a6e22e">commit&lt;/span>
-&lt;span style="color:#a6e22e">merge&lt;/span> &lt;span style="color:#a6e22e">newbranch&lt;/span>
-{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;figure>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">gitGraph&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">options&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;nodeSpacing&amp;#34;&lt;/span>: &lt;span style="color:#ae81ff">64&lt;/span>,
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">&amp;#34;nodeRadius&amp;#34;&lt;/span>: &lt;span style="color:#ae81ff">8&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#a6e22e">end&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">commit&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">branch&lt;/span> &lt;span style="color:#a6e22e">newbranch&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">checkout&lt;/span> &lt;span style="color:#a6e22e">newbranch&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">commit&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">commit&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">checkout&lt;/span> &lt;span style="color:#a6e22e">master&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">commit&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">commit&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">merge&lt;/span> &lt;span style="color:#a6e22e">newbranch&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#f92672">/&lt;/span>&lt;span style="color:#a6e22e">mermaid&lt;/span> &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;figure>
 &lt;div class="mermaid">
 gitGraph:
 options
@@ -1007,7 +1022,6 @@ commit
 commit
 merge newbranch
 &lt;/div>
-&lt;figcaption>FIXME&lt;/figcaption>
 &lt;/figure>
 &lt;/li>
 &lt;/ul>
@@ -1019,8 +1033,8 @@ powerful combination.&lt;/p>
 &lt;p>Once the &lt;code>feature-leaflet&lt;/code> class have been added to your article, embedding
 a simple map merely requires using the &lt;code>leaflet-map&lt;/code> hugo shortcode. And you
 don&amp;rsquo;t have to take my word for it ; Just take a look at the following code:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-plaintext" data-lang="plaintext">{{&amp;lt; leaflet-map mapId=&amp;#34;first_map&amp;#34; mapHeight=&amp;#34;500px&amp;#34; mapWidth=&amp;#34;100%&amp;#34; mapLat=&amp;#34;43.2500000&amp;#34; mapLon=&amp;#34;5.4500000&amp;#34; /&amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>This is rendered as follows:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-plaintext" data-lang="plaintext">&lt;span style="display:flex;">&lt;span>{{&amp;lt; leaflet-map mapId=&amp;#34;first_map&amp;#34; mapHeight=&amp;#34;500px&amp;#34; mapWidth=&amp;#34;100%&amp;#34; mapLat=&amp;#34;43.2500000&amp;#34; mapLon=&amp;#34;5.4500000&amp;#34; /&amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This is rendered as follows:&lt;/p>
 &lt;figure>
 &lt;div id='mapid_first_map' class="leaflet-map" style='width: 100%; height: 500px;'>&lt;/div>
 &lt;script>
@@ -1038,83 +1052,83 @@ Story, this list come directly from the &lt;a href="https://github.com/altrdev/h
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th align="center">Parameter&lt;/th>
-&lt;th align="center">Description&lt;/th>
-&lt;th align="center">Mandatory&lt;/th>
-&lt;th align="center">Default&lt;/th>
-&lt;th align="center">Possible values&lt;/th>
+&lt;th style="text-align: center">Parameter&lt;/th>
+&lt;th style="text-align: center">Description&lt;/th>
+&lt;th style="text-align: center">Mandatory&lt;/th>
+&lt;th style="text-align: center">Default&lt;/th>
+&lt;th style="text-align: center">Possible values&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td align="center">caption&lt;/td>
-&lt;td align="center">Text to be displayed below the map&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;quot;&amp;rdquo;&lt;/td>
-&lt;td align="center">any string&lt;/td>
+&lt;td style="text-align: center">caption&lt;/td>
+&lt;td style="text-align: center">Text to be displayed below the map&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;quot;&amp;quot;&lt;/td>
+&lt;td style="text-align: center">any string&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h4 id="parameters-from-the-original-hugo-leaflethugo_leaflet_home-project">Parameters from the original &lt;a href="https://github.com/altrdev/hugo-leaflet/blob/master/README.md" title="Hugo Leaflet home page...">Hugo Leaflet&lt;/a> project&lt;/h4>
+&lt;h4 id="parameters-from-the-original-hugo-leaflet-project">Parameters from the original &lt;a href="https://github.com/altrdev/hugo-leaflet/blob/master/README.md" title="Hugo Leaflet home page...">Hugo Leaflet&lt;/a> project&lt;/h4>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th align="center">Parameter&lt;/th>
-&lt;th align="center">Description&lt;/th>
-&lt;th align="center">Mandatory&lt;/th>
-&lt;th align="center">Default&lt;/th>
-&lt;th align="center">Possible values&lt;/th>
+&lt;th style="text-align: center">Parameter&lt;/th>
+&lt;th style="text-align: center">Description&lt;/th>
+&lt;th style="text-align: center">Mandatory&lt;/th>
+&lt;th style="text-align: center">Default&lt;/th>
+&lt;th style="text-align: center">Possible values&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td align="center">mapHeight&lt;/td>
-&lt;td align="center">Map height size&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;400px&amp;rdquo;&lt;/td>
-&lt;td align="center">any number in px&lt;/td>
+&lt;td style="text-align: center">mapHeight&lt;/td>
+&lt;td style="text-align: center">Map height size&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;400px&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">any number in px&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">mapWidth&lt;/td>
-&lt;td align="center">Map width size&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;100%&amp;rdquo;&lt;/td>
-&lt;td align="center">any number in px or %&lt;/td>
+&lt;td style="text-align: center">mapWidth&lt;/td>
+&lt;td style="text-align: center">Map width size&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;100%&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">any number in px or %&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">&lt;strong>mapLat&lt;/strong>&lt;/td>
-&lt;td align="center">Latitude where to center the map&lt;/td>
-&lt;td align="center">&lt;strong>yes&lt;/strong>&lt;/td>
-&lt;td align="center">&amp;quot;&amp;rdquo;&lt;/td>
-&lt;td align="center">any valid coords number&lt;/td>
+&lt;td style="text-align: center">&lt;strong>mapLat&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">Latitude where to center the map&lt;/td>
+&lt;td style="text-align: center">&lt;strong>yes&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">&amp;quot;&amp;quot;&lt;/td>
+&lt;td style="text-align: center">any valid coords number&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">&lt;strong>mapLon&lt;/strong>&lt;/td>
-&lt;td align="center">Longitude where to center the map&lt;/td>
-&lt;td align="center">&lt;strong>yes&lt;/strong>&lt;/td>
-&lt;td align="center">&amp;quot;&amp;rdquo;&lt;/td>
-&lt;td align="center">any valid coords number&lt;/td>
+&lt;td style="text-align: center">&lt;strong>mapLon&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">Longitude where to center the map&lt;/td>
+&lt;td style="text-align: center">&lt;strong>yes&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">&amp;quot;&amp;quot;&lt;/td>
+&lt;td style="text-align: center">any valid coords number&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">&lt;strong>mapId&lt;/strong>&lt;/td>
-&lt;td align="center">Unique id. Useful for add multiple map in the post with same longitude and latitude&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">md5(mapLat,mapLon)&lt;/td>
-&lt;td align="center">any string&lt;/td>
+&lt;td style="text-align: center">&lt;strong>mapId&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">Unique id. Useful for add multiple map in the post with same longitude and latitude&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">md5(mapLat,mapLon)&lt;/td>
+&lt;td style="text-align: center">any string&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">zoom&lt;/td>
-&lt;td align="center">The zoom level. If set, it must be parsable as int.&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;13&amp;rdquo;&lt;/td>
-&lt;td align="center">any number&lt;/td>
+&lt;td style="text-align: center">zoom&lt;/td>
+&lt;td style="text-align: center">The zoom level. If set, it must be parsable as int.&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;13&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">any number&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">scrollWheelZoom&lt;/td>
-&lt;td align="center">Enable or disable zoom with mouse scroll wheel&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;true&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;true&amp;quot;&lt;/code> or &lt;code>&amp;quot;false&amp;quot;&lt;/code>&lt;/td>
+&lt;td style="text-align: center">scrollWheelZoom&lt;/td>
+&lt;td style="text-align: center">Enable or disable zoom with mouse scroll wheel&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;true&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;true&amp;quot;&lt;/code> or &lt;code>&amp;quot;false&amp;quot;&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1134,16 +1148,16 @@ is a good idea. However, because it is based on cryptographic primitives, it
 is not always easy to guess what this default value will be.&lt;/p>
 &lt;p>When you fix the &lt;code>mapId&lt;/code>, then you can create leverage on this knowledge to
 forge &lt;a href="#mapid_first_map">direct links&lt;/a> to your maps as follows:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-plaintext" data-lang="plaintext">[a link to my map](#mapid_&amp;lt;your_id_here&amp;gt;)
-&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="map-with-gpx-track">Map with GPX track&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-plaintext" data-lang="plaintext">&lt;span style="display:flex;">&lt;span>[a link to my map](#mapid_&amp;lt;your_id_here&amp;gt;)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="map-with-gpx-track">Map with GPX track&lt;/h3>
 &lt;p>You can share your hikes, motorcycle rides, snowshoeing trails, etc&amp;hellip; by
 adding a GPX track to your map &lt;em>(You don&amp;rsquo;t need to provide coordinates,
 leaflet will center the track for you but &lt;a href="#maps-unique-identifier">be careful that your map has
 a unique id&lt;/a>)&lt;/em>:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-plaintext" data-lang="plaintext">{{&amp;lt; leaflet-map mapHeight=&amp;#34;400px&amp;#34; mapWidth=&amp;#34;100%&amp;#34; ... &amp;gt;}}
-{{&amp;lt; leaflet-track trackPath=&amp;#34;les_bories_de_tallagard.gpx&amp;#34; downloadIcon=true caption=&amp;#34;Discover shepherd shelters in Provence&amp;#34; /&amp;gt;}}
-{{&amp;lt; /leaflet-map &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>As an exemple, the GPX trail from the above snippet comes from a nice
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-plaintext" data-lang="plaintext">&lt;span style="display:flex;">&lt;span>{{&amp;lt; leaflet-map mapHeight=&amp;#34;400px&amp;#34; mapWidth=&amp;#34;100%&amp;#34; ... &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; leaflet-track trackPath=&amp;#34;les_bories_de_tallagard.gpx&amp;#34; downloadIcon=true caption=&amp;#34;Discover shepherd shelters in Provence&amp;#34; /&amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /leaflet-map &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>As an exemple, the GPX trail from the above snippet comes from a nice
 one hour walk in &lt;a href="https://en.wikipedia.org/wiki/Provence">Provence&lt;/a>
 &lt;em>(a region of southeastern France)&lt;/em>. Leaflet will add the elevation
 profile as follows:&lt;/p>
@@ -1202,218 +1216,218 @@ Discover shepherd shelters in Provence
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th align="center">Parameter&lt;/th>
-&lt;th align="center">Description&lt;/th>
-&lt;th align="center">Mandatory&lt;/th>
-&lt;th align="center">Default&lt;/th>
-&lt;th align="center">Possible values&lt;/th>
+&lt;th style="text-align: center">Parameter&lt;/th>
+&lt;th style="text-align: center">Description&lt;/th>
+&lt;th style="text-align: center">Mandatory&lt;/th>
+&lt;th style="text-align: center">Default&lt;/th>
+&lt;th style="text-align: center">Possible values&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td align="center">downloadIcon&lt;/td>
-&lt;td align="center">whether we shall display the download icon and provide a download link for the GPX trail&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">false&lt;/td>
-&lt;td align="center">true of false&lt;/td>
+&lt;td style="text-align: center">downloadIcon&lt;/td>
+&lt;td style="text-align: center">whether we shall display the download icon and provide a download link for the GPX trail&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">false&lt;/td>
+&lt;td style="text-align: center">true of false&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">caption&lt;/td>
-&lt;td align="center">A caption for the track&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;quot;&amp;rdquo;&lt;/td>
-&lt;td align="center">any string&lt;/td>
+&lt;td style="text-align: center">caption&lt;/td>
+&lt;td style="text-align: center">A caption for the track&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;quot;&amp;quot;&lt;/td>
+&lt;td style="text-align: center">any string&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">graphTheme&lt;/td>
-&lt;td align="center">Elevation graph theme _(in addition to leaflet existing themes)&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;story-theme&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;story-theme&amp;quot;&lt;/code> or any theme from the original library&lt;/td>
+&lt;td style="text-align: center">graphTheme&lt;/td>
+&lt;td style="text-align: center">Elevation graph theme _(in addition to leaflet existing themes)&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;story-theme&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;story-theme&amp;quot;&lt;/code> or any theme from the original library&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;h4 id="parameters-from-the-original-hugo-leaflethugo_leaflet_home-project-1">Parameters from the original &lt;a href="https://github.com/altrdev/hugo-leaflet/blob/master/README.md" title="Hugo Leaflet home page...">Hugo Leaflet&lt;/a> project&lt;/h4>
+&lt;h4 id="parameters-from-the-original-hugo-leaflet-project-1">Parameters from the original &lt;a href="https://github.com/altrdev/hugo-leaflet/blob/master/README.md" title="Hugo Leaflet home page...">Hugo Leaflet&lt;/a> project&lt;/h4>
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th align="center">Parameter&lt;/th>
-&lt;th align="center">Description&lt;/th>
-&lt;th align="center">Mandatory&lt;/th>
-&lt;th align="center">Default&lt;/th>
-&lt;th align="center">Possible values&lt;/th>
+&lt;th style="text-align: center">Parameter&lt;/th>
+&lt;th style="text-align: center">Description&lt;/th>
+&lt;th style="text-align: center">Mandatory&lt;/th>
+&lt;th style="text-align: center">Default&lt;/th>
+&lt;th style="text-align: center">Possible values&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td align="center">&lt;strong>trackPath&lt;/strong>&lt;/td>
-&lt;td align="center">Your GPX file. You must place in &lt;code>static/gpx&lt;/code> folder.&lt;/td>
-&lt;td align="center">&lt;strong>yes&lt;/strong>&lt;/td>
-&lt;td align="center">&amp;quot;&amp;rdquo;&lt;/td>
-&lt;td align="center">any filename like &lt;code>&amp;quot;my_track.gpx&amp;quot;&lt;/code>&lt;/td>
+&lt;td style="text-align: center">&lt;strong>trackPath&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">Your GPX file. You must place in &lt;code>static/gpx&lt;/code> folder.&lt;/td>
+&lt;td style="text-align: center">&lt;strong>yes&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">&amp;quot;&amp;quot;&lt;/td>
+&lt;td style="text-align: center">any filename like &lt;code>&amp;quot;my_track.gpx&amp;quot;&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">lineColor&lt;/td>
-&lt;td align="center">Line track color&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;#006EFF&amp;rdquo;&lt;/td>
-&lt;td align="center">any valid hex color&lt;/td>
+&lt;td style="text-align: center">lineColor&lt;/td>
+&lt;td style="text-align: center">Line track color&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;#006EFF&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">any valid hex color&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">lineWeight&lt;/td>
-&lt;td align="center">Line track weight on the map&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;3&amp;rdquo;&lt;/td>
-&lt;td align="center">any number&lt;/td>
+&lt;td style="text-align: center">lineWeight&lt;/td>
+&lt;td style="text-align: center">Line track weight on the map&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;3&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">any number&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">lineOpacity&lt;/td>
-&lt;td align="center">Line track opacity on the map&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;1&amp;rdquo;&lt;/td>
-&lt;td align="center">decimal range from 0 to 1&lt;/td>
+&lt;td style="text-align: center">lineOpacity&lt;/td>
+&lt;td style="text-align: center">Line track opacity on the map&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;1&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">decimal range from 0 to 1&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">graphPosition&lt;/td>
-&lt;td align="center">Elevation graph position on the map. Not valid if you use &lt;code>graphDetached&lt;/code>&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;topright&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;myLocation&amp;quot;&lt;/code>&lt;/td>
+&lt;td style="text-align: center">graphPosition&lt;/td>
+&lt;td style="text-align: center">Elevation graph position on the map. Not valid if you use &lt;code>graphDetached&lt;/code>&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;topright&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;myLocation&amp;quot;&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">graphTheme&lt;/td>
-&lt;td align="center">Elevation graph theme already present&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;steelblue-theme&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;steelblue-theme&amp;quot;&lt;/code>, &lt;code>&amp;quot;lime-theme&amp;quot;&lt;/code> or &lt;code>&amp;quot;purple-theme&amp;quot;&lt;/code>&lt;/td>
+&lt;td style="text-align: center">graphTheme&lt;/td>
+&lt;td style="text-align: center">Elevation graph theme already present&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;steelblue-theme&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;steelblue-theme&amp;quot;&lt;/code>, &lt;code>&amp;quot;lime-theme&amp;quot;&lt;/code> or &lt;code>&amp;quot;purple-theme&amp;quot;&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">graphWidth&lt;/td>
-&lt;td align="center">Elevation graph width. Not valid if you use &lt;code>graphDetached&lt;/code>&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;500&amp;rdquo;&lt;/td>
-&lt;td align="center">any number&lt;/td>
+&lt;td style="text-align: center">graphWidth&lt;/td>
+&lt;td style="text-align: center">Elevation graph width. Not valid if you use &lt;code>graphDetached&lt;/code>&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;500&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">any number&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">graphHeight&lt;/td>
-&lt;td align="center">Elevation graph height&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;150&amp;rdquo;&lt;/td>
-&lt;td align="center">any number&lt;/td>
+&lt;td style="text-align: center">graphHeight&lt;/td>
+&lt;td style="text-align: center">Elevation graph height&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;150&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">any number&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">graphFollowMarker&lt;/td>
-&lt;td align="center">Auto zoom on the mouse movement over the map&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">false&lt;/td>
-&lt;td align="center">&lt;code>true&lt;/code> or &lt;code>false&lt;/code>&lt;/td>
+&lt;td style="text-align: center">graphFollowMarker&lt;/td>
+&lt;td style="text-align: center">Auto zoom on the mouse movement over the map&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">false&lt;/td>
+&lt;td style="text-align: center">&lt;code>true&lt;/code> or &lt;code>false&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">graphCollapsed&lt;/td>
-&lt;td align="center">Hide elevation graph below the button&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">false&lt;/td>
-&lt;td align="center">&lt;code>true&lt;/code> or &lt;code>false&lt;/code>&lt;/td>
+&lt;td style="text-align: center">graphCollapsed&lt;/td>
+&lt;td style="text-align: center">Hide elevation graph below the button&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">false&lt;/td>
+&lt;td style="text-align: center">&lt;code>true&lt;/code> or &lt;code>false&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">graphDetached&lt;/td>
-&lt;td align="center">Detach elevation graph outside map&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">true&lt;/td>
-&lt;td align="center">&lt;code>true&lt;/code> or &lt;code>false&lt;/code>&lt;/td>
+&lt;td style="text-align: center">graphDetached&lt;/td>
+&lt;td style="text-align: center">Detach elevation graph outside map&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">true&lt;/td>
+&lt;td style="text-align: center">&lt;code>true&lt;/code> or &lt;code>false&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerIcon&lt;/td>
-&lt;td align="center">Waypoint Fontawesome icon name&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;fa-thumb-tack&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;fa-thumb-tack&amp;quot;&lt;/code> (see fontawesome documentation)&lt;/td>
+&lt;td style="text-align: center">markerIcon&lt;/td>
+&lt;td style="text-align: center">Waypoint Fontawesome icon name&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;fa-thumb-tack&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;fa-thumb-tack&amp;quot;&lt;/code> (see fontawesome documentation)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerIconColor&lt;/td>
-&lt;td align="center">Waypoint icon color&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;cyan&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;red&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange&amp;quot;&lt;/code>, &lt;code>&amp;quot;yellow&amp;quot;&lt;/code>, &lt;code>&amp;quot;blue-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;cyan&amp;quot;&lt;/code>, &lt;code>&amp;quot;purple&amp;quot;&lt;/code>, &lt;code>&amp;quot;violet&amp;quot;&lt;/code>, &lt;code>&amp;quot;pink&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;green&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-light&amp;quot;&lt;/code>, &lt;code>&amp;quot;black&amp;quot;&lt;/code>, &lt;code>&amp;quot;white&amp;quot;&lt;/code>&lt;/td>
+&lt;td style="text-align: center">markerIconColor&lt;/td>
+&lt;td style="text-align: center">Waypoint icon color&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;cyan&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;red&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange&amp;quot;&lt;/code>, &lt;code>&amp;quot;yellow&amp;quot;&lt;/code>, &lt;code>&amp;quot;blue-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;cyan&amp;quot;&lt;/code>, &lt;code>&amp;quot;purple&amp;quot;&lt;/code>, &lt;code>&amp;quot;violet&amp;quot;&lt;/code>, &lt;code>&amp;quot;pink&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;green&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-light&amp;quot;&lt;/code>, &lt;code>&amp;quot;black&amp;quot;&lt;/code>, &lt;code>&amp;quot;white&amp;quot;&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerIconShape&lt;/td>
-&lt;td align="center">Waypoint icon shape&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;penta&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;circle&amp;quot;&lt;/code>, &lt;code>square&lt;/code>, &lt;code>penta&lt;/code> or &lt;code>star&lt;/code>&lt;/td>
+&lt;td style="text-align: center">markerIconShape&lt;/td>
+&lt;td style="text-align: center">Waypoint icon shape&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;penta&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;circle&amp;quot;&lt;/code>, &lt;code>square&lt;/code>, &lt;code>penta&lt;/code> or &lt;code>star&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerIconClasses&lt;/td>
-&lt;td align="center">Extra classes for extends icon css&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;fa-icon-marker&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;my-class my-second-class&amp;quot;&lt;/code>&lt;/td>
+&lt;td style="text-align: center">markerIconClasses&lt;/td>
+&lt;td style="text-align: center">Extra classes for extends icon css&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;fa-icon-marker&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;my-class my-second-class&amp;quot;&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerStartIcon&lt;/td>
-&lt;td align="center">Start Waypoint Fontawesome icon name&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;fa-play&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;fa-play&amp;quot;&lt;/code> (see fontawesome documentation)&lt;/td>
+&lt;td style="text-align: center">markerStartIcon&lt;/td>
+&lt;td style="text-align: center">Start Waypoint Fontawesome icon name&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;fa-play&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;fa-play&amp;quot;&lt;/code> (see fontawesome documentation)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerStartIconColor&lt;/td>
-&lt;td align="center">Start Waypoint icon color&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;green-light&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;red&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange&amp;quot;&lt;/code>, &lt;code>&amp;quot;yellow&amp;quot;&lt;/code>, &lt;code>&amp;quot;blue-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;cyan&amp;quot;&lt;/code>, &lt;code>&amp;quot;purple&amp;quot;&lt;/code>, &lt;code>&amp;quot;violet&amp;quot;&lt;/code>, &lt;code>&amp;quot;pink&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;green&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-light&amp;quot;&lt;/code>, &lt;code>&amp;quot;black&amp;quot;&lt;/code>, &lt;code>&amp;quot;white&amp;quot;&lt;/code>&lt;/td>
+&lt;td style="text-align: center">markerStartIconColor&lt;/td>
+&lt;td style="text-align: center">Start Waypoint icon color&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;green-light&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;red&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange&amp;quot;&lt;/code>, &lt;code>&amp;quot;yellow&amp;quot;&lt;/code>, &lt;code>&amp;quot;blue-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;cyan&amp;quot;&lt;/code>, &lt;code>&amp;quot;purple&amp;quot;&lt;/code>, &lt;code>&amp;quot;violet&amp;quot;&lt;/code>, &lt;code>&amp;quot;pink&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;green&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-light&amp;quot;&lt;/code>, &lt;code>&amp;quot;black&amp;quot;&lt;/code>, &lt;code>&amp;quot;white&amp;quot;&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerStartIconShape&lt;/td>
-&lt;td align="center">Start Waypoint icon shape&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;circle&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;circle&amp;quot;&lt;/code>, &lt;code>square&lt;/code>, &lt;code>penta&lt;/code> or &lt;code>star&lt;/code>&lt;/td>
+&lt;td style="text-align: center">markerStartIconShape&lt;/td>
+&lt;td style="text-align: center">Start Waypoint icon shape&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;circle&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;circle&amp;quot;&lt;/code>, &lt;code>square&lt;/code>, &lt;code>penta&lt;/code> or &lt;code>star&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerStartIconClass&lt;/td>
-&lt;td align="center">Extra classes for extends start icon css&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;fa-icon-marker fa-icon-start-stop&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;my-class my-second-class&amp;quot;&lt;/code>&lt;/td>
+&lt;td style="text-align: center">markerStartIconClass&lt;/td>
+&lt;td style="text-align: center">Extra classes for extends start icon css&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;fa-icon-marker fa-icon-start-stop&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;my-class my-second-class&amp;quot;&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerEndIcon&lt;/td>
-&lt;td align="center">End Waypoint Fontawesome icon name&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;fa-flag-checkered&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;fa-flag-checkered&amp;quot;&lt;/code> (see fontawesome documentation)&lt;/td>
+&lt;td style="text-align: center">markerEndIcon&lt;/td>
+&lt;td style="text-align: center">End Waypoint Fontawesome icon name&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;fa-flag-checkered&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;fa-flag-checkered&amp;quot;&lt;/code> (see fontawesome documentation)&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerEndIconColor&lt;/td>
-&lt;td align="center">End Waypoint icon color&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;red&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;red&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange&amp;quot;&lt;/code>, &lt;code>&amp;quot;yellow&amp;quot;&lt;/code>, &lt;code>&amp;quot;blue-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;cyan&amp;quot;&lt;/code>, &lt;code>&amp;quot;purple&amp;quot;&lt;/code>, &lt;code>&amp;quot;violet&amp;quot;&lt;/code>, &lt;code>&amp;quot;pink&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;green&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-light&amp;quot;&lt;/code>, &lt;code>&amp;quot;black&amp;quot;&lt;/code>, &lt;code>&amp;quot;white&amp;quot;&lt;/code>&lt;/td>
+&lt;td style="text-align: center">markerEndIconColor&lt;/td>
+&lt;td style="text-align: center">End Waypoint icon color&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;red&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;red&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;orange&amp;quot;&lt;/code>, &lt;code>&amp;quot;yellow&amp;quot;&lt;/code>, &lt;code>&amp;quot;blue-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;cyan&amp;quot;&lt;/code>, &lt;code>&amp;quot;purple&amp;quot;&lt;/code>, &lt;code>&amp;quot;violet&amp;quot;&lt;/code>, &lt;code>&amp;quot;pink&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-dark&amp;quot;&lt;/code>, &lt;code>&amp;quot;green&amp;quot;&lt;/code>, &lt;code>&amp;quot;green-light&amp;quot;&lt;/code>, &lt;code>&amp;quot;black&amp;quot;&lt;/code>, &lt;code>&amp;quot;white&amp;quot;&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerEndIconShape&lt;/td>
-&lt;td align="center">End Waypoint icon shape&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;circle&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;circle&amp;quot;&lt;/code>, &lt;code>square&lt;/code>, &lt;code>penta&lt;/code> or &lt;code>star&lt;/code>&lt;/td>
+&lt;td style="text-align: center">markerEndIconShape&lt;/td>
+&lt;td style="text-align: center">End Waypoint icon shape&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;circle&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;circle&amp;quot;&lt;/code>, &lt;code>square&lt;/code>, &lt;code>penta&lt;/code> or &lt;code>star&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerEndIconClasses&lt;/td>
-&lt;td align="center">Extra classes for extends end icon css&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;ldquo;fa-icon-marker fa-icon-start-stop&amp;rdquo;&lt;/td>
-&lt;td align="center">&lt;code>&amp;quot;my-class my-second-class&amp;quot;&lt;/code>&lt;/td>
+&lt;td style="text-align: center">markerEndIconClasses&lt;/td>
+&lt;td style="text-align: center">Extra classes for extends end icon css&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;ldquo;fa-icon-marker fa-icon-start-stop&amp;rdquo;&lt;/td>
+&lt;td style="text-align: center">&lt;code>&amp;quot;my-class my-second-class&amp;quot;&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h3 id="map-with-one-marker">Map with one marker&lt;/h3>
 &lt;p>You can showcase one particular place with a single marker:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-plaintext" data-lang="plaintext">{{&amp;lt; leaflet-map mapHeight=&amp;#34;300px&amp;#34; mapWidth=&amp;#34;100%&amp;#34; mapLat=&amp;#34;44.9178069&amp;#34; mapLon=&amp;#34;4.8852736&amp;#34; zoom=18 &amp;gt;}}
-{{&amp;lt; leaflet-marker markerLat=&amp;#34;44.9175319&amp;#34; markerLon=&amp;#34;4.8855297&amp;#34; markerContent=&amp;#34;Gastronomic restaurant &amp;lt;em&amp;gt;(3 Michelin Star)&amp;lt;/em&amp;gt;&amp;#34; &amp;gt;}}
-{{&amp;lt; /leaflet-map &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-plaintext" data-lang="plaintext">&lt;span style="display:flex;">&lt;span>{{&amp;lt; leaflet-map mapHeight=&amp;#34;300px&amp;#34; mapWidth=&amp;#34;100%&amp;#34; mapLat=&amp;#34;44.9178069&amp;#34; mapLon=&amp;#34;4.8852736&amp;#34; zoom=18 &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> {{&amp;lt; leaflet-marker markerLat=&amp;#34;44.9175319&amp;#34; markerLon=&amp;#34;4.8855297&amp;#34; markerContent=&amp;#34;Gastronomic restaurant &amp;lt;em&amp;gt;(3 Michelin Star)&amp;lt;/em&amp;gt;&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>{{&amp;lt; /leaflet-map &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;figure>
 &lt;div id='mapid_e94655c16e65954a8b014feff251e535' class="leaflet-map" style='width: 100%; height: 300px;'>&lt;/div>
 &lt;script>
@@ -1424,7 +1438,7 @@ attribution: '&amp;copy; &lt;a href="https://www.openstreetmap.org/copyright">Op
 &lt;/script>
 &lt;script>
 leafletMarkersObj["35e925347815f008d4e00a1b42b32ee5"] = L.marker(["44.9175319", "4.8855297"]).addTo(leafletMapsObj["e94655c16e65954a8b014feff251e535"]);
-leafletMarkersObj["35e925347815f008d4e00a1b42b32ee5"].bindPopup("\x3cstrong\x3eMaison PIC\x3c\/strong\x3e\x3cbr\/\x3e\x3cem\x3e(3 Michelin Star)\x3c\/em\x3e\x3cbr\/\x3eGastronomic restaurant").openPopup();
+leafletMarkersObj["35e925347815f008d4e00a1b42b32ee5"].bindPopup("\u003cstrong\u003eMaison PIC\u003c\/strong\u003e\u003cbr\/\u003e\u003cem\u003e(3 Michelin Star)\u003c\/em\u003e\u003cbr\/\u003eGastronomic restaurant").openPopup();
 &lt;/script>
 &lt;/figure>
 &lt;p>or many places at once &lt;em>(by the way notice the use of the &amp;ldquo;caption&amp;rdquo; parameter)&lt;/em>:&lt;/p>
@@ -1455,34 +1469,34 @@ we repeat below as they come directly from the &lt;a href="https://github.com/al
 &lt;table>
 &lt;thead>
 &lt;tr>
-&lt;th align="center">Parameter&lt;/th>
-&lt;th align="center">Description&lt;/th>
-&lt;th align="center">Mandatory&lt;/th>
-&lt;th align="center">Default&lt;/th>
-&lt;th align="center">Possible values&lt;/th>
+&lt;th style="text-align: center">Parameter&lt;/th>
+&lt;th style="text-align: center">Description&lt;/th>
+&lt;th style="text-align: center">Mandatory&lt;/th>
+&lt;th style="text-align: center">Default&lt;/th>
+&lt;th style="text-align: center">Possible values&lt;/th>
 &lt;/tr>
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td align="center">&lt;strong>markerLat&lt;/strong>&lt;/td>
-&lt;td align="center">Latitude where to place the marker&lt;/td>
-&lt;td align="center">&lt;strong>yes&lt;/strong>&lt;/td>
-&lt;td align="center">&amp;quot;&amp;rdquo;&lt;/td>
-&lt;td align="center">any valid coords number&lt;/td>
+&lt;td style="text-align: center">&lt;strong>markerLat&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">Latitude where to place the marker&lt;/td>
+&lt;td style="text-align: center">&lt;strong>yes&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">&amp;quot;&amp;quot;&lt;/td>
+&lt;td style="text-align: center">any valid coords number&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">&lt;strong>markerLon&lt;/strong>&lt;/td>
-&lt;td align="center">Longitude where to place the marker&lt;/td>
-&lt;td align="center">&lt;strong>yes&lt;/strong>&lt;/td>
-&lt;td align="center">&amp;quot;&amp;rdquo;&lt;/td>
-&lt;td align="center">any valid coords number&lt;/td>
+&lt;td style="text-align: center">&lt;strong>markerLon&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">Longitude where to place the marker&lt;/td>
+&lt;td style="text-align: center">&lt;strong>yes&lt;/strong>&lt;/td>
+&lt;td style="text-align: center">&amp;quot;&amp;quot;&lt;/td>
+&lt;td style="text-align: center">any valid coords number&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td align="center">markerContent&lt;/td>
-&lt;td align="center">Popup content text&lt;/td>
-&lt;td align="center">&lt;em>no&lt;/em>&lt;/td>
-&lt;td align="center">&amp;quot;&amp;rdquo;&lt;/td>
-&lt;td align="center">any text, html accepted&lt;/td>
+&lt;td style="text-align: center">markerContent&lt;/td>
+&lt;td style="text-align: center">Popup content text&lt;/td>
+&lt;td style="text-align: center">&lt;em>no&lt;/em>&lt;/td>
+&lt;td style="text-align: center">&amp;quot;&amp;quot;&lt;/td>
+&lt;td style="text-align: center">any text, html accepted&lt;/td>
 &lt;/tr>
 &lt;/tbody>
 &lt;/table>
@@ -1497,8 +1511,8 @@ in your page and will automatically load the required javascript libraries
 for you.&lt;/p>
 &lt;p>The following code is all you need to display your video. It&amp;rsquo;s so
 simple that it speaks for itself:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-plaintext" data-lang="plaintext">{{&amp;lt; videojs videoPath=&amp;#34;file_example_MP4_640_3MG.mp4&amp;#34; &amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-plaintext" data-lang="plaintext">&lt;span style="display:flex;">&lt;span>{{&amp;lt; videojs videoPath=&amp;#34;file_example_MP4_640_3MG.mp4&amp;#34; &amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
 &lt;video id="35e161eeea6fdd332009a7d65b552c77" class="center hide-print video-js vjs-fluid vjs-theme-story" controls preload="auto" data-setup="{}">
 &lt;source src="https://ia800701.us.archive.org/26/items/SampleVideo1280x7205mb/SampleVideo_1280x720_5mb.mp4" type='video/mp4'>
 &lt;p class="vjs-no-js">
@@ -1512,7 +1526,8 @@ blog posts. It is built for readability and grace in both screen and print
 media at all sizes.&lt;/p>
 &lt;p>Try opening your print dialog and saving this page as a
 PDF. Now try viewing this page on a cellphone.&lt;/p>
-&lt;p>Story supports text justification and hyphenation. Click here to toggle &lt;!-- raw HTML omitted -->hyphenation&lt;!-- raw HTML omitted --> and &lt;!-- raw HTML omitted -->justification&lt;!-- raw HTML omitted -->. These features can
+&lt;p>Story supports text justification and hyphenation. Click here to toggle &lt;a
+id="hyph">hyphenation&lt;/a> and &lt;a id="just">justification&lt;/a>. These features can
 be enabled or disabled with the &lt;code>feature-[no]hyphenate&lt;/code> and
 &lt;code>feature-[no]justify&lt;/code> feature flags.&lt;/p>
 &lt;h3 id="moby-dick-or-the-whale-heading-level-3">Moby-Dick; Or, The Whale: Heading Level 3&lt;/h3>
@@ -1525,32 +1540,31 @@ Story provides &lt;a href="https://story-customized.tchinchow.net/features">feat
 &lt;p>An &lt;code>&amp;lt;hr&amp;gt;&lt;/code> tag can be rendered as a fleuron, with the &lt;code>feature-hrfleuron&lt;/code> flag. It
 can also be a dinkus if you like; use the &lt;code>feature-hrdinkus&lt;/code> flag. Both are
 negatable and implemented in CSS. Here&amp;rsquo;s a demo. You can toggle these features
-with &lt;!-- raw HTML omitted -->feature-hrfleuron&lt;!-- raw HTML omitted --> and &lt;!-- raw HTML omitted -->feature-hrdinkus&lt;!-- raw HTML omitted -->.&lt;/p>
+with &lt;a id="fleuron">feature-hrfleuron&lt;/a> and &lt;a id="dinkus">feature-hrdinkus&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;p>Call me Ishmael. Some years ago&amp;mdash;never mind how long precisely&amp;mdash;having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation.&lt;/p>
 &lt;p>Story has support for syntax highlighting inside of code blocks. It uses
 &lt;a href="https://highlightjs.org/">highlight.js&lt;/a> for this. This feature is controlled with the &lt;code>feature-[no]highlight&lt;/code> flag.&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">$initHighlight&lt;/span>(&lt;span style="color:#a6e22e">block&lt;/span>, &lt;span style="color:#a6e22e">cls&lt;/span>) {
-&lt;span style="color:#66d9ef">try&lt;/span> {
-&lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">cls&lt;/span>.&lt;span style="color:#a6e22e">search&lt;/span>(&lt;span style="color:#e6db74">/\bno\-highlight\b/&lt;/span>) &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>)
-&lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#a6e22e">process&lt;/span>(&lt;span style="color:#a6e22e">block&lt;/span>, &lt;span style="color:#66d9ef">true&lt;/span>, &lt;span style="color:#ae81ff">0x0F&lt;/span>) &lt;span style="color:#f92672">+&lt;/span>
-&lt;span style="color:#e6db74">` class=&amp;#34;&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>&lt;span style="color:#a6e22e">cls&lt;/span>&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;`&lt;/span>;
-} &lt;span style="color:#66d9ef">catch&lt;/span> (&lt;span style="color:#a6e22e">e&lt;/span>) {
-&lt;span style="color:#75715e">/* handle exception */&lt;/span>
-}
-&lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">i&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#f92672">/&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>; &lt;span style="color:#a6e22e">i&lt;/span> &lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">classes&lt;/span>.&lt;span style="color:#a6e22e">length&lt;/span>; &lt;span style="color:#a6e22e">i&lt;/span>&lt;span style="color:#f92672">++&lt;/span>) {
-&lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">checkCondition&lt;/span>(&lt;span style="color:#a6e22e">classes&lt;/span>[&lt;span style="color:#a6e22e">i&lt;/span>]) &lt;span style="color:#f92672">===&lt;/span> &lt;span style="color:#66d9ef">undefined&lt;/span>)
-&lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;undefined&amp;#39;&lt;/span>);
-}
-}
-&lt;span style="color:#66d9ef">export&lt;/span> &lt;span style="color:#a6e22e">$initHighlight&lt;/span>;
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here is text with &lt;em>emphasis&lt;/em> and &lt;strong>boldness&lt;/strong>; &lt;del>strikethrough&lt;/del>.^[A footnote]&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-javascript" data-lang="javascript">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">function&lt;/span> &lt;span style="color:#a6e22e">$initHighlight&lt;/span>(&lt;span style="color:#a6e22e">block&lt;/span>, &lt;span style="color:#a6e22e">cls&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">try&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">cls&lt;/span>.&lt;span style="color:#a6e22e">search&lt;/span>(&lt;span style="color:#e6db74">/\bno\-highlight\b/&lt;/span>) &lt;span style="color:#f92672">!=&lt;/span> &lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#ae81ff">1&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">return&lt;/span> &lt;span style="color:#a6e22e">process&lt;/span>(&lt;span style="color:#a6e22e">block&lt;/span>, &lt;span style="color:#66d9ef">true&lt;/span>, &lt;span style="color:#ae81ff">0x0F&lt;/span>) &lt;span style="color:#f92672">+&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#e6db74">` class=&amp;#34;&lt;/span>&lt;span style="color:#e6db74">${&lt;/span>&lt;span style="color:#a6e22e">cls&lt;/span>&lt;span style="color:#e6db74">}&lt;/span>&lt;span style="color:#e6db74">&amp;#34;`&lt;/span>;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> } &lt;span style="color:#66d9ef">catch&lt;/span> (&lt;span style="color:#a6e22e">e&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#75715e">/* handle exception */&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">for&lt;/span> (&lt;span style="color:#66d9ef">var&lt;/span> &lt;span style="color:#a6e22e">i&lt;/span> &lt;span style="color:#f92672">=&lt;/span> &lt;span style="color:#ae81ff">0&lt;/span> &lt;span style="color:#f92672">/&lt;/span> &lt;span style="color:#ae81ff">2&lt;/span>; &lt;span style="color:#a6e22e">i&lt;/span> &lt;span style="color:#f92672">&amp;lt;&lt;/span> &lt;span style="color:#a6e22e">classes&lt;/span>.&lt;span style="color:#a6e22e">length&lt;/span>; &lt;span style="color:#a6e22e">i&lt;/span>&lt;span style="color:#f92672">++&lt;/span>) {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#66d9ef">if&lt;/span> (&lt;span style="color:#a6e22e">checkCondition&lt;/span>(&lt;span style="color:#a6e22e">classes&lt;/span>[&lt;span style="color:#a6e22e">i&lt;/span>]) &lt;span style="color:#f92672">===&lt;/span> &lt;span style="color:#66d9ef">undefined&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">console&lt;/span>.&lt;span style="color:#a6e22e">log&lt;/span>(&lt;span style="color:#e6db74">&amp;#39;undefined&amp;#39;&lt;/span>);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#66d9ef">export&lt;/span> &lt;span style="color:#a6e22e">$initHighlight&lt;/span>;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Here is text with &lt;em>emphasis&lt;/em> and &lt;strong>boldness&lt;/strong>; &lt;del>strikethrough&lt;/del>.^[A footnote]&lt;/p>
 &lt;blockquote>
 &lt;p>This is a blockquote. I thought I would sail about the unimaginative incomprehensibilities of the watery part of the world. It is a way I have of driving off the spleen and regulating the circulation. (This quote is a demo of justification and hyphenation.)&lt;/p>
 &lt;blockquote>
-&lt;p>Blockquotes can nest.&lt;/p>
-&lt;/blockquote>
-&lt;/blockquote>
+&lt;p>Blockquotes can nest.&lt;/p>&lt;/blockquote>&lt;/blockquote>
 &lt;p>Here is an unordered list:&lt;/p>
 &lt;ul>
 &lt;li>Item one&lt;/li>
@@ -1567,17 +1581,28 @@ with &lt;!-- raw HTML omitted -->feature-hrfleuron&lt;!-- raw HTML omitted --> a
 &lt;p>If you don&amp;rsquo;t like embedding tweets, Story has a cleaner way to quote and link to a tweet. Just blockquote the content and begin it with a link containing the author&amp;rsquo;s name and the tweet&amp;rsquo;s permalink, and enable the &lt;code>feature-tweetquote&lt;/code> flag. Story will transform the quote to resemble a simplistic tweet styling. If the flag isn&amp;rsquo;t enabled, normal blockquote styling applies.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;a href="https://twitter.com/xaprb/status/921004656402321408">Baron Sc​hwartz&lt;/a>&lt;/p>
-&lt;p>Monitoring tells you whether the system works. Observability lets you ask why it&amp;rsquo;s not working.&lt;/p>
-&lt;/blockquote>
-&lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted -->
+&lt;p>Monitoring tells you whether the system works. Observability lets you ask why it&amp;rsquo;s not working.&lt;/p>&lt;/blockquote>
+&lt;script type="text/javascript">
+$( "#hyph" ).click(function() {
+$("body").toggleClass("feature-hyphenate");
+});
+$( "#just" ).click(function() {
+$("body").toggleClass("feature-justify");
+});
+$( "#fleuron" ).click(function() {
+$("body").toggleClass("feature-hrfleuron");
+});
+$( "#dinkus" ).click(function() {
+$("body").toggleClass("feature-hrdinkus");
+});
+&lt;/script>
 &lt;p>Read next: &lt;a href="https://story-customized.tchinchow.net/keyboard-keys">Story&amp;rsquo;s ability to render Keyboard Keys&lt;/a>.&lt;/p></description></item><item><title>Keyboard's Keys Feature</title><link>https://story-customized.tchinchow.net/keyboard-keys/</link><pubDate>Sat, 18 Aug 2018 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/keyboard-keys/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/unsplash-photos-_UeY8aTI6d0.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description>&lt;p>You might have found that when you explain a procedure that requires typing
 keyboard shortcuts then it is difficult to make those shortcut stand out.&lt;/p>
 &lt;p>Story has a shortcode for you that will sort you out.&lt;/p>
 &lt;h3 id="keyboard-keys-that-stand-out">Keyboard Keys that stand out:&lt;/h3>
 &lt;p>Let&amp;rsquo;s consider the following shortcode sequence in your markdown article:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&amp;lt; &lt;span style="color:#a6e22e">kbd&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">key&lt;/span> &lt;span style="color:#a6e22e">keyCode&lt;/span>=&lt;span style="color:#e6db74">&amp;#34;ctrl&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&amp;gt;}} &lt;span style="color:#f92672">+&lt;/span> {{&amp;lt; &lt;span style="color:#a6e22e">kbd&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">key&lt;/span> &lt;span style="color:#a6e22e">keyCode&lt;/span>=&lt;span style="color:#e6db74">&amp;#34;a&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you enable keyboard-keys rendering with the &lt;code>feature-[no]kbd-keys&lt;/code> flag &lt;em>(see &amp;ldquo;&lt;a href="https://story-customized.tchinchow.net/features">features&lt;/a>&amp;quot;)&lt;/em>, then the required CSS
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#a6e22e">kbd&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">key&lt;/span> &lt;span style="color:#a6e22e">keyCode&lt;/span>=&lt;span style="color:#e6db74">&amp;#34;ctrl&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&amp;gt;}} &lt;span style="color:#f92672">+&lt;/span> {{&amp;lt; &lt;span style="color:#a6e22e">kbd&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">key&lt;/span> &lt;span style="color:#a6e22e">keyCode&lt;/span>=&lt;span style="color:#e6db74">&amp;#34;a&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you enable keyboard-keys rendering with the &lt;code>feature-[no]kbd-keys&lt;/code> flag &lt;em>(see &amp;ldquo;&lt;a href="https://story-customized.tchinchow.net/features">features&lt;/a>&amp;rdquo;)&lt;/em>, then the required CSS
 will be loaded and the result will be displayed as follows:&lt;/p>
 &lt;p>
 &lt;icon class="keyboard-key ctrl">&lt;/icon>
@@ -1588,8 +1613,8 @@ will be loaded and the result will be displayed as follows:&lt;/p>
 &lt;h3 id="dark-theme">Dark Theme:&lt;/h3>
 &lt;p>You can also choose to use a dark theme by adding the &lt;code>dark&lt;/code> keyword to your
 &lt;code>keyCode&lt;/code> as shown below:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-go" data-lang="go">{{&amp;lt; &lt;span style="color:#a6e22e">kbd&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">key&lt;/span> &lt;span style="color:#a6e22e">keyCode&lt;/span>=&lt;span style="color:#e6db74">&amp;#34;dark alt&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&amp;gt;}} &lt;span style="color:#f92672">+&lt;/span> {{&amp;lt; &lt;span style="color:#a6e22e">kbd&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">key&lt;/span> &lt;span style="color:#a6e22e">keyCode&lt;/span>=&lt;span style="color:#e6db74">&amp;#34;dark f4&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&amp;gt;}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>which will display as:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>{{&amp;lt; &lt;span style="color:#a6e22e">kbd&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">key&lt;/span> &lt;span style="color:#a6e22e">keyCode&lt;/span>=&lt;span style="color:#e6db74">&amp;#34;dark alt&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&amp;gt;}} &lt;span style="color:#f92672">+&lt;/span> {{&amp;lt; &lt;span style="color:#a6e22e">kbd&lt;/span>&lt;span style="color:#f92672">-&lt;/span>&lt;span style="color:#a6e22e">key&lt;/span> &lt;span style="color:#a6e22e">keyCode&lt;/span>=&lt;span style="color:#e6db74">&amp;#34;dark f4&amp;#34;&lt;/span> &lt;span style="color:#f92672">/&lt;/span>&amp;gt;}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>which will display as:&lt;/p>
 &lt;p>
 &lt;icon class="keyboard-key dark alt">&lt;/icon>
 +
@@ -1662,12 +1687,12 @@ create an RSS feed customized just for that if you like, too.&lt;/p>
 &lt;p>First, MailChimp subscriber forms. If you want to add a subscription form at the
 bottom of each page, just add your MailChimp URL as a parameter in your
 configuration file. Here&amp;rsquo;s a YAML example for &lt;code>config.yaml&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="color:#66d9ef">params&lt;/span>:
-- &lt;span style="color:#66d9ef">mailchimp&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;your URL here&amp;#34;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>And here&amp;rsquo;s an example for &lt;code>config.toml&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-toml" data-lang="toml">[&lt;span style="color:#a6e22e">params&lt;/span>]
-&lt;span style="color:#a6e22e">mailchimp&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;your URL here&amp;#34;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can copy the URL from the address bar of your MailChimp subscriber form. It
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">params&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#f92672">mailchimp&lt;/span>: &lt;span style="color:#e6db74">&amp;#34;your URL here&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>And here&amp;rsquo;s an example for &lt;code>config.toml&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-toml" data-lang="toml">&lt;span style="display:flex;">&lt;span>[&lt;span style="color:#a6e22e">params&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#a6e22e">mailchimp&lt;/span> = &lt;span style="color:#e6db74">&amp;#34;your URL here&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>You can copy the URL from the address bar of your MailChimp subscriber form. It
 becomes the &lt;code>action&lt;/code> of the form, which will appear at the bottom of each page
 near your author biography.&lt;/p>
 &lt;p>Next, an RSS feed. Story has an RSS layout customized to create summaries of
@@ -1683,15 +1708,15 @@ appear as regular content, but will render an extra RSS feed file. Its content
 is ignored, and only its front matter is important. For example, you could
 create it as &lt;code>content/mailchimp/_index.md&lt;/code> with the following contents, using YAML
 front matter:&lt;/p>
-&lt;div class="highlight">&lt;pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4">&lt;code class="language-yaml" data-lang="yaml">---
-&lt;span style="color:#66d9ef">layout&lt;/span>: mailchimp
-&lt;span style="color:#66d9ef">outputs&lt;/span>:
-- rss
----
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>Now Hugo will build an extra feed at
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">layout&lt;/span>: &lt;span style="color:#ae81ff">mailchimp&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#f92672">outputs&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>- &lt;span style="color:#ae81ff">rss&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>---
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Now Hugo will build an extra feed at
 &lt;a href="https://story-customized.tchinchow.net/mailchimp/index.xml">&lt;code>/mailchimp/index.xml&lt;/code>&lt;/a>, and you can use it to create
 &lt;a href="https://mailchimp.com/help/share-your-blog-posts-with-mailchimp/">RSS campaigns in
 MailChimp&lt;/a>. Of
 course, you can also use your normal RSS feed, but Story&amp;rsquo;s default is to put
 full content into that, so it might be more than you want.&lt;/p>
-&lt;p>Read next: &lt;a href="https://story-customized.tchinchow.net/talks/adirondack/">Story&amp;rsquo;s &amp;lsquo;talks&amp;rsquo; feature for presentations&lt;/a>.&lt;/p></description></item><item><title>Archives</title><link>https://story-customized.tchinchow.net/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/archives/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description/></item><item><title>Authors</title><link>https://story-customized.tchinchow.net/authors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/authors/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description/></item><item><title>Search</title><link>https://story-customized.tchinchow.net/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/search/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description/></item></channel></rss>
+&lt;p>Read next: &lt;a href="https://story-customized.tchinchow.net/talks/adirondack/">Story&amp;rsquo;s &amp;rsquo;talks&amp;rsquo; feature for presentations&lt;/a>.&lt;/p></description></item><item><title>Archives</title><link>https://story-customized.tchinchow.net/archives/</link><pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/archives/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description/></item><item><title>Authors</title><link>https://story-customized.tchinchow.net/authors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/authors/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description/></item><item><title>Search</title><link>https://story-customized.tchinchow.net/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate><author>Baron Schwartz / Lionel VICTOR</author><guid>https://story-customized.tchinchow.net/search/</guid><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://story-customized.tchinchow.net/img/default-header-img.tn-500x500.jpg" medium="image" type="image/jpg" width="100" height="100"/><description/></item></channel></rss>
