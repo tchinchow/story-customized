@@ -5,7 +5,7 @@ on:
       - master
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
@@ -17,7 +17,7 @@ jobs:
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.68.3"
+          hugo-version: "0.145.0"
           extended: true
 
       - name: Build
@@ -28,7 +28,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.DEPLOYMENT_TOKEN }}
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
           keep_files: false
           enable_jekyll: false
           # user_name: <username>
