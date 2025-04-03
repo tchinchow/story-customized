@@ -42,7 +42,7 @@ Please join me as I walk you through the classical mermaid scripts:
 
 - SequenceDiagram _([read documentation](https://mermaid-js.github.io/mermaid/#/sequenceDiagram?id=sequence-diagrams))_:
   ```go
-  {{</* mermaid */>}}
+  {{</* mermaid "some caption" */>}}
   sequenceDiagram
       participant Alice
       participant Bob
@@ -56,7 +56,7 @@ Please join me as I walk you through the classical mermaid scripts:
       Bob-->John: Jolly good!
   {{</* /mermaid */>}}
   ```
-  {{< mermaid >}}
+  {{< mermaid "some caption" >}}
   sequenceDiagram
       participant Alice
       participant Bob
@@ -69,6 +69,10 @@ Please join me as I walk you through the classical mermaid scripts:
       John->Bob: How about you?
       Bob-->John: Jolly good!
   {{< /mermaid >}}
+
+  > **Note**:  
+  > Please notice how the caption that was provided as a parameter of the Hugo
+  > `shortcode` appears when you hover you mouse over the diagram.
 
 - Flowcharts _([read documentation](https://mermaid-js.github.io/mermaid/#/flowchart?id=flowcharts-basic-syntax))_:
   ```go
