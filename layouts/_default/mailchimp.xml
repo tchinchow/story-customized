@@ -5,7 +5,7 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<author>{{ .Site.Params.Author }}</author>
-		<rights>Copyright (c) {{ .Site.LastChange.Year }}</rights>
+		<rights>Copyright (c) {{ .Site.Lastmod.Year }}</rights>
 		<updated>{{ .Date }}</updated>
 		{{ range first 20 (where (where (where .Site.RegularPages "Section" "ne" "slides") ".Params.skip" "ne" "true") ".Date.Unix" "<" now.Unix) }}
 		<item>
