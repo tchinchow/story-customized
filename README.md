@@ -34,5 +34,7 @@ Story-Customized now adds a handful of new features !
 - Embedded videos with [VideoJS](https://videojs.com/).
 - Keyboard Keys.
 
+Story-Customized has been tested with Hugo v0.145.
+
 Don't take my word for it. Browse through the [demo site](https://story-customized.tchinchow.net/)
 for a complete walkthrough and an introduction to all the features.
