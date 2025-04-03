@@ -19,5 +19,5 @@ A clear and concise description of any alternative solutions or features you've 
 **Additional context**
 Add any other context or screenshots about the feature request here.
 
-**Does it fit with Story's design?**
-Tell us why your idea is a good fit for Story in particular, rather than generically being a good idea. Does it align well with Story's goals of simplicity, elegance? Is your idea targeted towards Story's intended audience and use case?
+**Does it fit with Story-Customized's design?**
+Tell us why your idea is a good fit for Story-Customized in particular, rather than generically being a good idea. Does it align well with Story-Customized's goals of simplicity, elegance? Is your idea targeted towards Story-Customized's intended audience and use case?
