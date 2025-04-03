@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://example.com/"
 title = "Hugo Story Theme"
-paginate = 5
+pagination.pagerSize = 5
 buildFuture = true
 
 [[menu.social]]
@@ -34,4 +34,6 @@ buildFuture = true
   page = ["HTML"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  taxonomyTerm = ["HTML", "RSS"]
+
+[markup.goldmark.renderer]
+  unsafe = true
