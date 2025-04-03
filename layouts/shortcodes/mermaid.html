@@ -2,5 +2,7 @@
     <div class="mermaid">
       {{- .Inner -}}
     </div>
-    <figcaption>FIXME</figcaption>
+    {{ if .Get 0 }}
+    <figcaption>{{- .Get 0 -}}</figcaption>
+    {{ end }}
 </figure>
